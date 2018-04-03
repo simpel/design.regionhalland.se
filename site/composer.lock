@@ -519,12 +519,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "1bc2c23d1a1f847f947f443132d24fc09b98ccb8"
+                "reference": "d48c91e0e33de632ab6c8e98d2ed4f58d80b8357"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/1bc2c23d1a1f847f947f443132d24fc09b98ccb8",
-                "reference": "1bc2c23d1a1f847f947f443132d24fc09b98ccb8",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/d48c91e0e33de632ab6c8e98d2ed4f58d80b8357",
+                "reference": "d48c91e0e33de632ab6c8e98d2ed4f58d80b8357",
                 "shasum": ""
             },
             "require": {
@@ -562,7 +562,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2018-03-28T02:39:30+00:00"
+            "time": "2018-04-02T23:30:36+00:00"
         }
     ],
     "aliases": [],
