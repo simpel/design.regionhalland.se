@@ -18,4 +18,5 @@ wordpress_sites:
       provider: self-signed
     cache:
       enabled: false
-    repo: git@github.com:RegionHalland/wordpress-boilerplate.git
+    repo: git@github.com:RegionHalland/design.regionhalland.se.git
+    repo_subtree_path: site
