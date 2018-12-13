@@ -1,5 +1,5 @@
 {
-  "name": "design.regionhalland.se",
+  "name": "region-halland-design-guidelines",
   "version": "0.1.0",
   "dependencies": {
     "@frctl/fractal": "^1.1.7"
