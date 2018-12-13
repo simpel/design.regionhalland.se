@@ -1,0 +1,25 @@
+{
+  "name": "design.regionhalland.se",
+  "version": "0.0.1",
+  "description": "Detta repository innehåller koden för Region Hallands Design guildelines.",
+  "main": "fractal.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RegionHalland/design.regionhalland.se.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RegionHalland/design.regionhalland.se/issues"
+  },
+  "homepage": "https://design.regionhalland.se",
+  "dependencies": {
+    "@frctl/fractal": "^1.1.7"
+  }
+}
