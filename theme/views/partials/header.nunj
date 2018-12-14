@@ -1,12 +1,12 @@
 <nav aria-label="Huvudmeny">
 	<div class="w-full border-b border-grey-lighter bg-blue-light z-50">
-		<div class="py-3 px-4">
+		<div class="py-3 container mx-auto">
 			<span class="px-2 mr-1 py-1 text-sm no-underline hover:underline focus:underline text-white bg-blue-dark rounded-full inline-block">BETA</span>
 			Hej! Denna webbplats är under utveckling. <a href="https://github.com/RegionHalland/design.regionhalland.se/issues/new">Bidra gärna med feedback</a>!
 		</div>
 	</div>
 	<div class="w-full border-b border-grey-lighter bg-white z-50">
-		<div class="py-3 px-4">
+		<div class="py-3 container mx-auto">
 			<div class="flex flex-wrap items-center justify-between">
 				<a class="" title="Gå till startsida" aria-label="Gå till startsida" href="{{ path('/') }}">
 					<img class="block w-40" alt="Region Halland - Vårdgivarwebben" src="https://vardgivare.regionhalland.se/app/themes/halland/dist/images/navigation_logo.svg">

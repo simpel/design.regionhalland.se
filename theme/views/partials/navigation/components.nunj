@@ -1,0 +1,6 @@
+{% if frctl.components.size %}
+
+<nav>
+{{ nav.tree(frctl.components, entity, request) }}
+</nav>
+{% endif %}

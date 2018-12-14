@@ -9,7 +9,7 @@
         {% include 'partials/header.nunj' %}
     </div>
 
-    <div class="Frame-body" data-role="body">
+    <div class="Frame-body container mx-auto" data-role="body">
 
         <div class="Frame-panel Frame-panel--main" data-role="main">
             <div class="Frame-inner" id="pjax-container">
