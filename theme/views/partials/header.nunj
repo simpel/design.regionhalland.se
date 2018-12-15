@@ -13,7 +13,7 @@
 				</a>
 
 
-				<a href="https://github.com/RegionHalland/design.regionhalland.se" class="inline-flex no-underline text-black bg-yellow px-6 items-center justify-between py-4 text-lg rounded"><svg class="h-4 w-4 mr-2"><use xlink:href="#github"></use></svg> Bidra på GitHub</a>
+				<a href="https://github.com/RegionHalland/design.regionhalland.se" class="inline-flex no-underline text-black bg-yellow px-6 items-center justify-between py-2 text-lg rounded"><svg class="h-4 w-4 mr-2"><use xlink:href="#github"></use></svg> Bidra på GitHub</a>
 
 			</div>
 		</div>

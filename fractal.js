@@ -16,13 +16,14 @@ const theme = mandelbrot({
 	"nav": ["docs", "components"],
 	"panels": ["html", "view", "context", "resources", "info", "notes"],
 	"lang": "sv",
-	"favicon": "/assets/images/favicon.ico",
+	"favicon": "/assets/img/favicon.ico",
 	"scripts": [
 		"default",
 		"https://code.jquery.com/jquery-3.3.1.min.js",
 		"/assets/scripts/main.js"
 	],
 	"styles": [
+		"//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css",
 		"https://use.typekit.net/vip6kss.css",
 		"https://unpkg.com/@regionhalland/styleguide-v2@0.8.2/dist/css/main.min.css",
 		"/assets/css/skin.css"],
@@ -63,6 +64,7 @@ fractal.components.set("path", path.join(__dirname, "/komponenter"));
 fractal.components.set("default.prefix", "rh"); // default is null
 fractal.components.set("default.status", "wip"); // default is "ready"
 
+fractal.docs.set('indexLabel', 'Översikt');
 fractal.docs.set("label", "Dokumentation"); // default is "Components"
 fractal.docs.set("title", "Dokumentation"); // default is "Components"
 fractal.docs.set("path", path.join(__dirname, "dokumentation"));

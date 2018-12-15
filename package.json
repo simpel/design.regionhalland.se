@@ -20,7 +20,12 @@
   },
   "homepage": "https://design.regionhalland.se",
   "dependencies": {
-    "@frctl/fractal": "^1.1.7"
+    "@frctl/fractal": "^1.1.7",
+    "gulp-sass-glob": "^1.0.9",
+    "highlight.js": "^9.13.1",
+    "normalize.css": "^8.0.1",
+    "sass-mq": "^5.0.0",
+    "select2": "^4.0.6-rc.1"
   },
   "devDependencies": {
     "gulp": "^4.0.0",
