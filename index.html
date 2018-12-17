@@ -9,15 +9,15 @@
     };
     </script>
     <script>var cl = document.querySelector('html').classList; cl.remove('no-js'); cl.add('has-js');</script>
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/ico">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/ico">
 
-<link rel="stylesheet" href="themes/mandelbrot/css/white.css?cachebust=1.2.0" type="text/css">
+<link rel="stylesheet" href="cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css?cachebust=1.2.0" type="text/css">
 
 <link rel="stylesheet" href="https://use.typekit.net/vip6kss.css?cachebust=1.2.0" type="text/css">
 
 <link rel="stylesheet" href="https://unpkg.com/@regionhalland/styleguide-v2@0.8.2/dist/css/main.min.css?cachebust=1.2.0" type="text/css">
 
-<link rel="stylesheet" href="assets/css/tweaks.css?cachebust=1.2.0" type="text/css">
+<link rel="stylesheet" href="assets/css/skin.css?cachebust=1.2.0" type="text/css">
 
 
 <title>Region Halland Design Guidelines | Region Halland Design Guidelines</title>
@@ -32,20 +32,20 @@
     <div class="Frame-header">
         <nav aria-label="Huvudmeny">
 	<div class="w-full border-b border-grey-lighter bg-blue-light z-50">
-		<div class="py-3 px-4">
+		<div class="py-3 container mx-auto">
 			<span class="px-2 mr-1 py-1 text-sm no-underline hover:underline focus:underline text-white bg-blue-dark rounded-full inline-block">BETA</span>
 			Hej! Denna webbplats är under utveckling. <a href="https://github.com/RegionHalland/design.regionhalland.se/issues/new">Bidra gärna med feedback</a>!
 		</div>
 	</div>
 	<div class="w-full border-b border-grey-lighter bg-white z-50">
-		<div class="py-3 px-4">
+		<div class="py-3 container mx-auto">
 			<div class="flex flex-wrap items-center justify-between">
 				<a class="" title="Gå till startsida" aria-label="Gå till startsida" href="">
 					<img class="block w-40" alt="Region Halland - Vårdgivarwebben" src="https://vardgivare.regionhalland.se/app/themes/halland/dist/images/navigation_logo.svg">
 				</a>
 
 
-				<a href="https://github.com/RegionHalland/design.regionhalland.se" class="inline-flex no-underline text-black bg-yellow px-6 items-center justify-between py-4 text-lg rounded"><svg class="h-4 w-4 mr-2"><use xlink:href="#github"></use></svg> Bidra på GitHub</a>
+				<a href="https://github.com/RegionHalland/design.regionhalland.se" class="inline-flex no-underline text-black bg-yellow px-6 items-center justify-between py-2 text-lg rounded"><svg class="h-4 w-4 mr-2"><use xlink:href="#github"></use></svg> Bidra på GitHub</a>
 
 			</div>
 		</div>
@@ -54,24 +54,169 @@
 
     </div>
 
-    <div class="Frame-body" data-role="body">
+    <div class="container mx-auto pt-8" data-role="body">
 
-        <div class="Frame-panel Frame-panel--main" data-role="main">
+	 <div class="flex flex-wrap items-stretch -mx-4 justify-start">
+
+
+		<aside class="w-full md:w-3/12 px-4 mb-8 hidden md:block" data-role="sidebar">
+			
+
+	
+	    
+
+<nav>
+	
+
+<h3 class="h3">Dokumentation</h3>
+<div class="border border-grey-lightest rounded overflow-hidden mb-6 mt-4" data-behaviour="tree" id="tree-docs">
+    <ul class="list-reset">
+        
+    
+        
+        
+        <li class="relative border-t border-grey-lightest  active "  data-state="active" data-role="item">
+            <a class="block text-black text-base no-underline hover:underline focus:underline" href="" data-pjax>
+
+
+
+                
+					<span class=" py-4 px-3 block text-black text-base no-underline hover:underline focus:underline">
+						Översikt
+					</span>
+				
+            </a>
+        </li>
+        
+    
+        
+        <li class="border-t border-grey-lightest Tree-depth-2" data-behaviour="collection" id="tree-docs-collection-design">
+            <h3 class="block py-4 px-3" data-role="toggle">
+                Design
+            </h3>
+            <ul class="list-reset border-l-4 border-blue-dark bg-grey-lightest" data-role="items">
+            
+            
+            
+            
+    
+        
+        
+        <li class="relative border-t border-grey-lightest "  data-role="item">
+            <a class="block text-black text-base no-underline hover:underline focus:underline" href="docs/design.html" data-pjax>
+
+
+
+                
+					<span class=" py-4 px-3 block text-black text-base no-underline hover:underline focus:underline">
+						Översikt
+					</span>
+				
+            </a>
+        </li>
+        
+    
+        
+        
+        <li class="relative border-t border-grey-lightest "  data-role="item">
+            <a class="block text-black text-base no-underline hover:underline focus:underline" href="docs/design/principles.html" data-pjax>
+
+
+
+                
+					<span class=" py-4 px-3 block text-black text-base no-underline hover:underline focus:underline">
+						Principles
+					</span>
+				
+            </a>
+        </li>
+        
+    
+
+            </ul>
+        </li>
+        
+    
+
+    </ul>
+</div>
+
+</nav>
+
+
+
+	
+	    
+
+<nav>
+
+
+<h3 class="h3">Komponenter</h3>
+<div class="border border-grey-lightest rounded overflow-hidden mb-6 mt-4" data-behaviour="tree" id="tree-components">
+    <ul class="list-reset">
+        
+    
+        
+        
+        <li class="relative border-t border-grey-lightest "  data-role="item">
+            <a class="block text-black text-base no-underline hover:underline focus:underline" href="components/detail/rh-example.html" data-pjax>
+
+
+
+                
+
+				<span class="w-10/12 py-4 px-3 inline-block text-black text-base no-underline hover:underline focus:underline">
+					Example
+				</span>
+				<span class="w-1/12 inline-block">
+					
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #FF9233;" title="WIP"></span>
+
+
+</div>
+
+</div>
+
+
+				</span>
+
+				
+            </a>
+        </li>
+        
+    
+
+    </ul>
+</div>
+
+</nav>
+
+
+	
+	
+
+		</aside>
+
+        <main class="Frame-panel Frame-panel--main w-full md:w-9/12 lg:w-9/12" data-role="main">
             <div class="Frame-inner" id="pjax-container">
             
 
-<div class="Document">
-
-    <div class="Document-header">
-        
-        <h1 class="Document-title">Region Halland Design Guidelines</h1>
-        
-
+<div>
 
         
-    </div>
+        <h1>Region Halland Design Guidelines</h1>
+        
 
-    <div class="Document-content">
+
+        
+    
+    <article class="article">
 
     
 
@@ -90,93 +235,23 @@
 
 
 
-    </div>
+    </article>
 
 </div>
 
 
             </div>
-        </div>
+        </main>
 
-        <div class="Frame-handle" data-role="frame-resize-handle"></div>
+	</div>
 
-        <div class="Frame-panel Frame-panel--sidebar" data-role="sidebar">
-            <nav class="Navigation">
-
-    
-<div class="Navigation-group">
-
-<div class="Tree" data-behaviour="tree" id="tree-docs">
-    <h3 class="Tree-title">Dokumentation</h3>
-    <ul class="Tree-items Tree-depth-1">
-        
-    
-        
-        
-        <li class="Tree-item Tree-entity is-current" data-state="current" data-role="item">
-            <a class="Tree-entityLink" href="" data-pjax>
-                <span>Overview</span>
-                
-            </a>
-        </li>
-        
-    
-
-    </ul>
-</div>
-
-</div>
-
-
-
-    
-<div class="Navigation-group">
-
-<div class="Tree" data-behaviour="tree" id="tree-components">
-    <h3 class="Tree-title">Komponenter</h3>
-    <ul class="Tree-items Tree-depth-1">
-        
-    
-        
-        
-        <li class="Tree-item Tree-entity" data-role="item">
-            <a class="Tree-entityLink" href="components/detail/rh-example.html" data-pjax>
-                <span>Example</span>
-                
-
-<div class="Status Status--unlabelled">
-
-<div class="Status-dots">
-
-
-<span class="Status-dot" style="border-color: #FF9233;" title="WIP"></span>
-
-
-</div>
-
-</div>
-
-
-            </a>
-        </li>
-        
-    
-
-    </ul>
-</div>
-
-</div>
-
-
-
-</nav>
-
-        </div>
     </div>
 </div>
 
 
 
+
+<script src="themes/mandelbrot/js/mandelbrot.js?cachebust=1.2.0"></script>
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js?cachebust=1.2.0"></script>
 
