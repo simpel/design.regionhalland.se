@@ -18,12 +18,12 @@ De två stegen ovan installerar Fractal och dess CLI verktyg
 ### Kör lokalt
 
 2. `npm install`
-2. `fractal start --synk`
+2. `gulp`
 3. Besök den URL som terminalen ger dig, troligtvis http://localhost:3000
 
 ### Bygg en dist
 
-För att exportera ut Fractal till statiska filer som vi kan köra upp på http://design.regionhalland.se så behöver vi bygga en dist. Detta göra du genom att skriva `fractal build`när du står i `/`. Det i sin tur kommer att generera statiska HTML filer till `/build`som vi sedan kan lägga på vår server.
+För att exportera ut Fractal till statiska filer som vi kan köra upp på http://design.regionhalland.se så behöver vi bygga en dist. Detta göra du genom att skriva `gulp build`när du står i `/`. Det i sin tur kommer att generera statiska HTML filer till `/build` som vi sedan kan lägga på vår server.
 
 ## Hur kan jag redigera innehåll på sajten?
 Fractal applicerar [GitHub flavoured markdown](https://guides.github.com/features/mastering-markdown/) för allt innehåll.
@@ -36,3 +36,6 @@ Allt innehåll, förutom komponenter, finns i `/docs/*` och mer detaljerad info 
 
  ### Hantering av bilder m.m.
  Om du vill använda bilder m.m. i din dokumentation så lägg alla assets i `/assets/*` och hänvisa sedan till dem i din dokumentation t.ex. så här: `<img src="/assets/images/minbild.jpg" />`.
+
+ ## Utveckling
+ I princip följer vi den dokumentation som Fractal ger oss via sin webbplats. Ett undantag har dock gjort i det att vi kompilerar vår egen CSS. Detta görs via Gulp och filen `/theme/scss/skin.scss`. Här tar vi in all SCSS från Mandelbrot, Fractals tema, men applicerar våra egna variabler då vi t.ex. vill nyttja vårt typsnitt. Utöver detta skriver vi över en del av Fractals template filer i `/theme/views` och applicerar en stor mängd inställningar av Fractal i `/gulpfile.js`.
