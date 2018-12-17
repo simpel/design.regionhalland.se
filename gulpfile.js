@@ -11,12 +11,12 @@ var sourcemaps = require('gulp-sourcemaps');
 // create a new instance with custom config options
 const theme = mandelbrot({
 	"nav": ["docs", "components"],
-	"panels": ["html", "view", "context", "resources", "info", "notes"],
+	"panels": ["notes", "html", "view", "context", "resources", "info"],
 	"lang": "sv",
 	"favicon": "/assets/img/favicon.ico",
 	"scripts": [
-		"default",
 		"https://code.jquery.com/jquery-3.3.1.min.js",
+		"https://code.jquery.com/ui/1.12.1/jquery-ui.js",
 		"/assets/scripts/main.js"
 	],
 	"styles": [
@@ -26,6 +26,28 @@ const theme = mandelbrot({
 		"/assets/css/skin.css"],
     // any other theme configuration values here
 });
+
+
+const hbs = require('@frctl/handlebars')({
+    helpers: {
+        componentList: function() {
+            let ret = "<ul>";
+            const options = Array.from(arguments).pop();
+
+			logger.success('Out: ' + fractal.components.toArray());
+
+            for (let component of fractal.components.flatten()) {
+
+                ret = ret + "<li>" + options.fn(component.toJSON()) + "</li>";
+            }
+            return ret + "</ul>";
+        }
+    }
+    /* other configuration options here */
+});
+
+fractal.components.engine(hbs);
+fractal.docs.engine(hbs);
 
 theme.addStatic(
 	__dirname + "/assets/",

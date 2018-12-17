@@ -2,8 +2,7 @@
 
 {% macro tree(root, current, request) %}
 
-<h3 class="h3">{{ root.label }}</h3>
-<div class="border border-grey-lightest rounded overflow-hidden mb-6 mt-4" data-behaviour="tree" id="tree-{{ root.name }}">
+<div class="border border-grey-lightest rounded mb-6" data-behaviour="tree" id="tree-{{ root.name }}">
     <ul class="list-reset">
         {{ leaves(root.filter('isHidden', false).items(), root, current, 2, request) }}
     </ul>

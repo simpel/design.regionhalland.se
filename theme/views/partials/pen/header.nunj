@@ -1,11 +1,7 @@
 <div class="flex flex-wrap items-center justify-between mb-2">
     <h1 class="items-center flex flex-wrap">
 		{{ entity.title }}
-		<a href="{{ previewUrl }}" class="text-sm font-normal no-underline hover:underline focus:underline" title="Component preview">
-			<svg class="h-5 w-5 ml-1">
-				<use xlink:href="#external-link"/>
-			</svg> Förhandsgranska
-		</a>
+		
 	</h1>
     {{ status.tag(entity.status) }}
 </div>

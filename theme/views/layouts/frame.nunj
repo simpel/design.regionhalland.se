@@ -3,23 +3,21 @@
 
 {% block page %}
 
-<div class="Frame" id="frame">
+<div>
 
-    <div class="Frame-header">
-        {% include 'partials/header.nunj' %}
-    </div>
+    {% include 'partials/header.nunj' %}
 
     <div class="container mx-auto pt-8" data-role="body">
 
 	 <div class="flex flex-wrap items-stretch -mx-4 justify-start">
 
 
-		<aside class="w-full md:w-3/12 px-4 mb-8 hidden md:block" data-role="sidebar">
+		<aside class="w-full md:w-3/12 px-4 md:block" data-role="sidebar">
 			{% include 'partials/navigation/navigation.nunj' %}
 		</aside>
 
-        <main class="Frame-panel Frame-panel--main w-full md:w-9/12 lg:w-9/12" data-role="main">
-            <div class="Frame-inner" id="pjax-container">
+        <main class="w-full md:w-9/12 px-4 md:block" data-role="main">
+            <div>
             {% block content %}{% endblock %}
             </div>
         </main>

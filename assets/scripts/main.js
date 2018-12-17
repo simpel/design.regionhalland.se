@@ -6,3 +6,11 @@ $.get(spriteURL).done(data => {
 	div.innerHTML = new XMLSerializer().serializeToString(data.documentElement);
 	document.body.insertBefore(div, document.body.childNodes[0]);
 })
+
+
+$( ".componentTabs" ).tabs({
+  classes: {
+
+
+  }
+});
