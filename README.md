@@ -5,6 +5,11 @@ Detta repository innehåller koden för Region Hallands Design guildelines.
 Vill du bidra till att bygga upp den här sajten? Hurra för det! Följ installationsguiden nedan för att få igång en lokal version av sajten och skicka sedan in en [pull request](https://help.github.com/articles/creating-a-pull-request/) när du är klar med dina förbättringar.
 
 ## Installation
+
+### Förutsättningar
+- [NPM/Node.js](https://www.npmjs.com/get-npm) är installerat på din lokala maskin
+- Git är installerat lokalt.
+
 Ta först hem reposet lokalt, gör sedan följande din terminalen:
 
 ### Installera Fractal
