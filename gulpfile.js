@@ -20,7 +20,6 @@ const theme = mandelbrot({
 		"/assets/scripts/main.js"
 	],
 	"styles": [
-		"//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css",
 		"https://use.typekit.net/vip6kss.css",
 		"https://unpkg.com/@regionhalland/styleguide-v2@0.8.2/dist/css/main.min.css",
 		"/assets/css/skin.css"],

@@ -6,11 +6,11 @@ Vill du bidra till att bygga upp den här sajten? Hurra för det! Följ installa
 
 ## Installation
 
-### Förutsättningar
-- [NPM/Node.js](https://www.npmjs.com/get-npm) är installerat på din lokala maskin
-- Git är [installerat lokalt](https://desktop.github.com/).
+### Innan du börjar...
 
-
+- Se till att `NPM/Node.js` är [installerat](https://www.npmjs.com/get-npm)
+- Se till att `Git` är [installerat](https://desktop.github.com/)
+- Se till att `Gulp` är [installerat](https://gulpjs.com/docs/en/getting-started/quick-start)
 
 ### Kör lokalt
 
