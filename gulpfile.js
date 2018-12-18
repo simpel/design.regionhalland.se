@@ -37,7 +37,7 @@ const hbs = require('@frctl/handlebars')({
             for (let component of fractal.components.flatten()) {
                 ret = ret + "<li>" + options.fn(component.toJSON()) + "</li>";
             }
-			
+
             return ret + "</ul>";
         }
     }
@@ -71,7 +71,7 @@ fractal.docs.set("label", "Dokumentation"); // default is "Components"
 fractal.docs.set("title", "Dokumentation"); // default is "Components"
 fractal.docs.set("path", path.join(__dirname, "dokumentation"));
 fractal.docs.set("statuses", {
-	draft: {
+	wip: {
         label: "Under arbete",
         description: "Denna text arbetas det med just nu",
         color: "#FF3333"

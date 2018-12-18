@@ -1,4 +1,0 @@
----
-title: Metoder
-type: section
----
