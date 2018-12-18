@@ -10,10 +10,11 @@ Vill du bidra till att bygga upp den här sajten? Hurra för det! Följ installa
 - [NPM/Node.js](https://www.npmjs.com/get-npm) är installerat på din lokala maskin
 - Git är installerat lokalt.
 
-Ta först hem reposet lokalt, gör sedan följande din terminalen:
+
 
 ### Kör lokalt
 
+2. Ta först [hem reposet lokalt](https://desktop.github.com/), gör sedan följande din terminalen (i reposets folder):
 1. `npm install`
 2. `gulp`
 3. Besök den URL som terminalen ger dig, troligtvis http://localhost:3000
