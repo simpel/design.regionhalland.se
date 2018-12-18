@@ -12,17 +12,9 @@ Vill du bidra till att bygga upp den här sajten? Hurra för det! Följ installa
 
 Ta först hem reposet lokalt, gör sedan följande din terminalen:
 
-### Installera Fractal
-Fractal är det ramverk som vår dokumentation bygger på.
-
-1. `npm install --save @frctl/fractal`
-2. `npm i -g @frctl/fractal`
-
-De två stegen ovan installerar Fractal och dess CLI verktyg
-
 ### Kör lokalt
 
-2. `npm install`
+1. `npm install`
 2. `gulp`
 3. Besök den URL som terminalen ger dig, troligtvis http://localhost:3000
 
