@@ -11,11 +11,13 @@
 				<a class="" title="Gå till startsida" aria-label="Gå till startsida" href="{{ path('/') }}">
 					<img class="block w-40" alt="Region Halland - Vårdgivarwebben" src="https://vardgivare.regionhalland.se/app/themes/halland/dist/images/navigation_logo.svg">
 				</a>
-
-
 				<a href="https://github.com/RegionHalland/design.regionhalland.se" class="inline-flex no-underline text-black bg-yellow px-6 items-center justify-between py-2 text-lg rounded"><svg class="h-4 w-4 mr-2"><use xlink:href="#github"></use></svg> Bidra på GitHub</a>
-
 			</div>
 		</div>
 	</div>
+	<nav class="w-full border-b border-grey-lighter bg-white z-50">
+		<div class="container mx-auto">
+		{{ nav.main(frctl.docs) }}
+		</div>
+	</nav>
 </nav>

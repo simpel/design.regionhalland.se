@@ -8,6 +8,24 @@ const path = require("path");
 const mandelbrot = require("@frctl/mandelbrot");
 var sourcemaps = require('gulp-sourcemaps');
 
+
+const statuses = {
+	prototype: {
+        label: "🤓 Prototyp",
+        description: "Ej redo för produktion/spridning",
+        color: "#C82828"
+    },
+	wip: {
+        label: "🙏 Under arbete",
+        description: "Under arbete. Bidra gärna med feedback.",
+        color: "#FDB813"
+    },
+    ready: {
+        label: "🎉 Klar",
+        description: "Färdig för produktion/Klar för spridning",
+        color: "#378A30"
+    }
+}
 // create a new instance with custom config options
 const theme = mandelbrot({
 	"nav": ["docs", "components"],
@@ -64,23 +82,14 @@ fractal.components.set("path", path.join(__dirname, "/komponenter"));
 fractal.components.set("default.prefix", "rh"); // default is null
 fractal.components.set("default.status", "wip"); // default is "ready"
 fractal.components.set("default.collated", true);
+fractal.components.set("statuses", statuses);
 
 fractal.docs.set('indexLabel', 'Översikt');
 fractal.docs.set("label", "Dokumentation"); // default is "Components"
 fractal.docs.set("title", "Dokumentation"); // default is "Components"
 fractal.docs.set("path", path.join(__dirname, "dokumentation"));
-fractal.docs.set("statuses", {
-	wip: {
-        label: "Under arbete",
-        description: "Denna text arbetas det med just nu",
-        color: "#FF3333"
-    },
-    ready: {
-        label: "Klar",
-        description: "Texten är tillräckligt klar för att kunna refereras till.",
-        color: "#29CC29"
-    }
-});
+fractal.docs.set("statuses", statuses);
+
 
 function compile_assets(cb) {
 

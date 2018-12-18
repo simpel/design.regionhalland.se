@@ -20,9 +20,7 @@
 
         <main class="w-full md:w-9/12 px-4 md:block" data-role="main">
 
-		<pre>{{ title }}</pre>
-
-
+	
             {% block content %}{% endblock %}
 
         </main>

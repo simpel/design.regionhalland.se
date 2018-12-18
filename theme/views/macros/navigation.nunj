@@ -1,5 +1,20 @@
 {% import "macros/status.nunj" as status %}
 
+
+{% macro main(root) %}
+
+    <ul class="list-reset flex flex-wrap -mx-4">
+		{% for item in root.filter('isHidden', false).items() %}
+			<li class="flex-no-shrink px-4">
+				<a class="no-underline hover:underline focus:underline text-black font-bold py-4 inline-block" href="/docs/{{item.path}}">
+					{{item.title}}
+				</a>
+			</li>
+		{% endfor %}
+    </ul>
+
+{% endmacro %}
+
 {% macro tree(root, current, request) %}
 
 <div class="border border-grey-lightest rounded mb-6" data-behaviour="tree" id="tree-{{ root.name }}">

@@ -1,56 +1,66 @@
 {
 	"title": "Label",
+	"name": "label",
 	"status": "wip",
 	"notes": "Info om komponenten, skriv på i config filen.",
 	"context": {
 		"modifier": "bg-blue",
-		"text": "Primär"
+		"text": "Primär",
+		"title": "primär"
 	},
 	"variants": [
 		{
-			"name": "Sekundär",
+			"name": "secondary",
+			"title": "Sekundär",
 			"context": {
         	    "modifier": "bg-blue-light",
                 "text": "Sekundär"
         	}
 		},
 		{
-			"name": "Positiv",
+			"name": "positive",
+			"title": "Positiv",
 			"context": {
         	    "modifier": "bg-green",
-                "text": "Positiv"
+                "text": "Positidv"
         	}
 		},
 		{
-			"name": "Negativ",
+			"name": "negative",
+			"title": "negative",
 			"context": {
-        	    "modifier": "bg-red",
+        	    "modifier": "bg-red-light",
                 "text": "Negativ"
         	}
 		},
 		{
-			"name": "Varning",
+			"name": "warning",
+			"title": "Varning",
 			"context": {
         	    "modifier": "bg-yellow",
                 "text": "Varning"
         	}
 		},
 		{
-			"name": "Info",
+			"name": "info",
 			"context": {
         	    "modifier": "bg-grey",
-                "text": "Info"
+				"text": "Info",
+				"title": "Info"
         	}
 		},
 		{
-			"name": "Ljus",
+			"name": "light",
+			"title": "Ljus",
 			"context": {
         	    "modifier": "bg-grey-lightest",
-                "text": "Ljus"
+                "text": "Ljus",
+				"title": "Ljus"
         	}
 		},
 		{
-			"name": "Mörk",
+			"name": "dark",
+			"title": "Mörk",
 			"context": {
         	    "modifier": "bg-grey-darkest",
                 "text": "Mörk"
