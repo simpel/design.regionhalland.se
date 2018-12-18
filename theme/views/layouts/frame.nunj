@@ -5,6 +5,8 @@
 
 <div>
 
+
+
     {% include 'partials/header.nunj' %}
 
     <div class="container mx-auto pt-8" data-role="body">
@@ -17,9 +19,12 @@
 		</aside>
 
         <main class="w-full md:w-9/12 px-4 md:block" data-role="main">
-            <div>
+
+		<pre>{{ title }}</pre>
+
+
             {% block content %}{% endblock %}
-            </div>
+
         </main>
 
 	</div>

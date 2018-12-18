@@ -34,12 +34,10 @@ const hbs = require('@frctl/handlebars')({
             let ret = "<ul>";
             const options = Array.from(arguments).pop();
 
-			logger.success('Out: ' + fractal.components.toArray());
-
             for (let component of fractal.components.flatten()) {
-
                 ret = ret + "<li>" + options.fn(component.toJSON()) + "</li>";
             }
+			
             return ret + "</ul>";
         }
     }
@@ -66,6 +64,7 @@ fractal.components.set("title", "Komponenter"); // default is "Components"
 fractal.components.set("path", path.join(__dirname, "/komponenter"));
 fractal.components.set("default.prefix", "rh"); // default is null
 fractal.components.set("default.status", "wip"); // default is "ready"
+fractal.components.set("default.collated", true);
 
 fractal.docs.set('indexLabel', 'Översikt');
 fractal.docs.set("label", "Dokumentation"); // default is "Components"

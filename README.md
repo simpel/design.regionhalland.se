@@ -35,7 +35,7 @@ Allt innehåll, förutom komponenter, finns i `/docs/*` och mer detaljerad info 
 [Redigering av komponenter](https://fractal.build/guide/components/) särskiljer sig något från övrig dokumentation så läs mer på Fractals egna sajt.
 
  ### Hantering av bilder m.m.
- Om du vill använda bilder m.m. i din dokumentation så lägg alla assets i `/assets/*` och hänvisa sedan till dem i din dokumentation t.ex. så här: `<img src="/assets/images/minbild.jpg" />`.
+ Om du vill använda bilder m.m. i din dokumentation så lägg alla assets i `/public/*` och hänvisa sedan till dem i din dokumentation t.ex. så här: `{{path '/public/exempelfil.zip'}}`.
 
  ## Utveckling
  I princip följer vi den dokumentation som Fractal ger oss via sin webbplats. Ett undantag har dock gjort i det att vi kompilerar vår egen CSS. Detta görs via Gulp och filen `/theme/scss/skin.scss`. Här tar vi in all SCSS från Mandelbrot, Fractals tema, men applicerar våra egna variabler då vi t.ex. vill nyttja vårt typsnitt. Utöver detta skriver vi över en del av Fractals template filer i `/theme/views` och applicerar en stor mängd inställningar av Fractal i `/gulpfile.js`.

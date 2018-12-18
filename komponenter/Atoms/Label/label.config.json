@@ -1,0 +1,60 @@
+{
+	"title": "Label",
+	"status": "wip",
+	"notes": "Info om komponenten, skriv på i config filen.",
+	"context": {
+		"modifier": "bg-blue",
+		"text": "Primär"
+	},
+	"variants": [
+		{
+			"name": "Sekundär",
+			"context": {
+        	    "modifier": "bg-blue-light",
+                "text": "Sekundär"
+        	}
+		},
+		{
+			"name": "Positiv",
+			"context": {
+        	    "modifier": "bg-green",
+                "text": "Positiv"
+        	}
+		},
+		{
+			"name": "Negativ",
+			"context": {
+        	    "modifier": "bg-red",
+                "text": "Negativ"
+        	}
+		},
+		{
+			"name": "Varning",
+			"context": {
+        	    "modifier": "bg-yellow",
+                "text": "Varning"
+        	}
+		},
+		{
+			"name": "Info",
+			"context": {
+        	    "modifier": "bg-grey",
+                "text": "Info"
+        	}
+		},
+		{
+			"name": "Ljus",
+			"context": {
+        	    "modifier": "bg-grey-lightest",
+                "text": "Ljus"
+        	}
+		},
+		{
+			"name": "Mörk",
+			"context": {
+        	    "modifier": "bg-grey-darkest",
+                "text": "Mörk"
+        	}
+		}
+	]
+}

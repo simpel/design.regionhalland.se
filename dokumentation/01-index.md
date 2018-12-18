@@ -1,5 +1,16 @@
 ---
 title: Region Halland Design Guidelines
+context:
+   type: section
 ---
 
-This is your index page. You can edit its contents at `docs/01-index.hbs`
+Här hittar du allt du behöver för att designa tjänster och processer med kunden i fokus.
+
+Denna webbplats är under konstant förändring så det är en god idé att ha lite koll på de olika sidornas status:
+
+| Status  | Beskrivning |
+| ------------- | ------------- |
+|
+{{render '@rh-label' }}
+| Content Cell  |
+| Content Cell  | Content Cell  |
