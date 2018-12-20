@@ -7,7 +7,8 @@ const fractal = require('@frctl/fractal').create();
 const logger = fractal.cli.console;
 const path = require("path");
 const mandelbrot = require("@frctl/mandelbrot");
-var sourcemaps = require('gulp-sourcemaps');
+const zip = require('gulp-zip');
+const sourcemaps = require('gulp-sourcemaps');
 
 
 const statuses = {
@@ -156,11 +157,9 @@ function start(cb) {
 	cb();
 }
 
-function build(cb) {
+function build_fractal(cb) {
 
-
-
-    const builder = fractal.web.builder();
+	const builder = fractal.web.builder();
     builder.on('progress', (completed, total) => logger.update(`Exported ${completed} of ${total} items`, 'info'));
     builder.on('error', err => logger.error(err.message));
     return builder.build().then(() => {
@@ -170,7 +169,19 @@ function build(cb) {
 	cb();
 }
 
+var pjson = require('./package.json');
+
+
+function zip_build(cb) {
+
+	gulp.src('build/**')
+        .pipe(zip('v_'+pjson.version+'.zip'))
+        .pipe(gulp.dest('releases'))
+
+	cb();
+}
+
 exports.start = start;
-exports.build = build;
+exports.build = series(scss,js,build_fractal,zip_build);
 exports.compile = parallel(scss,js);
 exports.default = series(start);

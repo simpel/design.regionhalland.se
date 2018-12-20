@@ -38,10 +38,6 @@
         <li class="border-t border-grey-lightest {% if isCurrent %} bg-grey-lightest {% endif %}" {% if isCurrent %} data-state="current"{% endif %} data-role="item">
             <a class="flex py-4 px-3 block text-black text-base  {% if isCurrent %} font-bold {% else %} no-underline hover:underline focus:underline {% endif %}" href="{{ path( (item | url), request) }}" data-pjax>
 
-
-
-
-
 				<span class="flex {% if item.status %} mr-1 {% endif %}">{{ item.label }}</span>
 				{% if item.status %}
 					{{ status.unlabelled(item.status) }}
