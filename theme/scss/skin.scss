@@ -37,12 +37,13 @@ $highlight-theme: 'github' !default;
 @import "components/frame";
 @import "components/header";
 @import "components/meta";
-@import "components/navigation";
+//@import "components/navigation";
 //@import "components/pen";
+
 @import "components/preview";
 @import "components/prose";
 @import "components/status";
-@import "components/tree";
+//@import "components/tree";
 
 
 .componentTabs {

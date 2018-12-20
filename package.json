@@ -29,6 +29,7 @@
     "gulp-sass": "^4.0.2",
     "gulp-sass-glob": "^1.0.9",
     "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify-es": "^1.0.4",
     "highlight.js": "^9.13.1",
     "normalize.css": "^8.0.1",
     "sass-mq": "^5.0.0"

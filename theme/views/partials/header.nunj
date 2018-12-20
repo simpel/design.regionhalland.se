@@ -15,9 +15,4 @@
 			</div>
 		</div>
 	</div>
-	<nav class="w-full border-b border-grey-lighter bg-white z-50">
-		<div class="container mx-auto">
-		{{ nav.main(frctl.docs) }}
-		</div>
-	</nav>
 </nav>

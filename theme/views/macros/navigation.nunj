@@ -1,37 +1,30 @@
 {% import "macros/status.nunj" as status %}
 
-
-{% macro main(root) %}
-
-    <ul class="list-reset flex flex-wrap -mx-4">
-		{% for item in root.filter('isHidden', false).items() %}
-			<li class="flex-no-shrink px-4">
-				<a class="no-underline hover:underline focus:underline text-black font-bold py-4 inline-block" href="/docs/{{item.path}}">
-					{{item.title}}
-				</a>
-			</li>
-		{% endfor %}
-    </ul>
-
-{% endmacro %}
-
 {% macro tree(root, current, request) %}
-
-<div class="border border-grey-lightest rounded mb-6" data-behaviour="tree" id="tree-{{ root.name }}">
-    <ul class="list-reset">
-        {{ leaves(root.filter('isHidden', false).items(), root, current, 2, request) }}
-    </ul>
-</div>
+	<div class="border border-grey-lightest rounded mb-6" data-behaviour="tree" id="tree-{{ root.name }}">
+	    <ul class="list-reset depth-1">
+	        {{ leaves(root.filter('isHidden', false).items(), root, current, 0, request) }}
+	    </ul>
+	</div>
 {% endmacro %}
 
 {% macro leaves(items, root, current, depth, request) %}
     {% for item in items %}
         {% if item.isCollection or (item.isComponent and not item.isCollated and item.variants().filter('isHidden', false).size > 1) %}
-        <li class="border-t border-grey-lightest Tree-depth-{{ depth }}" data-behaviour="collection" id="tree-{{ root.name }}-collection-{{ item.handle }}">
-            <h3 class="block py-4 px-3" data-role="toggle">
-                {{ item.label }}
-            </h3>
-            <ul class="list-reset border-l-4 border-blue-dark bg-grey-lightest" data-role="items">
+        <li class="depth-{{ depth }} border-t border-grey-lightest" data-behaviour="collection" id="tree-{{ root.name }}-collection-{{ item.handle }}">
+
+			<span class="py-4 px-3 flex flex-wrap no-underline hover:underline items-center justify-between hover:bg-grey-lightest cursor-pointer">
+
+				<span class="block text-black text-base block" data-role="toggle">
+	                {{ item.label }}
+	            </span>
+				<div class="block h-8 w-8 rounded-full bg-white hover:bg-grey-white flex items-center justify-center" aria-label="Visa tillhörande länkar">
+					<svg class="h-4 w-4 align-middle">
+						<use xlink:href="#plus"></use>
+					</svg>
+				</div>
+			</span>
+            <ul class="list-reset bg-grey-lightest border-l-4 border-blue-dark" data-role="items">
             {% if item.isComponent and not item.isCollated %}
             {% set items = item.variants().filter('isHidden', false).items() %}
             {% else %}
@@ -42,24 +35,16 @@
         </li>
         {% else %}
         {% set isCurrent = true if (current and (current.id == item.id)) else false %}
-        <li class="relative border-t border-grey-lightest {% if isCurrent %} active {% endif %}" {% if isCurrent %} data-state="active"{% endif %} data-role="item">
-            <a class="block text-black text-base no-underline hover:underline focus:underline" href="{{ path( (item | url), request) }}" data-pjax>
+        <li class="border-t border-grey-lightest {% if isCurrent %} bg-grey-lightest {% endif %}" {% if isCurrent %} data-state="current"{% endif %} data-role="item">
+            <a class="flex py-4 px-3 block text-black text-base  {% if isCurrent %} font-bold {% else %} no-underline hover:underline focus:underline {% endif %}" href="{{ path( (item | url), request) }}" data-pjax>
 
 
 
-                {% if item.status %}
 
-				<span class="w-10/12 py-4 px-3 inline-block text-black text-base no-underline hover:underline focus:underline">
-					{{ item.label }}
-				</span>
-				<span class="w-1/12 inline-block">
+
+				<span class="flex {% if item.status %} mr-1 {% endif %}">{{ item.label }}</span>
+				{% if item.status %}
 					{{ status.unlabelled(item.status) }}
-				</span>
-
-				{% else %}
-					<span class=" py-4 px-3 block text-black text-base no-underline hover:underline focus:underline">
-						{{ item.label }}
-					</span>
 				{% endif %}
             </a>
         </li>

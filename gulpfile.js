@@ -1,6 +1,7 @@
-const { watch, series } = require('gulp');
+const { watch, series, parallel } = require('gulp');
 const gulp = require('gulp');
 const sass = require('gulp-sass');
+const uglify = require('gulp-uglify-es').default;
 const sassGlob = require('gulp-sass-glob');
 const fractal = require('@frctl/fractal').create();
 const logger = fractal.cli.console;
@@ -33,6 +34,7 @@ const theme = mandelbrot({
 	"lang": "sv",
 	"favicon": "/assets/img/favicon.ico",
 	"scripts": [
+
 		"https://code.jquery.com/jquery-3.3.1.min.js",
 		"https://code.jquery.com/ui/1.12.1/jquery-ui.js",
 		"/assets/scripts/main.js"
@@ -68,6 +70,7 @@ theme.addStatic(
 	__dirname + "/assets/",
 	"/assets/"
 );
+
 theme.addLoadPath(__dirname + "/theme/views");
 
 fractal.set("project.title", "Region Halland Design Guidelines");
@@ -91,7 +94,7 @@ fractal.docs.set("path", path.join(__dirname, "dokumentation"));
 fractal.docs.set("statuses", statuses);
 
 
-function compile_assets(cb) {
+function scss(cb) {
 
 	//SCSS
  	gulp.src('./theme/scss/**/*.scss')
@@ -112,15 +115,33 @@ function compile_assets(cb) {
 		)
 		.pipe(sourcemaps.write())
   		.pipe(gulp.dest('./assets/css'));
+logger.success('Byggde CSS');
+	cb();
+}
 
+function js(cb) {
+
+	//SCSS
+ 	gulp.src('./theme/js/**/*.js')
+		.pipe(uglify())
+		.on('error', function (err) {
+			logger.error(err.toString());
+		})
+  		.pipe(gulp.dest('./assets/scripts'));
+
+
+	logger.success('Byggde JS');
 	cb();
 }
 
 function start(cb) {
 	//Starta lokal scss
-	watch('theme/scss/**/*', compile_assets);
 
-	//starta
+
+	watch('theme/js/**/*', js);
+	watch('theme/scss/**/*', scss);
+
+	//starta servern
 
 	const server = fractal.web.server({
         sync: true
@@ -136,6 +157,9 @@ function start(cb) {
 }
 
 function build(cb) {
+
+
+
     const builder = fractal.web.builder();
     builder.on('progress', (completed, total) => logger.update(`Exported ${completed} of ${total} items`, 'info'));
     builder.on('error', err => logger.error(err.message));
@@ -148,5 +172,5 @@ function build(cb) {
 
 exports.start = start;
 exports.build = build;
-exports.compile = compile_assets;
+exports.compile = parallel(scss,js);
 exports.default = series(start);

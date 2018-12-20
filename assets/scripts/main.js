@@ -1,16 +1,1 @@
-spriteURL = 'https://unpkg.com/@regionhalland/styleguide-v2@latest/dist/icons/icons.svg';
-
-$.get(spriteURL).done(data => {
-	var div = document.createElement('div');
-	div.className = "hidden";
-	div.innerHTML = new XMLSerializer().serializeToString(data.documentElement);
-	document.body.insertBefore(div, document.body.childNodes[0]);
-})
-
-
-$( ".componentTabs" ).tabs({
-  classes: {
-
-
-  }
-});
+spriteURL="https://unpkg.com/@regionhalland/styleguide-v2@latest/dist/icons/icons.svg",setupMenu=((e,n)=>{collections=$(n).find("[data-behaviour='collection']"),collections.each(function(e,n){$("> ul",n).addClass("hidden"),$("> span",n).on("click",function(e){e.stopPropagation();var n=$(e.currentTarget).siblings("ul"),t=$(e.currentTarget).find("use"),i=t.attr("xlink:href");n.toggleClass("hidden"),"#minus"==i?t.attr("xlink:href","#plus"):t.attr("xlink:href","#minus")})}),currentPage=$(n).find("[data-state='current']"),currentItems=$(currentPage).parentsUntil($(".depth-0",n),"ul"),currentItems.length>0&&currentItems.each(function(e,n){$(n).removeClass("hidden");$(n).siblings("span").find("use").attr("xlink:href","#minus")})}),$.get(spriteURL).done(e=>{var n=document.createElement("div");n.className="hidden",n.innerHTML=(new XMLSerializer).serializeToString(e.documentElement),document.body.insertBefore(n,document.body.childNodes[0])}),$(".componentTabs").tabs(),$(".Navigation-group").each(setupMenu);
