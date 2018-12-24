@@ -1,3 +1,7 @@
+# INTERNT
+http://demo.regionhalland.se/rh-cdn/design.regionhalland.se/build
+
+
 # Om Region Hallands design guidelines
 Detta repository innehåller koden för Region Hallands Design guildelines.
 
