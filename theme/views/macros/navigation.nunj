@@ -1,8 +1,8 @@
 {% import "macros/status.nunj" as status %}
 
 {% macro tree(root, current, request) %}
-	<div class="border border-grey-lightest rounded mb-6" data-behaviour="tree" id="tree-{{ root.name }}">
-	    <ul class="list-reset depth-1">
+	<div class="border-0 md:border rounded border-grey-lightest mb-6" data-behaviour="tree" id="tree-{{ root.name }}">
+	    <ul class="list-reset depth-1 rounded">
 	        {{ leaves(root.filter('isHidden', false).items(), root, current, 0, request) }}
 	    </ul>
 	</div>
@@ -11,7 +11,7 @@
 {% macro leaves(items, root, current, depth, request) %}
     {% for item in items %}
         {% if item.isCollection or (item.isComponent and not item.isCollated and item.variants().filter('isHidden', false).size > 1) %}
-        <li class="depth-{{ depth }} border-t border-grey-lightest" data-behaviour="collection" id="tree-{{ root.name }}-collection-{{ item.handle }}">
+        <li class="depth-{{ depth }} border-t border-grey-lightest bg-white" data-behaviour="collection" id="tree-{{ root.name }}-collection-{{ item.handle }}">
 
 			<span class="py-4 px-3 flex flex-wrap no-underline hover:underline items-center justify-between hover:bg-grey-lightest cursor-pointer">
 
@@ -35,7 +35,7 @@
         </li>
         {% else %}
         {% set isCurrent = true if (current and (current.id == item.id)) else false %}
-        <li class="border-t border-grey-lightest {% if isCurrent %} bg-grey-lightest {% endif %}" {% if isCurrent %} data-state="current"{% endif %} data-role="item">
+        <li class="border-t border-grey-lightest bg-white {% if isCurrent %} bg-grey-lightest {% endif %}" {% if isCurrent %} data-state="current"{% endif %} data-role="item">
             <a class="flex py-4 px-3 block text-black text-base  {% if isCurrent %} font-bold {% else %} no-underline hover:underline focus:underline {% endif %}" href="{{ path( (item | url), request) }}" data-pjax>
 
 				<span class="flex {% if item.status %} mr-1 {% endif %}">{{ item.label }}</span>

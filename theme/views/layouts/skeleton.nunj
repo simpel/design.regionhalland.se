@@ -11,10 +11,11 @@
     <script>var cl = document.querySelector('html').classList; cl.remove('no-js'); cl.add('has-js');</script>
     {% include 'partials/head.nunj' %}
 </head>
-<body>
+<body class="font-sans p-0 m-0">
 
-{% block page %}{% endblock %}
+	{% block page %}{% endblock %}
 
-{% include 'partials/foot.nunj' %}
+	{% include 'partials/foot.nunj' %}
+
 </body>
 </html>

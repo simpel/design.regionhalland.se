@@ -2,33 +2,20 @@
 
 {% block content %}
 
-<div>
-
-<nav>
-
-</nav>
-
-        {% block docHeader %}
 
 
-		<div class="flex flex-wrap items-center justify-between mb-2">
-		    <h1>
-				{{ page.title }}
 
-			</h1>
-		    {{ status }}
-		</div>
+	{% block docHeader %}{% endblock %}
 
-
-		{% endblock %}
-
+	<div class="flex flex-wrap items-center justify-between mb-2">
+	    <h1>
+			{{ page.title }}
+		</h1>
+	    {{ status }}
+	</div>
 
     <article class="article">
-
-    {% block docContent %}{% endblock %}
-
+    	{% block docContent %}{% endblock %}
     </article>
-
-</div>
 
 {% endblock %}

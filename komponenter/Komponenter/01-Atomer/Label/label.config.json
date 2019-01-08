@@ -1,12 +1,13 @@
 {
-	"title": "Label",
+	"title": "Etikett",
 	"name": "label",
 	"status": "wip",
 	"notes": "Info om komponenten, skriv på i config filen.",
 	"context": {
 		"modifier": "bg-blue",
 		"text": "Primär",
-		"title": "primär"
+		"title": "primär",
+		"kalle": "Jag heter kalle!"
 	},
 	"variants": [
 		{
