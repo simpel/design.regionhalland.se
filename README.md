@@ -1,3 +1,4 @@
+
 # Om Region Hallands design guidelines
 Detta repository innehåller koden för Region Hallands Design guildelines.
 
@@ -41,3 +42,7 @@ För att exportera ut Fractal till statiska filer som vi kan köra upp på http:
 
 #### Publicera på github pages
 Kör `git subtree push --prefix build origin gh-pages` om du vill publicera din build på https://regionhalland.github.io/design.regionhalland.se/
+
+#### TEST-STAGE INTERNT URL -
+- http://demo.regionhalland.se/rh-cdn/design.regionhalland.se/build
+- Pull repo via url: http://demo.regionhalland.se/rh-cdn/gitpull/design/?token=FRÅGA JOHN
