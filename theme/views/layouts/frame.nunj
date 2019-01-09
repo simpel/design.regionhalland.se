@@ -8,7 +8,7 @@
 
     {% include 'partials/header.nunj' %}
 
-    <div class="w-full max-w-xl container mx-auto" data-role="body">
+    <div class="w-full max-w-2xl container mx-auto" data-role="body">
 
 	 <div class="flex flex-wrap items-stretch justify-start md:pt-8">
 
