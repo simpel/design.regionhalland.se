@@ -9,9 +9,11 @@ Vill du bidra till att bygga upp den här sajten? Hurra för det! Följ installa
 
 ### Innan du börjar...
 
-- Se till att `NPM/Node.js` är [installerat](https://www.npmjs.com/get-npm)
-- Se till att `Git` är [installerat](https://desktop.github.com/)
-- Se till att Gulp` är [installerat](https://gulpjs.com/docs/en/getting-started/quick-start)
+- Se till att `NPM/Node.js` är [installerat](https://www.npmjs.com/get-npm) på din dator
+- Se till att `Git` är [installerat](https://desktop.github.com/) på din dator
+- Installera Gulp genom att skriva följande två kommandon i din terminal:
+   - `sudo npm install gulp-cli -g`
+   - `sudo npm install gulp -D`
 
 ### Kör lokalt
 
