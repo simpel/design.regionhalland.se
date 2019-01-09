@@ -1,0 +1,9 @@
+
+	<div class="w-full border-t max-w-xl mx-auto my-4 py-4">
+
+		<div class="text-sm text-right">
+			version: {{  frctl.get('project.version') }}
+
+		</div>
+
+	</div>

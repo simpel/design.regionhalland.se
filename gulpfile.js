@@ -9,6 +9,7 @@ const path = require("path");
 const mandelbrot = require("@frctl/mandelbrot");
 const zip = require('gulp-zip');
 const sourcemaps = require('gulp-sourcemaps');
+const pjson = require('./package.json');
 
 
 const statuses = {
@@ -50,15 +51,8 @@ const theme = mandelbrot({
 
 const hbs = require('@frctl/handlebars')({
     helpers: {
-        componentList: function() {
-            let ret = "<ul>";
-            const options = Array.from(arguments).pop();
-
-            for (let component of fractal.components.flatten()) {
-                ret = ret + "<li>" + options.fn(component.toJSON()) + "</li>";
-            }
-
-            return ret + "</ul>";
+        version: function() {
+			return pjson.version;
         }
     }
     /* other configuration options here */
@@ -75,6 +69,7 @@ theme.addStatic(
 theme.addLoadPath(__dirname + "/theme/views");
 
 fractal.set("project.title", "Region Halland Design Guidelines");
+fractal.set("project.version", pjson.version);
 fractal.web.set("static.path", path.join(__dirname, "public"));
 fractal.web.set("builder.dest", __dirname + "/build");
 fractal.web.theme(theme);
@@ -172,7 +167,7 @@ function build_fractal(cb) {
 	cb();
 }
 
-var pjson = require('./package.json');
+
 
 
 function zip_build(cb) {

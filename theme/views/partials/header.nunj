@@ -1,4 +1,4 @@
-<nav aria-label="Huvudmeny">
+
 	<div class="w-full bg-blue-light border-b z-50">
 		<div class="px-4 max-w-2xl mx-auto">
 
@@ -48,4 +48,3 @@
 			</div>
 		</div>
 	</div>
-</nav>
