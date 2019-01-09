@@ -1,4 +1,0 @@
----
-title: Teknik
-type: section
----
