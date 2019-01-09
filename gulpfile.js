@@ -135,13 +135,15 @@ function js(cb) {
 	cb();
 }
 
+function reload(cb) {
+	//parallel(scss,js);
+}
+
 function start(cb) {
 	//Starta lokal scss
 
 
-	watch('theme/**/*', function() {
-		parallel(scss,js);
-	});
+	watch('theme/**/*', reload);
 
 	//starta servern
 
