@@ -1,7 +1,5 @@
 ---
 title: Region Halland Design
-context:
-   type: section
 ---
 Här hittar du allt du behöver för att designa tjänster och processer med kunden i fokus.
 
