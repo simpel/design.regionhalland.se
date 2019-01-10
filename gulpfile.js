@@ -186,9 +186,9 @@ function zip_build(cb) {
         .pipe(gulp.dest('releases'));
 
 
-	logger.success("+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+");
- 	logger.success("| v."+ pjson.version +" is now available under /releases! |");
- 	logger.success("+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+");
+	logger.success("+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+");
+ 	logger.success("| "+ pjson.version +" is now available under /releases! |");
+ 	logger.success("+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+");
 
 	cb();
 }
