@@ -10,6 +10,7 @@ const mandelbrot = require("@frctl/mandelbrot");
 const zip = require('gulp-zip');
 const sourcemaps = require('gulp-sourcemaps');
 const pjson = require('./package.json');
+const browserSync = require('browser-sync').create();
 
 
 const statuses = {
@@ -72,6 +73,11 @@ fractal.set("project.title", "Region Halland Design Guidelines");
 fractal.set("project.version", pjson.version);
 fractal.web.set("static.path", path.join(__dirname, "public"));
 fractal.web.set("builder.dest", __dirname + "/build");
+fractal.web.set('server.sync', true);
+fractal.web.set('server.syncOptions', {
+    open: true,
+    notify: true
+});
 fractal.web.theme(theme);
 
 
@@ -131,25 +137,28 @@ function js(cb) {
 }
 
 function reload(cb) {
-	//parallel(scss,js);
+	series(scss,js);
+	cb();
 }
 
 function start(cb) {
 	//Starta lokal scss
 
 
-	watch('theme/**/*', reload);
+	//watch('theme/**/*', reload);
+
+
 
 	//starta servern
 
-	const server = fractal.web.server({
-        sync: true
-    });
+	const server = fractal.web.server();
 
 	server.on('error', err => logger.error(err.message));
 
 	return server.start().then(() => {
         logger.success(`Fractal server is now running at ${server.url}`);
+
+		//browserSync.init();
     });
 
 	cb();
