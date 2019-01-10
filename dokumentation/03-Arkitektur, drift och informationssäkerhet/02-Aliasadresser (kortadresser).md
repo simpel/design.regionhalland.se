@@ -4,7 +4,7 @@ status: wip
 ---
 Aliasadresser kan vara mycket användbara och göra specifika sidor på webbplatsen mer lättåtkomliga.
 
-  - Ett alias ska vara en permanent länk så långt det bara går. Se webbriktlinje nr 56.
+  - Ett alias ska vara en permanent länk så långt det bara går. [Se webbriktlinje nr 56](https://webbriktlinjer.se/r/56-lat-inte-en-webbadress-sluta-fungera/).
 
   - Om ett alias ändå ska avslutas måste det pekas om till närmsta relevanta eller liknande sida. Att peka om till startsidan är aldrig ett alternativ.
 
