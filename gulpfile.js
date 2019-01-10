@@ -182,13 +182,13 @@ function build_fractal(cb) {
 function zip_build(cb) {
 
 	gulp.src('build/**')
-        .pipe(zip('v_'+pjson.version+'.zip'))
+        .pipe(zip(pjson.version+'.zip'))
         .pipe(gulp.dest('releases'));
 
 
-	logger.success("+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+");
- 	logger.success("| v."+ pjson.version +" is now available under /releases! |");
- 	logger.success("+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+");
+	logger.success("+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+");
+ 	logger.success("| "+ pjson.version +" is now available under /releases! |");
+ 	logger.success("+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+");
 
 	cb();
 }
