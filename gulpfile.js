@@ -182,7 +182,7 @@ function build_fractal(cb) {
 function zip_build(cb) {
 
 	gulp.src('build/**')
-        .pipe(zip('v_'+pjson.version+'.zip'))
+        .pipe(zip(pjson.version+'.zip'))
         .pipe(gulp.dest('releases'));
 
 
