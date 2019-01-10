@@ -1,8 +1,13 @@
 ---
-title: Rubriker
+title: 'Rubriker'
 status: wip
 ---
 Riktlinjer för att skriva korrekta sidrubriker, underrubriker, mindre rubriker samt rubriker i menyerna.
+
+
+<div class="border p-4 shadow">
+	{{ render '@rh-h1' }}
+</div>
 
 ## Allmänt om rubriker
   - Rubriker ska alltid ha det viktigaste ordet först.

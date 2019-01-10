@@ -1,0 +1,71 @@
+{
+	"title": "Etikett",
+	"name": "label",
+	"status": "wip",
+	"notes": "Info om komponenten, skriv på i config filen.",
+	"context": {
+		"modifier": "bg-blue",
+		"text": "Primär",
+		"title": "primär",
+		"kalle": "Jag heter kalle!"
+	},
+	"variants": [
+		{
+			"name": "secondary",
+			"title": "Sekundär",
+			"context": {
+        	    "modifier": "bg-blue-light",
+                "text": "Sekundär"
+        	}
+		},
+		{
+			"name": "positive",
+			"title": "Positiv",
+			"context": {
+        	    "modifier": "bg-green",
+                "text": "Positidv"
+        	}
+		},
+		{
+			"name": "negative",
+			"title": "negative",
+			"context": {
+        	    "modifier": "bg-red-light",
+                "text": "Negativ"
+        	}
+		},
+		{
+			"name": "warning",
+			"title": "Varning",
+			"context": {
+        	    "modifier": "bg-yellow",
+                "text": "Varning"
+        	}
+		},
+		{
+			"name": "info",
+			"context": {
+        	    "modifier": "bg-grey",
+				"text": "Info",
+				"title": "Info"
+        	}
+		},
+		{
+			"name": "light",
+			"title": "Ljus",
+			"context": {
+        	    "modifier": "bg-grey-lightest",
+                "text": "Ljus",
+				"title": "Ljus"
+        	}
+		},
+		{
+			"name": "dark",
+			"title": "Mörk",
+			"context": {
+        	    "modifier": "bg-grey-darkest",
+                "text": "Mörk"
+        	}
+		}
+	]
+}

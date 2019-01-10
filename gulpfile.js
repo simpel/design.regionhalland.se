@@ -86,10 +86,11 @@ fractal.components.set("title", "Komponenter"); // default is "Components"
 fractal.components.set("path", path.join(__dirname, "/komponenter"));
 fractal.components.set("default.prefix", "rh"); // default is null
 fractal.components.set("default.status", "wip"); // default is "ready"
-fractal.components.set("default.collated", true);
+fractal.components.set("default.collated", false);
 fractal.components.set("statuses", statuses);
 
 fractal.docs.set('indexLabel', 'Översikt');
+fractal.docs.set("default.collated", false);
 fractal.docs.set("label", "Dokumentation"); // default is "Components"
 fractal.docs.set("title", "Dokumentation"); // default is "Components"
 fractal.docs.set("path", path.join(__dirname, "dokumentation"));
@@ -136,16 +137,12 @@ function js(cb) {
 	cb();
 }
 
-function reload(cb) {
-	series(scss,js);
-	cb();
-}
-
 function start(cb) {
 	//Starta lokal scss
 
 
-	//watch('theme/**/*', reload);
+	watch('theme/js/**/*', js);
+	watch('theme/scss/**/*', scss);
 
 
 
