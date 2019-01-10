@@ -1,6 +1,6 @@
 {
   "name": "design.regionhalland.se",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Detta repository innehåller koden för Region Hallands Design guildelines.",
   "main": "fractal.js",
   "directories": {
