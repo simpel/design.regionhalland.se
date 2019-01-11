@@ -13,16 +13,19 @@ setupMenu = (index, group) => {
 
 		hasCurrent = $(item).find('.current');
 
-			console.log(hasCurrent.length);
+//		console.log(hasCurrent, item);
 
+		if ((hasCurrent.length > 0) || $(item).hasClass('current')) {
 
+			var icon = $("> span", item).find('use');
 
-		if (hasCurrent.length > 0) {
-			$('> span a', item).addClass('font-bold');
-			var icon = $(item).find('use');
+			console.log(icon.attr('xlink:href'));
+
 			icon.attr('xlink:href', '#minus');
+			console.log('true');
 		} else {
 			$('> ul', item).addClass('hidden');
+			console.log('false');
 		}
 
 

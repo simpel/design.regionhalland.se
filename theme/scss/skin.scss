@@ -28,6 +28,7 @@ $highlight-theme: 'github' !default;
 
 @import "core/all";
 
+//		"https://unpkg.com/@regionhalland/styleguide-v2@0.8.2/dist/css/main.min.css",
 @import "components/asset-list";
 //@import "components/browser";
 @import "components/code";
@@ -44,7 +45,6 @@ $highlight-theme: 'github' !default;
 @import "components/prose";
 @import "components/status";
 //@import "components/tree";
-
 
 .componentTabs {
 	.ui-tabs-active {

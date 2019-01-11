@@ -45,7 +45,8 @@ const theme = mandelbrot({
 	"styles": [
 		"https://use.typekit.net/vip6kss.css",
 		"https://unpkg.com/@regionhalland/styleguide-v2@0.8.2/dist/css/main.min.css",
-		"/assets/css/skin.css"],
+		"/assets/css/skin.css"
+	],
     // any other theme configuration values here
 });
 
@@ -112,6 +113,7 @@ function scss(cb) {
 					'node_modules/normalize.css',
 					'node_modules/sass-mq',
 					'node_modules/highlight.js',
+					'node_modules/@regionhalland/styleguide-v2/dist/css/main.min.css'
 				]
   			})
 			.on('error', sass.logError)
