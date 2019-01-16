@@ -1,9 +1,0 @@
-{
-	"title": "Detta är en rubrik",
-	"name": "h1",
-	"status": "wip",
-	"notes": "Detta är en huvudrubrik, det ska endast finnas en per sida",
-	"context": {
-		"heading": "Jag är en huvudrubrik"
-	}
-}

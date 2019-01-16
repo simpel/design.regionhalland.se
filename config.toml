@@ -1,0 +1,34 @@
+baseURL = "/"
+title = "Design"
+theme = "regionhalland"
+description = "Kube is a professional  and a responsive Hugo theme for developers and designers that offers a documentation section mixed with a landing page and a blog"
+
+
+sectionPagesMenu = "main"
+
+[Params]
+  RSSLink = "/index.xml"
+  author = "Region Halland" # add your company name
+  github = "RegionHalland" # add your github profile name
+  twitter = "@regionhalland" # add your twitter profile
+  email = "joel.sanden@regionhalland.se"
+
+[menu]
+	[[menu.sites]]
+      	identifier = "arkitektur"
+      	name = "Arkitektur"
+      	url = "//arkitektur.regionhalland.se"
+      	weight = -10
+		pre = "<i data-feather='lock' class='w-4 h-4 mr-2'></i>"
+
+	[[menu.sites]]
+		identifier = "stil"
+      	name = "Stilguide"
+      	url = "//stilguide.regionhalland.se"
+      	weight = -20
+
+	[[menu.sites]]
+		identifier = "Design Guidelines"
+		name = "Design"
+		url = "/"
+		weight = -30

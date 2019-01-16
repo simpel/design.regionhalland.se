@@ -1,0 +1,9 @@
+<ul>
+
+{{ range .Pages }}
+	<li>
+		<a href=" {{ .URL }}">{{ .Title }}</a>
+	</li>
+{{ end }}
+
+</ul>

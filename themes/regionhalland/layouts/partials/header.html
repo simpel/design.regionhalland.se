@@ -1,0 +1,86 @@
+
+
+
+<div class="w-full bg-blue-light border-b z-50">
+    <div class="px-4 w-full max-w-2xl mx-auto">
+
+        <div class="py-4">
+
+            <span class="px-2 mr-1 py-1 text-sm no-underline hover:underline focus:underline text-white bg-blue-dark rounded-full inline-block">BETA</span>
+            Hej! Denna webbplats är under utveckling. <a href="https://github.com/RegionHalland/design.regionhalland.se/issues/new">Bidra gärna med feedback</a>!
+        </div>
+
+        <nav class="mt-4 -mb-px justify-between hidden md:flex">
+
+            <ul class="list-reset flex border-b">
+
+                {{ $currentNode := . }}
+
+                {{ range .Site.Menus.sites }}
+
+	                {{ if or ($currentNode.IsMenuCurrent "sites" .) ($currentNode.HasMenuCurrent "sites" .) }}
+		                <li class="-mb-px mr-1">
+		                    <a class="bg-white inline-block border-l border-t border-r rounded-t py-2 px-4 text-blue-dark font-semibold" href="{{ .URL }}">
+								{{ .Pre }}{{ .Name }}
+							</a>
+  		                </li>
+	                {{ else }}
+		                <li class="mr-1">
+		                    <a class="inline-block rounded-t py-2 px-4 text-blue-darker font-semibold" href="{{ .URL }}">
+								{{ .Pre }}{{ .Name }}
+							</a>
+	                	</li>
+
+	                {{ end }}
+                {{ end }}
+            </ul>
+
+            <ul class="list-reset flex border-b">
+                <li class="mr-1">
+                    <a class="bg-blue-lightest inline-block rounded-t py-2 px-4 text-blue-darker font-semibold" href="//regionhalland.se">
+                        <i data-feather='external-link' class='w-4 h-4 mr-2'></i>regionhalland.se
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+
+    </div>
+</div>
+
+
+
+<div class="w-full border-b border-grey-lighter bg-white z-50">
+    <div class="p-4 max-w-2xl mx-auto flex justify-between items-center">
+        <div class="logo">
+            {{ $logo := resources.Get "images/logo.svg" | resources.Minify | resources.Fingerprint }}
+			<a href="{{ .Site.BaseURL }}">
+		    	<img src="{{ $logo.Permalink }}" alt="">
+			</a>
+        </div>
+        <div class="font-thin text-2xl text-black-light ml-6 flex-grow">
+            	<a href="{{ .Site.BaseURL }}">Design</a>
+        </div>
+		<a href="https://github.com/RegionHalland/design.regionhalland.se/pulls" class="inline-flex no-underline text-black bg-yellow px-6 items-center justify-between py-2 text-lg rounded">
+			<i data-feather='github' class='w-4 h-4 mr-2'></i> Bidra <span class="hidden md:inline-block">&nbsp;på GitHub</span>
+		</a>
+    </div>
+</div>
+
+
+
+
+<div class="w-full border-b border-grey-lighter bg-white z-50">
+    <div class="max-w-2xl mx-auto px-4 overflow-auto scrolling-touch">
+		<ul class="list-reset flex flex-wrap -mx-4">
+			{{ range .Site.Menus.nav }}
+				<li class="flex-no-shrink px-4">
+					<a href="{{ .URL }}" class="no-underline hover:underline focus:underline text-black font-bold py-4 inline-block">{{ .Name }}</a>
+				</li>
+			{{ end }}
+		</ul>
+    </div>
+</div>
+
+
+{{ partial "breadcrumb.html" . }}
