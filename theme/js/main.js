@@ -9,12 +9,30 @@ setupMenu = (index, group) => {
 
 	collections.each(function(index,item) {
 
-		$('> ul', item).addClass('hidden');
 
-		$('> span', item).on('click', function(e) {
+
+		hasCurrent = $(item).find('.current');
+
+//		console.log(hasCurrent, item);
+
+		if ((hasCurrent.length > 0) || $(item).hasClass('current')) {
+
+			var icon = $("> span", item).find('use');
+
+			console.log(icon.attr('xlink:href'));
+
+			icon.attr('xlink:href', '#minus');
+			console.log('true');
+		} else {
+			$('> ul', item).addClass('hidden');
+			console.log('false');
+		}
+
+
+		$('> span div', item).on('click', function(e) {
 			e.stopPropagation();
-			var ul = $(e.currentTarget).siblings('ul')
-			var icon = $(e.currentTarget).find('use');
+			var ul = $('> ul', item)
+			var icon = $('> span', item).find('use');
 			var iconAttr = icon.attr('xlink:href');
 
 

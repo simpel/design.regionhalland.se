@@ -45,7 +45,8 @@ const theme = mandelbrot({
 	"styles": [
 		"https://use.typekit.net/vip6kss.css",
 		"https://unpkg.com/@regionhalland/styleguide-v2@0.8.2/dist/css/main.min.css",
-		"/assets/css/skin.css"],
+		"/assets/css/skin.css"
+	],
     // any other theme configuration values here
 });
 
@@ -86,10 +87,11 @@ fractal.components.set("title", "Komponenter"); // default is "Components"
 fractal.components.set("path", path.join(__dirname, "/komponenter"));
 fractal.components.set("default.prefix", "rh"); // default is null
 fractal.components.set("default.status", "wip"); // default is "ready"
-fractal.components.set("default.collated", true);
+fractal.components.set("default.collated", false);
 fractal.components.set("statuses", statuses);
 
 fractal.docs.set('indexLabel', 'Översikt');
+fractal.docs.set("default.collated", false);
 fractal.docs.set("label", "Dokumentation"); // default is "Components"
 fractal.docs.set("title", "Dokumentation"); // default is "Components"
 fractal.docs.set("path", path.join(__dirname, "dokumentation"));
@@ -111,6 +113,7 @@ function scss(cb) {
 					'node_modules/normalize.css',
 					'node_modules/sass-mq',
 					'node_modules/highlight.js',
+					'node_modules/@regionhalland/styleguide-v2/dist/css/main.min.css'
 				]
   			})
 			.on('error', sass.logError)
@@ -136,16 +139,12 @@ function js(cb) {
 	cb();
 }
 
-function reload(cb) {
-	series(scss,js);
-	cb();
-}
-
 function start(cb) {
 	//Starta lokal scss
 
 
-	//watch('theme/**/*', reload);
+	watch('theme/js/**/*', js);
+	watch('theme/scss/**/*', scss);
 
 
 
