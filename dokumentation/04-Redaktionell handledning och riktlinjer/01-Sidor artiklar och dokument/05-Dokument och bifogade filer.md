@@ -18,11 +18,12 @@ Publicera dokument, som rapporter och utredningar, i webbplatsens standardformat
 
 Se till att dokument du länkar till har så tydliga filnamn att man förstår av filnamnet vad dokumentet innehåller. Använd inte interna arbetsnamn som filnamn. Undvik att döpa dokument efter artikelnummer, diarienummer, blankettnummer eller liknande. Om artikel- eller blankettnumren är väl kända hos användarna bör de dock vara en del av filnamnet. På regionhalland.se används inte förkortningar i dokumentnamnet, då våra målgrupper sällan är bekanta med de förkortningar som används inom regionens verksamheter.
 
-Dokumentnamnet påverkar också vilka träffar en användare får när de söker information via sökfunktionen på regionhalland.se. Sökfunktionen söker i första hand på dokumentnamnet, sedan rubrik och innehåll i dokumentet. (Standard, men kan vara betjänt av en ännu tydligare förklaring beroende på inställningar i vår sökmotor)
+Dokumentnamnet påverkar också vilka träffar en användare får när de söker information via sökfunktionen på regionhalland.se. Sökfunktionen söker i första hand på dokumentnamnet, sedan rubrik och innehåll i dokumentet.
+> Standard, men kan vara betjänt av en ännu tydligare förklaring beroende på inställningar i vår sökmotor
 
 ## Styrdokument beslutade av regionstyrelsen eller regionfullmäktige
 
-Eventuella särskilda riktlinjer för dessa dokument.
+> Eventuella särskilda riktlinjer för dessa dokument.
 
 ### Namnstandard på protokoll
 
@@ -30,8 +31,8 @@ Protokoll från nämnder, regionstyrelse och regionfullmäktige ska finnas publi
 
 ### Nämnd protokoll ååååmmdd
 
-Exempel: Hälso- och sjukvårdsnämnden protokoll 20181022 (Återigen kolla med kansliet för regionens riktlinjer)
+> Exempel: Hälso- och sjukvårdsnämnden protokoll 20181022 (Återigen kolla med kansliet för regionens riktlinjer)
 
 ### Namnstandard på kallelser
 
-Kallelser till nämnder, regionstyrelse och regionfullmäktige ska publiceras på regionhalland.se senast xx innan sammanträdet. (Återigen kolla med kansliet för regionens riktlinjer)
+> Kallelser till nämnder, regionstyrelse och regionfullmäktige ska publiceras på regionhalland.se senast xx innan sammanträdet. (Återigen kolla med kansliet för regionens riktlinjer)

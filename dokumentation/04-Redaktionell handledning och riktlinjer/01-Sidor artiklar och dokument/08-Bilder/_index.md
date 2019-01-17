@@ -40,7 +40,8 @@ Bilderna för webben bör ha en punkttäthet (optisk upplösning) på 72-96 dpi 
 
 Informationen nedan gäller specifikt för webbplatsen regionhalland.se. Observera att rekommenderad filstorlek (kb) är ungefärligt och kan variera en hel del beroende på vilken typ av bild det är. Filernas storlek bör dock inte någon gång överstiga 150 kb.
 
-### Standard bildstorlekar på regionhalland.se (nedan enbart exempel på hur informationen kan visas)
+### Standard bildstorlekar på regionhalland.se
+> nedan enbart exempel på hur informationen kan visas
 
 Tabell:
 
