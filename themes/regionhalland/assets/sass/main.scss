@@ -8,7 +8,14 @@ svg {
 
 a {
 	color: #004890;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
 }
+
+
 
 
 #TableOfContents {

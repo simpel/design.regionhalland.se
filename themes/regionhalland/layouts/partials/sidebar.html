@@ -1,37 +1,26 @@
+{{ $list := .CurrentSection.Pages }}
 
-<!-- sidebar start -->
-<aside>
-    <ul>
-        {{ $currentPage := . }}
-        {{ range .Site.Menus.main }}
-            {{ if .HasChildren }}
-                <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
-                    <a href="#">
-                        {{ .Pre }}
-                        <span>{{ .Name }}</span>
-                    </a>
-                </li>
-                <ul class="sub-menu">
-                    {{ range .Children }}
-                        <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-                            <a href="{{ .URL }}">{{ .Name }}</a>
-                        </li>
-                    {{ end }}
-                </ul>
-            {{ else }}
-                <li>
-                    <a href="{{ .URL }}">
-                        {{ .Pre }}
-                        <span>{{ .Name }}</span>
-                    </a>
-                </li>
-            {{ end }}
+
+<nav>
+
+	<span class="rounded mb-4 block bg-blue-dark p-4">
+		{{ partial "menu/back.html" . }}
+	</span>
+
+	<ul class="list-reset border border-grey-lightest rounded overflow-hidden">
+	    {{ $curPage := .UniqueID }}
+
+
+
+
+
+        {{ range $list.ByWeight }}
+        	<li class="border-t border-grey-lightest">
+				<a href="{{ .Permalink }}" class="block py-4 px-3 {{ if eq $curPage .UniqueID }} active font-bold {{ end }}">
+					<span class="inline-block text-black text-base no-underline hover:underline focus:underline">{{ .Title }}</span>
+				</a>
+			</li>
         {{ end }}
-        <li>
-            <a href="#" target="_blank">Hardcoded Link 1</a>
-        </li>
-        <li>
-            <a href="#" target="_blank">Hardcoded Link 2</a>
-        </li>
-    </ul>
-</aside>
+
+	</ul>
+</nav>

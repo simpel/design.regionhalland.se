@@ -1,6 +1,7 @@
 ---
 title: "Installation"
 date: 2017-10-17T15:26:15Z
+description: "Some text"
 draft: false
 weight: 10
 ---

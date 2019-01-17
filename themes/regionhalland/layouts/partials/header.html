@@ -10,29 +10,30 @@
             Hej! Denna webbplats är under utveckling. <a href="https://github.com/RegionHalland/design.regionhalland.se/issues/new">Bidra gärna med feedback</a>!
         </div>
 
-        <nav class="mt-4 -mb-px justify-between hidden md:flex">
+        <nav class="-mb-px justify-between hidden md:flex">
 
             <ul class="list-reset flex border-b">
 
-                {{ $currentNode := . }}
 
-                {{ range .Site.Menus.sites }}
-
-	                {{ if or ($currentNode.IsMenuCurrent "sites" .) ($currentNode.HasMenuCurrent "sites" .) }}
 		                <li class="-mb-px mr-1">
-		                    <a class="bg-white inline-block border-l border-t border-r rounded-t py-2 px-4 text-blue-dark font-semibold" href="{{ .URL }}">
-								{{ .Pre }}{{ .Name }}
+		                    <a class="bg-white inline-block border-l border-t border-r rounded-t py-2 px-4 text-blue-dark font-semibold" href="{{ .Site.BaseURL }}">
+								{{ .Site.Title }}
 							</a>
   		                </li>
-	                {{ else }}
+
 		                <li class="mr-1">
-		                    <a class="inline-block rounded-t py-2 px-4 text-blue-darker font-semibold" href="{{ .URL }}">
-								{{ .Pre }}{{ .Name }}
+		                    <a class="inline-block rounded-t py-2 px-4 text-blue-darker font-semibold" href="http://stilguide.regionhalland.se">
+								Stilguide
 							</a>
 	                	</li>
 
-	                {{ end }}
-                {{ end }}
+						<li class="mr-1">
+		                    <a class="inline-block rounded-t py-2 px-4 text-blue-darker font-semibold" href="http://arkitektur.regionhalland.se">
+								<i data-feather='lock' class='w-4 h-4 mr-2'></i> Arkitektur
+							</a>
+	                	</li>
+
+
             </ul>
 
             <ul class="list-reset flex border-b">
