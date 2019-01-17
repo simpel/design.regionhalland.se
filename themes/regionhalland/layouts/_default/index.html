@@ -1,27 +1,29 @@
 {{ define "main" }}
 
 
+<div class="px-4 pt-8 md:pt-16 pb-12 w-full max-w-2xl mx-auto">
+
+	<div class="flex flex-wrap items-stretch -mx-4 justify-start">
 
 
-<main role="main" class="">
-    <div class="px-4  w-full max-w-2xl mx-auto">
-        <article class="my-12 article">
-            <h1>{{ .Title }}</h1>
-            {{- .Content -}}
-        </article>
-
-		{{ partial "sectionMenu.html" . }}
+		<main class="w-full px-4">
 
 
-		{{ partial "menu.html" . }}
+			{{ partial "sectionMenu.html" . }}
 
-
-
+			<article class="article">
+				<header>
+					<h1> List {{ .Title }}</h1>
+				</header>
+				{{ .Content }}
+			</article>
+		</main>
 
 
 
 
-    </div>
-</main>
+	</div>
+
+</div>
 
 {{ end }}

@@ -1,77 +1,21 @@
-{{$currentNode := .}}
-<nav class="border border-grey-lightest rounded overflow-hidden">
-    <ul class="list-reset">
+<nav>
 
-    	{{- range .Site.Home.Sections.ByWeight -}}
-    		{{template "menu" dict "sect" . "currentnode" $currentNode}}
-    	{{- end -}}
+<ul class="list-reset border border-grey-lightest rounded overflow-hidden">
+	    {{ $curPage := .UniqueID }}
 
-    </ul>
+
+		<li class="border-t border-grey-lightest bg-grey-lightest">
+			{{ partial "backBtn.html" . }}
+		</li>
+
+
+	        {{ range .CurrentSection.Pages }}
+	        	<li class="border-t border-grey-lightest">
+					<a href="{{ .Permalink }}" class="block py-4 px-3 {{ if eq $curPage .UniqueID }} active font-bold {{ end }}">
+						<span class="inline-block text-black text-base no-underline hover:underline focus:underline">{{ .Title }}</span>
+					</a>
+				</li>
+	        {{ end }}
+	    </ul>
+	</ul>
 </nav>
-
-{{define "menu"}}
-
-	{{- $currentNode := .currentnode -}}
-
-	{{ with .sect }}
-		{{ if .IsSection }}
-
-
-
-			{{ if in .Site.Params.menu_exclusion .Section }}
-
-			{{- else -}}
-
-				{{- safeHTML .Params.head -}}
-
-				<li class="border-t border-grey-lightest relative {{ if .IsAncestor $currentNode }}parent{{ end }}{{ if eq .UniqueID $currentNode.UniqueID }} active{{ end }}{{ if .Params.alwaysopen }}parent{{ end }}">
-
-					<a href="{{ .URL }}" class="block py-4 px-3 w-10/12 {{ if eq .UniqueID $currentNode.UniqueID }}active font-bold{{ end }}">
-						{{ safeHTML .Params.Pre }}
-						<span class="inline-block text-black text-base no-underline hover:underline focus:underline">{{ .Title }}</span>
-						{{ safeHTML .Params.Post }}
-					</a>
-
-					{{- $numberOfPages := (add (len .Pages) (len .Sections)) -}}
-
-					{{if ne $numberOfPages 0}}
-
-					<button class="js-sidebar-nav__toggle-btn flex h-8 w-8 rounded-full bg-white hover:bg-grey-lightest absolute pin-r pin-t mt-2 items-center justify-center mr-2" aria-label="Visa tillhörande länkar">
-						<i data-feather='chevron-down' class='w-4 h-4 align-middle'></i>
-					</button>
-
-					    <ul class="js-sidebar-nav__list list-reset border-l-4 border-blue-dark bg-grey-lightest">
-
-							{{- .Scratch.Set "pages" .Pages -}}
-
-							{{- if .Sections -}}
-					        	{{- .Scratch.Set "pages" (.Pages | union .Sections) -}}
-					        {{- end -}}
-
-							{{- $pages := (.Scratch.Get "pages") -}}
-
-			        		{{- range $pages.ByWeight -}}
-				        		{{- if and .Params.hidden (not $.showhidden) -}}
-
-								{{- else -}}
-				        			{{template "menu" dict "sect" . "currentnode" $currentNode}}
-				        		{{- end -}}
-				        	{{- end -}}
-
-					    </ul>
-    				{{end}}
-				</li>
-			{{- end -}}
-		{{- else -}}
-			{{- if not .Params.Hidden -}}
-				<li class="border-t border-grey-lightest relative">
-					<a href="{{ .URL }}" class="block py-4 px-3 w-10/12 {{ if eq .UniqueID $currentNode.UniqueID }}active font-bold{{ end }}">
-						{{ safeHTML .Params.Pre }}
-						<span class="inline-block text-black text-base no-underline hover:underline focus:underline">{{ .Title }}</span>
-						{{ safeHTML .Params.Post }}
-					</a>
-				</li>
-			{{- end -}}
-		{{ end -}}
-	{{ end -}}
-{{ end }}

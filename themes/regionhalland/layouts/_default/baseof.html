@@ -7,11 +7,6 @@
   <body class="font-sans p-0 m-0">
 	{{ block "header" . }}{{ partial "header.html" .}}{{ end }}
 
-	<p>Kind: {{ .Kind }} </p>
-	<p>Type: {{ .Type }} </p>
-	<p>IsNode: {{ .IsNode }} </p>
-
-
     {{ block "main" . }}{{ end }}
 
 	{{ partial "footer.html" . }}

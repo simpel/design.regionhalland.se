@@ -1,22 +1,37 @@
-
-{{ $loop := .Sections }}
-
-
-
-<ul class="flex flex-wrap items-stretch -mx-4 list-reset" aria-labelledby="Länklista">
+{{ $list := .Sections }}
 
 
 
-	{{ range $loop.ByWeight }}
 
-	<li class="w-full sm:w-6/12 lg:w-4/12 px-4 mb-8">
+
+<div class="border border-grey-lightest rounded w-full mb-8">
+
+
+
+		<div class="border-t border-grey-lightest bg-grey-lightest">
+			{{ partial "backBtn.html" . }}
+		</div>
+
+
+
+
+
+
+<ul class="flex flex-wrap items-stretch list-reset" aria-labelledby="Länklista">
+
+	{{ range $list.ByWeight }}
+
+	<li class="w-full sm:w-6/12 lg:w-4/12 px-4 mb-8 p-4">
 		<a href="{{ .URL }}" class="text-blue-dark hover:bg-yellow-light focus:bg-yellow-light inline-block">
 			<h2 class="mb-2 text-xl md:text-2xl">{{ .Title }}</h2>
 		</a>
 		<p class="leading-tight text-lg text-grey-darkest">
-			{{ .URL }}
+			{{ range first 3 .Pages }}
+			<a href="{{ .URL }}">{{ .Title }}</a>,
+			{{end}}
 		</p>
 	</li>
 
 	{{ end }}
 </ul>
+</div>
