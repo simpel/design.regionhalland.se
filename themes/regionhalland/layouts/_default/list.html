@@ -3,37 +3,28 @@
 
 
 
-<main role="main" class="">
-    <div class="px-4  w-full max-w-2xl mx-auto">
-        <article class="my-12 article">
-            <h1>{{ .Title }}</h1>
-            {{- .Content -}}
-        </article>
+    <div class="px-4 pt-8 md:pt-16 pb-12 w-full max-w-2xl mx-auto">
+
+        <div class="flex flex-wrap items-stretch -mx-4 justify-start">
+
+
+	        <main class="w-full px-4 md:w-9/12 lg:w-6/12">
+	            <article class="article">
+	                <header>
+	                    <h1> List {{ .Title }}</h1>
+	                </header>
+	                {{ .Content }}
+	            </article>
+
+				{{ partial "listMenu.html" . }}
+        </main>
 
 
 
 
-        <ul class="flex flex-wrap items-stretch -mx-4 list-reset" aria-labelledby="Länklista">
-			{{ range .Pages }}
-
-			<li class="w-full sm:w-6/12 lg:w-4/12 px-4 mb-8">
-                <a href="{{ .URL }}" class="text-blue-dark hover:bg-yellow-light focus:bg-yellow-light inline-block">
-                    <h2 class="mb-2 text-xl md:text-2xl">{{ .Title }}</h2>
-                </a>
-                <p class="leading-tight text-lg text-grey-darkest">
-
-                    {{ .Title }}
-                </p>
-            </li>
-
-			{{ end }}
-        </ul>
-
-
-
-
+        </div>
 
     </div>
-</main>
+
 
 {{ end }}

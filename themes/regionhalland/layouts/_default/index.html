@@ -8,28 +8,14 @@
         <article class="my-12 article">
             <h1>{{ .Title }}</h1>
             {{- .Content -}}
-
-			DIR: {{ .Dir }} {{.Draft}}
-
         </article>
 
+		{{ partial "sectionMenu.html" . }}
 
 
+		{{ partial "menu.html" . }}
 
-        <ul class="flex flex-wrap items-stretch -mx-4 list-reset" aria-labelledby="Länklista">
-			{{ range .Pages }}
 
-			<li class="w-full sm:w-6/12 lg:w-4/12 px-4 mb-8">
-                <a href="{{ .URL }}" class="text-blue-dark hover:bg-yellow-light focus:bg-yellow-light inline-block">
-                    <h2 class="mb-2 text-xl md:text-2xl">{{ .Title }}</h2>
-                </a>
-                <p class="leading-tight text-lg text-grey-darkest">
-                    {{ .Title }}
-                </p>
-            </li>
-
-			{{ end }}
-        </ul>
 
 
 

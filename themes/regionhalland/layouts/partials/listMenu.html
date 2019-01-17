@@ -1,0 +1,23 @@
+{{ $list := .Sections }}
+{{ $list = $list | append .Pages }}
+
+
+
+
+<ul class="flex flex-wrap items-stretch -mx-4 list-reset" aria-labelledby="Länklista">
+
+
+
+	{{ range $list.ByWeight }}
+
+	<li class="w-full sm:w-6/12 lg:w-4/12 px-4 mb-8">
+		<a href="{{ .URL }}" class="text-blue-dark hover:bg-yellow-light focus:bg-yellow-light inline-block">
+			<h2 class="mb-2 text-xl md:text-2xl">{{ .Title }}</h2>
+		</a>
+		<p class="leading-tight text-lg text-grey-darkest">
+			{{ .URL }}
+		</p>
+	</li>
+
+	{{ end }}
+</ul>
