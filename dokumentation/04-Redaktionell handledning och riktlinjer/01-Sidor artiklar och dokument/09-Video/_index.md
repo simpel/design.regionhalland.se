@@ -2,7 +2,9 @@
 title: 'Video'
 status: wip
 ---
-Riktlinjer för att publicera video på regionhalland.se.
+Riktlinjer för att publicera video på Region Hallands webbplatser.
+
+> Behöver också ta fram riktlinjer för hur videoplattformar används, t.ex rubriker, metataggar osv. osv. Troligen hamnar det i handboken för sociala medier.
 
 Begreppet video omfattar i det här sammanhanget all rörlig media som presenteras på en webbsida, det vill säga: filmer, TV-produktioner, direktsändningar, webbseminarier, innehåll i utbildningar, animeringar och så vidare.
 
