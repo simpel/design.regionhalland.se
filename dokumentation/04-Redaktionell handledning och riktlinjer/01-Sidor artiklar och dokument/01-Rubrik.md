@@ -20,7 +20,7 @@ Riktlinjer för att skriva korrekta sidrubriker, underrubriker, mindre rubriker 
   - Sidrubrikens format ska vara rubriknivå 1 (h1). H1 får inte användas till något annat än just sidrubriken.
   - Var mycket sparsam med frågetecken, utropstecken eller kolon i rubriker.
   - Formuleringen av sidrubriken ska vara unik så långt det är möjligt.
-  - Sidrubriken ska vara tydlig även utanför sin kontext (t.ex webbplatsens meny). Undvik att vara för kortfattad och generell. Exempel: ”Ansök om nytt SITHS-kort” istället för enbart ”Ansökan”. Ett tips är att se rubriken i söklistning hos t.ex Google. Förstår man redan här vad sidan handlar om?
+  - Sidrubriken ska vara tydlig även utanför sin kontext (t.ex webbplatsens meny). Undvik att vara för kortfattad och generell. Exempel: ”Ansök om nytt SITHS-kort” istället för enbart ”Ansökan”. Ett tips är att se framför sig, rubriken i en söklistning hos t.ex Google. Förstår man redan här vad sidan handlar om?
 
 ## Underrubriker i brödtext
   - Underrubriken ska helst rymmas inom cirka xx tecken inklusive blanksteg. I undantagsfall kan underrubriken vara längre men helst inte över xx tecken inklusive blanksteg.
@@ -39,4 +39,4 @@ I menyerna är det sidans namn som visas. Det kan därmed skilja sig från sidan
 ## Sidnamn för artiklar
 För artiklar är alltid sidnamnet samma som sidrubriken, föregånget av datumet för artikelns skapande. Artiklars sidnamn syns aldrig i menyerna.
 
-(Förslag för att mycket tydligt skilja på artiklar och sidor)
+> Förslag för att mycket tydligt skilja på artiklar och sidor

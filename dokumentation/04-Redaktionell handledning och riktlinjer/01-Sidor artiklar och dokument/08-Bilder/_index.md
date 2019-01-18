@@ -14,7 +14,7 @@ status: wip
 
  - Se till att följa riktlinjer för hantering och publicering av bilder i bildplattformen Mediaflow.
 
-(Här kan texten förstås förbättras/förtydligas ytterligare när de bitarna är på plats)
+> Här kan texten förstås förbättras/förtydligas ytterligare när de bitarna är på plats
 
 ## Alternativ text till bilden, ALT-text
 
@@ -28,7 +28,8 @@ status: wip
 
 ## Välja rätt bild
 
-Som redaktör är det viktigt att välja rätt bild till innehållet. Bilderna bör förmedla attraktivitet men även identifikation. (Bilderna ska med andra ord vara lockande och förmedla en känsla av attraktivitet, vilja vara där och skapa intresse). Bilderna bör vara aktiva istället för passiva. (Detta stycke kan säkert ersättas med en bättre skrivning efter diskussion på avdelningen)
+Som redaktör är det viktigt att välja rätt bild till innehållet. Bilderna bör förmedla attraktivitet men även identifikation. (Bilderna ska med andra ord vara lockande och förmedla en känsla av attraktivitet, vilja vara där och skapa intresse). Bilderna bör vara aktiva istället för passiva.
+> Detta stycke kan säkert ersättas med en bättre skrivning efter diskussion på avdelningen
 
 ## Bildens upplösning - spara bilden för webben
 
@@ -41,7 +42,7 @@ Bilderna för webben bör ha en punkttäthet (optisk upplösning) på 72-96 dpi 
 Informationen nedan gäller specifikt för webbplatsen regionhalland.se. Observera att rekommenderad filstorlek (kb) är ungefärligt och kan variera en hel del beroende på vilken typ av bild det är. Filernas storlek bör dock inte någon gång överstiga 150 kb.
 
 ### Standard bildstorlekar på regionhalland.se
-> nedan enbart exempel på hur informationen kan visas
+> Nedan enbart exempel på hur informationen kan visas
 
 Tabell:
 
