@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+	{{ partial "breadcrumb.html" .}}
+
+<div class="bg-blue-dark mb-16">
+
+	<div class="w-full max-w-2xl mx-auto px-4 py-12">
+		{{ partial "menu/back.html" .}}
+		<h1 class="text-3xl md:text-4xl text-white my-4">  {{ .Title }}</h1>
+		<p class="text-blue-light leading-loose text-xl">
+			{{ .Param "description" }}
+		</p>
+
+
+
+
+		{{ partial "menu/menu.html" . }}
+
+	</div>
+</div>
+
+    <div class="px-4 pt-8 md:pt-8 pb-12 w-full max-w-2xl mx-auto">
+
+        <div class="flex flex-wrap items-stretch -mx-4 justify-start">
+
+
+	        <main class="w-full px-4">
+
+
+				<article class="article">
+	                {{ .Content }}
+	            </article>
+        	</main>
+
+
+
+
+        </div>
+
+    </div>
+
+
+{{ end }}

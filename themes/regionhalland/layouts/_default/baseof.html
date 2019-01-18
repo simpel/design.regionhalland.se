@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode | default "sv" }}">
+  	<head>
+  		{{ partial "head.html" . }}
+  	</head>
+
+  <body class="font-sans p-0 m-0">
+	{{ block "header" . }}{{ partial "header.html" .}}{{ end }}
+
+    {{ block "main" . }}{{ end }}
+
+	{{ partial "footer.html" . }}
+
+	<script>
+	  if (window.netlifyIdentity) {
+	    window.netlifyIdentity.on("init", user => {
+	      if (!user) {
+	        window.netlifyIdentity.on("login", () => {
+	          document.location.href = "/admin/";
+	        });
+	      }
+	    });
+	  }
+	</script>
+  </body>
+</html>

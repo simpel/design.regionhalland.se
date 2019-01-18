@@ -1,4 +1,0 @@
----
-title: 'Målgruppsanalys'
-status: wip
----

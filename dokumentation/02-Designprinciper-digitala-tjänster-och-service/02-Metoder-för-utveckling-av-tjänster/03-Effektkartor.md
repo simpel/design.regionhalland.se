@@ -1,4 +1,0 @@
----
-title: 'Effektkartor'
-status: wip
----

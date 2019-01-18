@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+{{ partial "breadcrumb.html" .}}
+
+    <div class="px-4 pt-8 md:pt-16 pb-12 w-full max-w-2xl mx-auto">
+
+        <div class="flex flex-wrap items-stretch -mx-4 justify-start">
+			<aside class="w-full md:w-3/12 px-4 mb-8 hidden md:block">
+            {{ partial "sidebar.html" .}}
+			</aside>
+
+	        <main class="w-full px-4 md:w-9/12 lg:w-6/12">
+	            <article class="article">
+	                <header>
+	                    <h1> {{ .Title }}</h1>
+	                </header>
+	                {{ .Content }}
+	            </article>
+	        </main>
+
+
+
+			{{ if (gt .WordCount 50 )  }}
+			<aside class="w-full md:w-3/12 px-4">
+			    <header>
+			    <h2>På sidan</h2>
+			    </header>
+			    {{.TableOfContents}}
+			</aside>
+			{{ end }}
+
+
+        </div>
+
+    </div>
+
+
+{{ end }}

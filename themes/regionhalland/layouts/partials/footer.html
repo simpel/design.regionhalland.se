@@ -1,0 +1,58 @@
+<footer class="bg-grey-lightest pt-16 border-t border-grey-lighter pb-8 mt-8">
+    <div class="px-4 w-full max-w-2xl mx-auto">
+
+            <div class="w-full flex flex-wrap items-stretch -mx-4">
+                <div class="w-full md:w-6/12 lg:w-4/12 px-4 mb-12">
+                    <div class="relative pb-4 block mb-4">
+                        <span class="border-b-2 border-blue-dark text-xl md:text-2xl font-bold text-black pb-2 z-20 relative leading-none">
+                            Design.regionhalland.se
+                        </span>
+                        <hr class="absolute pin-b pin-l w-full h-0 border-b-2 mb-1 border-blue-light z-10">
+                    </div>
+					<ul class="list-reset">
+						{{ range .Site.Menus.nav }}
+							<li class="mb-2">
+								<a href="{{ .URL }}" class="text-black text-lg hover:bg-yellow-light focus:bg-yellow-light">{{ .Title }}</a>
+							</li>
+						{{ end }}
+					</ul>
+                </div>
+				<div class="w-full md:w-6/12 lg:w-4/12 px-4 mb-12">
+					<div class="relative pb-4 block mb-4">
+                        <span class="border-b-2 border-blue-dark text-xl md:text-2xl font-bold text-black pb-2 z-20 relative leading-none">
+                            Om webbplatsen
+                        </span>
+                        <hr class="absolute pin-b pin-l w-full h-0 border-b-2 mb-1 border-blue-light z-10">
+                    </div>
+					<article class="article">
+						<p>
+							Denna webbplasten är till för dig som tar fram tjänster och produkter för Region Halland. Genom att följa de metoder och guidelines som beskrivs här säkerställer vi att vi skapar en god upplevelse för kunden och uppnår rätt effekter för verksamheten.
+						</p>
+					</article>
+
+
+				</div>
+				<div class="w-full md:w-6/12 lg:w-4/12 px-4 mb-12">
+					<div class="relative pb-4 block mb-4">
+                        <span class="border-b-2 border-blue-dark text-xl md:text-2xl font-bold text-black pb-2 z-20 relative leading-none">
+                            Information
+                        </span>
+                        <hr class="absolute pin-b pin-l w-full h-0 border-b-2 mb-1 border-blue-light z-10">
+                    </div>
+
+
+					<ul class="list-reset">
+							<li class="mb-2 text-lg">Version: <a href="{{.Param "github_repository"}}/releases">{{.Param "version"}}</a></li>
+							<li class="mb-2">
+								<a href="http://www.regionhalland.se/om-region-halland/organisation/dataskydd/" class="text-black text-lg hover:bg-yellow-light focus:bg-yellow-light">Behandling av personuppgifter</a>
+							</li>
+
+					</ul>
+				</div>
+            </div>
+    
+    </div>
+</footer>
+
+{{ $js := resources.Get "js/main.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $js.Permalink }}"></script>

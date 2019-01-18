@@ -1,7 +1,3 @@
-node_modules/*
-releases/*
-*.DS_Store
-mandelbrot
+.DS_Store
 
-# ignorera pull
-build/gitpull.php
+node_modules

@@ -1,3 +1,0 @@
-<div class="border-grey border-l border-r border-b bg-grey-lightest" data-role="info">
-    {% include 'partials/browser/browser.nunj' %}
-</div>
