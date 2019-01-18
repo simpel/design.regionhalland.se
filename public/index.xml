@@ -32,23 +32,5 @@
  Ett alias ska inte bestå utav å, ä eller ö eller specialtecken.</description>
     </item>
     
-    <item>
-      <title></title>
-      <link>http://localhost:1313/design/tonalitet/text/driftstorningar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/design/tonalitet/text/driftstorningar/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/design/tonalitet/text/nyhetsartiklar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/design/tonalitet/text/nyhetsartiklar/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>

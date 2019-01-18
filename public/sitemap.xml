@@ -18,20 +18,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/design/tonalitet/text/driftstorningar/</loc>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/design/tonalitet/text/nyhetsartiklar/</loc>
-  </url>
-  
-  <url>
     <loc>http://localhost:1313/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/design/</loc>
     <priority>0</priority>
   </url>
   

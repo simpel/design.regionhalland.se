@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: hugo # Branch to update (optional; defaults to master)
+  branch: production # Branch to update (optional; defaults to master)
 publish_mode: editorial_workflow
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads"
@@ -8,35 +8,31 @@ public_folder: "/images/uploads"
 collections:
 
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
-    label: "Standard sida" # Used in the UI
+        label: "Standard sida" # Used in the UI
+        folder: "content/" # The path to the folder where the documents are stored
+        create: true # Allow users to create new documents in this collection
+        slug: "{{title}}" # Filename template, e.g., YYYY-MM-DD-title.md
+        fields: # The fields for each document, usually in front matter
 
-    folder: "content/" # The path to the folder where the documents are stored
+            - label: "Rubrik"
+              name: "title"
+              widget: "string"
 
-    create: true # Allow users to create new documents in this collection
+            - label: "Sidbeskrivning"
+              name: "description"
+              widget: "string"
 
-    slug: "{{title}}" # Filename template, e.g., YYYY-MM-DD-title.md
+            - label: "Publiceringsdatum"
+              name: "date"
+              required: false
+              widget: "datetime"
 
-    fields: # The fields for each document, usually in front matter
+            - label: "Är sidan under uppbyggnad?"
+              name: "draft"
+              required: false
+              widget: "boolean"
+              default: true
 
-      - label: "Rubrik"
-        name: "title"
-        widget: "string"
-
-      - label: "Sidbeskrivning"
-        name: "description"
-        widget: "string"
-
-      - label: "Publiceringsdatum"
-        name: "date"
-        required: false
-        widget: "datetime"
-
-      - label: "Är sidan under uppbyggnad?"
-        name: "draft"
-        required: false
-        widget: "boolean"
-        default: true
-
-      - label: "Sidinnehåll"
-        name: "body"
-        widget: "markdown"
+            - label: "Sidinnehåll"
+              name: "body"
+              widget: "markdown"

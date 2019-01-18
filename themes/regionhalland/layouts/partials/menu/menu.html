@@ -21,12 +21,12 @@
 					<h2 class="mb-2 text-xl md:text-2xl">{{ .Title }}</h2>
 				</a>
 
+				<p>
 				{{if not .IsPage }}
 
 					{{ $links := .Sections }}
 					{{ $links = $links | append .Pages }}
 
-					<p>
 
 					{{ range first 3 $links.ByWeight}}
 						<a href="{{ .URL }}" class="text-blue-dark hover:bg-yellow-light focus:bg-yellow-light inline-block">{{ .Title }}</a>,
@@ -36,21 +36,15 @@
 
 					{{ if $rest }}
 						och <a href="{{ .URL }}">{{len $rest}} sidor till</a>
-					{{end}}
-					</p>
+					{{ else }}
+						{{.Param "description" }}
+					{{ end }}
+
 				{{else}}
-					<p>{{.Param "description" }}</p>
+					{{.Param "description" }}
 				{{end}}
-
-
-
-
-
-
-				<p class="leading-tight text-lg text-grey-darkest">
-
-
 				</p>
+
 			</div>
 		</li>
 
