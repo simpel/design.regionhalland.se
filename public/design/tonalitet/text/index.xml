@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Text on Design Guidelines</title>
+    <link>http://localhost:1313/design/tonalitet/text/</link>
+    <description>Recent content in Text on Design Guidelines</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-se</language>
+    <lastBuildDate>Thu, 17 Jan 2019 22:01:22 +0100</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/design/tonalitet/text/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Brödtexter</title>
+      <link>http://localhost:1313/design/tonalitet/text/brodtext/</link>
+      <pubDate>Thu, 17 Jan 2019 22:01:22 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/tonalitet/text/brodtext/</guid>
+      <description>Riktlinjer för brödtext på webbplatsens sidor och artiklar.
+Brödtext på vanliga sidor och artiklar  Den viktigaste informationen ska placeras högst upp på sidan.
+ Sidan ska inte vara för lång men ibland kan det krävas mycket text för att beskriva något. Då är det särskilt viktigt att strukturera texten med mellanrubriker, punktlistor och så vidare för att underlätta läsningen.
+ Om texten handlar om flera olika saker ska du överväga att dela upp innehållet på flera sidor.</description>
+    </item>
+    
+    <item>
+      <title>Dokument och bifogade filer</title>
+      <link>http://localhost:1313/design/tonalitet/text/dokument/</link>
+      <pubDate>Thu, 17 Jan 2019 22:01:22 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/tonalitet/text/dokument/</guid>
+      <description>Publicera dokument, som rapporter och utredningar, i webbplatsens standardformat (html). Andra format gör det svårare att komma åt informationen, eftersom de ofta kräver extra programvara. Om du ändå behöver lägga ut en pdf, se då till att göra den tillgänglig.
+Rekomendationer om dokumentformat  Publicera i första hand dokument i standardformatet html. Då kan användarna komma åt er information utan att använda en viss datorplattform, eller ett program som kostar pengar, till exempel Word.</description>
+    </item>
+    
+    <item>
+      <title>Ingresser</title>
+      <link>http://localhost:1313/design/tonalitet/text/ingresser/</link>
+      <pubDate>Thu, 17 Jan 2019 22:01:22 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/tonalitet/text/ingresser/</guid>
+      <description>En bra ingress fungerar som en inledande sammanfattning på vad din text handlar om. Men vad ska du tänka på när du skriver ingresser?
+Om rubriken är din första chans att intressera läsaren kan man säga att ingressen är din bästa chans. I textens första stycke har du jämfört med rubriken många ord på dig att säga det du vill. De flesta texter bör ha en inledande sammanfattning. Detta är extra viktigt när man skriver för webb.</description>
+    </item>
+    
+    <item>
+      <title>Kontaktuppgifter</title>
+      <link>http://localhost:1313/design/tonalitet/text/kontaktuppgifter/</link>
+      <pubDate>Thu, 17 Jan 2019 22:01:22 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/tonalitet/text/kontaktuppgifter/</guid>
+      <description> Innehåll tas fram efter djupare diskussion inom webbredaktionen.
+ </description>
+    </item>
+    
+    <item>
+      <title>Länkar och länktexter</title>
+      <link>http://localhost:1313/design/tonalitet/text/lankar/</link>
+      <pubDate>Thu, 17 Jan 2019 22:01:22 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/tonalitet/text/lankar/</guid>
+      <description>Skriv länkarna så att användarna förstår vart länken leder även när den är lyft ur sitt sammanhang. På webben skummar vi ofta igenom information och blicken fastnar på avvikelser såsom rubriker, markerade ord och länkar. Tydliga och informativa länkar gör att besökarna snabbare hittar den information de söker.
+Rekommendationer för länktexter Tydliga länkar är särskilt viktigt för personer som använder någon form av hjälpmedel för att surfa på webben, till exempel skärmläsare, eftersom de kan välja att navigera genom att enbart läsa upp länkarna på en sida.</description>
+    </item>
+    
+    <item>
+      <title>Rubriker</title>
+      <link>http://localhost:1313/design/tonalitet/text/rubriker/</link>
+      <pubDate>Thu, 17 Jan 2019 22:01:22 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/tonalitet/text/rubriker/</guid>
+      <description>Riktlinjer för att skriva korrekta sidrubriker, underrubriker, mindre rubriker samt rubriker i menyerna.
+Allmänt om rubriker  Rubriker ska alltid ha det viktigaste ordet först. Rubriker ska sammanfatta det som är viktigast på sidan. Du får inte använda fet eller kursiv stil i rubriker.  Sidrubrik  Bör vara mellan cirka xx tecken (helst) och cirka xx tecken (max), inklusive blanksteg. Sidrubriken behöver inte vara identisk med sidans namn, men de ska vara så lika som möjligt.</description>
+    </item>
+    
+    <item>
+      <title>Tabeller</title>
+      <link>http://localhost:1313/design/tonalitet/text/tabeller/</link>
+      <pubDate>Thu, 17 Jan 2019 22:01:22 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/tonalitet/text/tabeller/</guid>
+      <description>Riktlinjer för tabeller på Region Hallands webbplatser.
+ Tabeller får inte användas för design.
+ Tabeller får bara innehålla textdata, inte bilder och andra mediafiler.
+ Tabeller ska alltid ha en tabellbeskrivning (caption) som förklarar vad tabellen visar.
+ Använd i första hand de förinställda tabelltyperna på webbplatsen. (Vilket bör finnas)
+ Sammanfatta gärna tabellen i löpande text direkt efter tabellen.
+ Tabeller med många kolumner bör delas upp i flera tabeller.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/design/tonalitet/text/driftstorningar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/design/tonalitet/text/driftstorningar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/design/tonalitet/text/nyhetsartiklar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/design/tonalitet/text/nyhetsartiklar/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
