@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="sv-se">
   	<head>
-  		<title>Tags - design.regionhalland.se</title>
+  		<title>Aliasadresser (kortadresser) - design.regionhalland.se</title>
 
 <meta charset="utf-8">
 <base href="http://localhost:1313">
 
-<link rel="canonical" href="http://localhost:1313/tags/">
+<link rel="canonical" href="http://localhost:1313/teknik/alias/">
 
 
 <link rel="stylesheet" href="http://localhost:1313/sass/main.min.5d9dc271e59f507ac65eaddbb07fd48515af0027d336b37ac76f05b0abb9a0dd.css">
@@ -113,6 +113,8 @@
 	
 		
 	
+		
+	
 
 	
 
@@ -132,9 +134,25 @@
 
 	
 
+		<li class="breadcrumbs__item inline-block py-2 sm:py-2 relative" itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
+			<a class="breadcrumbs__link text-black" href="http://localhost:1313/teknik/">Tekniks</a>
+
+			<span class="inline-block text-black opacity-25">
+				<i data-feather='chevron-right' class='w-4 h-4 mx-2'></i>
+			</span>
+
+			<meta itemprop="position" content="1">
+		</li>
+
+	
+
+	
+
+	
+
 		<li class="breadcrumbs__item inline-block py-2 sm:py-2 relative" aria-current="page" itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
 			<div class="absolute pin-b w-full -mb-1 h-1 bg-green rounded-t"></div>
-			<span class="breadcrumbs__span text-black" itemprop="name">Tags</span>
+			<span class="breadcrumbs__span text-black" itemprop="name">Aliasadresser (kortadresser)</span>
 			<meta itemprop="position" content="2">
 		</li>
 
@@ -149,57 +167,102 @@
 
 
 
-<div class="bg-blue-dark mb-16">
-	<div class="w-full max-w-2xl mx-auto px-4 pt-16 pb-12">
-		
-	<span class="block flex items-center text-lg text-bold text-white no-underline mb-8">
-		<span class="flex h-8 w-8 rounded-full bg-white text-blue-dark flex items-center justify-center mr-2">
-			<i data-feather='home' class='w-4 h-4 align-middle'></i>
-		</span>
-		Design Guidelines
-	</span>
-
-
-		<h1 class="text-3xl md:text-4xl text-white my-4">  Tags</h1>
-		<p class="text-blue-light leading-loose text-xl">
-			
-		</p>
-
-
-		
-		
-
-		
-
-
-
-
-	<ul class="flex flex-wrap list-reset -mx-2 mt-8" aria-labelledby="Länklista">
-
-		
-	</ul>
-
-
-	</div>
-</div>
-
-    <div class="px-4 pt-8 md:pt-8 pb-12 w-full max-w-2xl mx-auto">
+    <div class="px-4 pt-8 md:pt-16 pb-12 w-full max-w-2xl mx-auto">
 
         <div class="flex flex-wrap items-stretch -mx-4 justify-start">
+			<aside class="w-full md:w-3/12 px-4 mb-8 hidden md:block">
+            
 
 
-	        <main class="w-full px-4">
+<nav>
+
+	<span class="rounded mb-4 block bg-blue-dark p-4">
+		
+	
+	<a href="http://localhost:1313/teknik/" class="block flex items-center text-lg text-white text-bold no-underline hover:underline focus:underline">
+
+		<span class="flex h-8 w-8 rounded-full bg-white text-blue-dark flex items-center justify-center mr-2" aria-label="Gå ett steg uppåt i hierarkin">
+			<i data-feather='chevron-left' class='w-4 h-4 align-middle'></i>
+		</span>
+		Tekniks
+	</a>
+	
 
 
-				<article class="article">
+	</span>
+
+	<ul class="list-reset border border-grey-lightest rounded overflow-hidden">
+	    
+
+
+
+
+
+        
+        	<li class="border-t border-grey-lightest">
+				<a href="http://localhost:1313/teknik/alias/" class="block py-4 px-3  active font-bold ">
+					<span class="inline-block text-black text-base no-underline hover:underline focus:underline">Aliasadresser (kortadresser)</span>
+				</a>
+			</li>
+        
+
+	</ul>
+</nav>
+
+			</aside>
+
+	        <main class="w-full px-4 md:w-9/12 lg:w-6/12">
+	            <article class="article">
 	                <header>
-	                    <h1>  Tags</h1>
+	                    <h1> Aliasadresser (kortadresser)</h1>
 	                </header>
 	                
+
+<p>Aliasadresser kan vara mycket användbara och göra specifika sidor på webbplatsen mer lättåtkomliga.</p>
+
+<ul>
+<li><p>Ett alias ska vara en permanent länk så långt det bara går. <a href="https://webbriktlinjer.se/r/56-lat-inte-en-webbadress-sluta-fungera/">Se webbriktlinje nr 56</a>.</p></li>
+
+<li><p>Om ett alias ändå ska avslutas måste det pekas om till närmsta relevanta eller liknande sida. Att peka om till startsidan är aldrig ett alternativ.</p></li>
+
+<li><p>Ett alias ska inte bestå utav å, ä eller ö eller specialtecken.</p></li>
+
+<li><p>Ett alias ska ej kunna betyda olika saker och får inte vara så generell att innehållet inte är representativt. Exempel: www.regionhalland.se/anmalan. En sådan adress skulle förutsätta att målsidan i sådant fall hanterar samtliga anmälningar, inom alla områden.</p></li>
+
+<li><p>Ett alias ska helst ej gå till en alltför specifik och kortsiktig målsida. Använd då hellre en mer generell landningssida. Exempelvis: /konferens som listar aktuella konferenser istället för att skapa unika aliasadresser för varje konferens.</p></li>
+
+<li><p>Använd inte externa tjänster (som exempelvis bit.ly) för vanliga sidor. En bra aliasadress är kort och fungerar utmärkt att dela i exempelvis sociala medier.</p></li>
+
+<li><p>Ett alias ska däremot aldrig gå till en nyhet. Här kan däremot externa tjänster som exempelvis bit.ly användas. Men tänk på att det är utom vår kontroll hur de url:erna fungerar över tid.</p></li>
+</ul>
+
+<h2 id="namngivning-av-aliasadress">Namngivning av aliasadress</h2>
+
+<p>För att en aliasadress verkligen ska göra det enklare för våra användare att snabbt hitta rätt information så måste den vara enkel att förstå, tolka och komma ihåg. Därför bör den inte vara lång och innehålla flera ord. Det kan krävas lite tid att komma fram till en riktigt bra aliasadress.
+För att skapa en ny aliasadress behöver du kontakta en administratör. (???)</p>
+
+<p>Förteckning av aktuella aliasadresser?</p>
+
 	            </article>
-        	</main>
+	        </main>
 
 
+
+			
+			<aside class="w-full md:w-3/12 px-4">
+			    <header>
+			    <h2>På sidan</h2>
+			    </header>
+			    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#namngivning-av-aliasadress">Namngivning av aliasadress</a></li>
+</ul></li>
+</ul>
+</nav>
+			</aside>
+			
 
 
         </div>

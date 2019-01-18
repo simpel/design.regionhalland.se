@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Teknik on Design</title>
+    <title>Tekniks on Design Guidelines</title>
     <link>http://localhost:1313/teknik/</link>
-    <description>Recent content in Teknik on Design</description>
+    <description>Recent content in Tekniks on Design Guidelines</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 14 Jan 2019 10:50:57 +0100</lastBuildDate>
+    <language>sv-se</language>
+    <lastBuildDate>Thu, 17 Jan 2019 22:47:33 +0100</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/teknik/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>teknik/Arkitektur</title>
-      <link>http://localhost:1313/teknik/arkitektur/</link>
-      <pubDate>Mon, 14 Jan 2019 13:46:55 +0100</pubDate>
+      <title>Aliasadresser (kortadresser)</title>
+      <link>http://localhost:1313/teknik/alias/</link>
+      <pubDate>Thu, 17 Jan 2019 22:47:33 +0100</pubDate>
       
-      <guid>http://localhost:1313/teknik/arkitektur/</guid>
-      <description> Arkitektur </description>
+      <guid>http://localhost:1313/teknik/alias/</guid>
+      <description>Aliasadresser kan vara mycket användbara och göra specifika sidor på webbplatsen mer lättåtkomliga.
+ Ett alias ska vara en permanent länk så långt det bara går. Se webbriktlinje nr 56.
+ Om ett alias ändå ska avslutas måste det pekas om till närmsta relevanta eller liknande sida. Att peka om till startsidan är aldrig ett alternativ.
+ Ett alias ska inte bestå utav å, ä eller ö eller specialtecken.</description>
     </item>
     
   </channel>

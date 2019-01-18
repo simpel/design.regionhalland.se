@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="sv-se">
   	<head>
-  		<title>Tags - design.regionhalland.se</title>
+  		<title>Installation - design.regionhalland.se</title>
 
 <meta charset="utf-8">
 <base href="http://localhost:1313">
 
-<link rel="canonical" href="http://localhost:1313/tags/">
+<link rel="canonical" href="http://localhost:1313/getting-started/installation/">
 
 
 <link rel="stylesheet" href="http://localhost:1313/sass/main.min.5d9dc271e59f507ac65eaddbb07fd48515af0027d336b37ac76f05b0abb9a0dd.css">
@@ -113,6 +113,8 @@
 	
 		
 	
+		
+	
 
 	
 
@@ -132,9 +134,25 @@
 
 	
 
+		<li class="breadcrumbs__item inline-block py-2 sm:py-2 relative" itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
+			<a class="breadcrumbs__link text-black" href="http://localhost:1313/getting-started/">Getting Started</a>
+
+			<span class="inline-block text-black opacity-25">
+				<i data-feather='chevron-right' class='w-4 h-4 mx-2'></i>
+			</span>
+
+			<meta itemprop="position" content="1">
+		</li>
+
+	
+
+	
+
+	
+
 		<li class="breadcrumbs__item inline-block py-2 sm:py-2 relative" aria-current="page" itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
 			<div class="absolute pin-b w-full -mb-1 h-1 bg-green rounded-t"></div>
-			<span class="breadcrumbs__span text-black" itemprop="name">Tags</span>
+			<span class="breadcrumbs__span text-black" itemprop="name">Installation</span>
 			<meta itemprop="position" content="2">
 		</li>
 
@@ -149,57 +167,106 @@
 
 
 
-<div class="bg-blue-dark mb-16">
-	<div class="w-full max-w-2xl mx-auto px-4 pt-16 pb-12">
-		
-	<span class="block flex items-center text-lg text-bold text-white no-underline mb-8">
-		<span class="flex h-8 w-8 rounded-full bg-white text-blue-dark flex items-center justify-center mr-2">
-			<i data-feather='home' class='w-4 h-4 align-middle'></i>
-		</span>
-		Design Guidelines
-	</span>
-
-
-		<h1 class="text-3xl md:text-4xl text-white my-4">  Tags</h1>
-		<p class="text-blue-light leading-loose text-xl">
-			
-		</p>
-
-
-		
-		
-
-		
-
-
-
-
-	<ul class="flex flex-wrap list-reset -mx-2 mt-8" aria-labelledby="Länklista">
-
-		
-	</ul>
-
-
-	</div>
-</div>
-
-    <div class="px-4 pt-8 md:pt-8 pb-12 w-full max-w-2xl mx-auto">
+    <div class="px-4 pt-8 md:pt-16 pb-12 w-full max-w-2xl mx-auto">
 
         <div class="flex flex-wrap items-stretch -mx-4 justify-start">
+			<aside class="w-full md:w-3/12 px-4 mb-8 hidden md:block">
+            
 
 
-	        <main class="w-full px-4">
+<nav>
+
+	<span class="rounded mb-4 block bg-blue-dark p-4">
+		
+	
+	<a href="http://localhost:1313/getting-started/" class="block flex items-center text-lg text-white text-bold no-underline hover:underline focus:underline">
+
+		<span class="flex h-8 w-8 rounded-full bg-white text-blue-dark flex items-center justify-center mr-2" aria-label="Gå ett steg uppåt i hierarkin">
+			<i data-feather='chevron-left' class='w-4 h-4 align-middle'></i>
+		</span>
+		Getting Started
+	</a>
+	
 
 
-				<article class="article">
+	</span>
+
+	<ul class="list-reset border border-grey-lightest rounded overflow-hidden">
+	    
+
+
+
+
+
+        
+        	<li class="border-t border-grey-lightest">
+				<a href="http://localhost:1313/getting-started/installation/" class="block py-4 px-3  active font-bold ">
+					<span class="inline-block text-black text-base no-underline hover:underline focus:underline">Installation</span>
+				</a>
+			</li>
+        
+
+	</ul>
+</nav>
+
+			</aside>
+
+	        <main class="w-full px-4 md:w-9/12 lg:w-6/12">
+	            <article class="article">
 	                <header>
-	                    <h1>  Tags</h1>
+	                    <h1> Installation</h1>
 	                </header>
 	                
+
+<h2 id="download-hugo-theme">Download Hugo theme</h2>
+
+<p>If you have git installed, you can do the following at the command-line-interface within the Hugo directory:</p>
+
+<pre><code>cd themes
+git clone https://github.com/thingsym/hugo-theme-techdoc.git
+</code></pre>
+
+<p>For more information read <a href="https://gohugo.io/themes/installing-and-using-themes/">the Hugo documentation</a>.</p>
+
+<h2 id="configure">Configure</h2>
+
+<p>You may specify options in config.toml (or config.yaml/config.json) of your site to make use of this theme&rsquo;s features.</p>
+
+<p>For an example of <code>config.toml</code>, see <a href="https://github.com/thingsym/hugo-theme-techdoc/blob/master/exampleSite/config.toml">config.toml</a> in exampleSite.</p>
+
+<p>See <a href="../configuration/">the Configuration documentation</a>.</p>
+
+<h2 id="preview-site">Preview site</h2>
+
+<p>To preview your site, run Hugo&rsquo;s built-in local server.</p>
+
+<pre><code>hugo server -t hugo-theme-techdoc
+</code></pre>
+
+<p>Browse site on <a href="http://localhost:1313">http://localhost:1313</a></p>
+
 	            </article>
-        	</main>
+	        </main>
 
 
+
+			
+			<aside class="w-full md:w-3/12 px-4">
+			    <header>
+			    <h2>På sidan</h2>
+			    </header>
+			    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#download-hugo-theme">Download Hugo theme</a></li>
+<li><a href="#configure">Configure</a></li>
+<li><a href="#preview-site">Preview site</a></li>
+</ul></li>
+</ul>
+</nav>
+			</aside>
+			
 
 
         </div>

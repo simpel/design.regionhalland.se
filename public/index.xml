@@ -1,14 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Design Guidelines</title>
+    <title>Välkommen on Design Guidelines</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Design Guidelines</description>
+    <description>Recent content in Välkommen on Design Guidelines</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-se</language>
+    <lastBuildDate>Tue, 17 Oct 2017 15:26:15 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Installation</title>
+      <link>http://localhost:1313/getting-started/installation/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>http://localhost:1313/getting-started/installation/</guid>
+      <description>Download Hugo theme If you have git installed, you can do the following at the command-line-interface within the Hugo directory:
+cd themes git clone https://github.com/thingsym/hugo-theme-techdoc.git  For more information read the Hugo documentation.
+Configure You may specify options in config.toml (or config.yaml/config.json) of your site to make use of this theme&amp;rsquo;s features.
+For an example of config.toml, see config.toml in exampleSite.
+See the Configuration documentation.
+Preview site To preview your site, run Hugo&amp;rsquo;s built-in local server.</description>
+    </item>
+    
+    <item>
+      <title>Aliasadresser (kortadresser)</title>
+      <link>http://localhost:1313/teknik/alias/</link>
+      <pubDate>Thu, 17 Jan 2019 22:47:33 +0100</pubDate>
+      
+      <guid>http://localhost:1313/teknik/alias/</guid>
+      <description>Aliasadresser kan vara mycket användbara och göra specifika sidor på webbplatsen mer lättåtkomliga.
+ Ett alias ska vara en permanent länk så långt det bara går. Se webbriktlinje nr 56.
+ Om ett alias ändå ska avslutas måste det pekas om till närmsta relevanta eller liknande sida. Att peka om till startsidan är aldrig ett alternativ.
+ Ett alias ska inte bestå utav å, ä eller ö eller specialtecken.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/design/tonalitet/text/driftstorningar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/design/tonalitet/text/driftstorningar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/design/tonalitet/text/nyhetsartiklar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/design/tonalitet/text/nyhetsartiklar/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
