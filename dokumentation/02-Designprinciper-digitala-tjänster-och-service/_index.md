@@ -5,7 +5,7 @@ status: wip
 > Dessa designprinciper har sitt urprung från gov.uk - översatta till svenska av Användningsforum (2012-2015) på uppdrag av Regeringen. Förslag: Region Halland anammar detta och låter det vara ryggraden i våra "spelregler"
 
 ## 1. Utgå från behoven
-**användarnas behov – inte myndighetens**
+**_användarnas behov_ – inte myndighetens**
 
 Designprocessen måste börja med att vi hittar och förstår användarnas behov. Tjänsterna måste bygga på deras behov – inte på hur våra interna processer ser ut. För att förstå behoven på djupet måste vi utgå från fakta, inte från lösa antaganden. Vi bör också komma ihåg att det användarna efterfrågar inte alltid är vad de behöver.
 

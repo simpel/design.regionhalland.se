@@ -2,9 +2,9 @@
 title: 'Spelregler för digitalisering i Region Halland'
 status: wip
 ---
-**Detta är ett mycket grovt och ofärdigt utkast, i ett tidigt skede, till en samlad gemensam katalog med handledning, riktlinjer och beskrivningar av hur Region Halland arbetar och kan arbeta med digitalisering.**
+**Detta är ett mycket grovt och ofärdigt utkast, i ett tidigt skede, till en samlad gemensam katalog med handledning, riktlinjer och beskrivningar av hur Region Halland arbetar och kan arbeta med digitalisering. Arbetsnamnet är Spelregler för digitalisering i Region Halland.**
 
-Nuvarande version syftar till  att påvisa andemeningen. Vissa saker saknas helt, andra bör kanske tas bort, döpas om eller flyttas.
+Nuvarande version syftar till att påvisa andemeningen inom organisationen och påbörja insamling och diskussion kring dess innehåll. Vissa saker saknas i dagsläget helt, andra bör kanske tas bort, döpas om eller flyttas.
 
 Alltihop är som sagt var under uppbyggnad och kan på sina ställen vara mer eller mindre genomtänkt. När vi så småningom når en version för påseende, reflektion och mer strukturerat arbete - kommer det också att meddelas här och i andra kanaler.
 
@@ -17,7 +17,7 @@ Har du frågor och synpunkter är du välkommen att kontakta [Mattias Skoog](mai
 
 ### Arbetssätt och ansvar
 
-### Utvecklingsprinciper digitala tjänster
+### Designprinciper digitala tjänster
 
 ### Arkitektur, drift och informationssäkerhet
 
