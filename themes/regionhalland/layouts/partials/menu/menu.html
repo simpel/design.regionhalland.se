@@ -2,32 +2,54 @@
 
 
 
-
 	<ul class="flex flex-wrap list-reset -mx-2 mt-8" aria-labelledby="Länklista">
 
-		{{ range .list.ByWeight }}
+		{{ $list := .Sections }}
+
+		{{ if not .IsHome }}
+			{{ $list = $list | append .Pages }}
+		{{ end }}
+
+		{{ range $list.ByWeight }}
+
+
 
 		<li class="w-full flex sm:w-6/12 lg:w-4/12">
 			<div class="bg-white flex-1 rounded border-l-4 border-blue mx-2 mb-4 p-4">
+
 				<a href="{{ .URL }}" class="text-blue-dark hover:bg-yellow-light focus:bg-yellow-light inline-block">
 					<h2 class="mb-2 text-xl md:text-2xl">{{ .Title }}</h2>
 				</a>
+
+				{{if not .IsPage }}
+
+					{{ $links := .Sections }}
+					{{ $links = $links | append .Pages }}
+
+					<p>
+
+					{{ range first 3 $links.ByWeight}}
+						<a href="{{ .URL }}" class="text-blue-dark hover:bg-yellow-light focus:bg-yellow-light inline-block">{{ .Title }}</a>,
+					{{end}}
+
+					{{ $rest := $links | symdiff (first 3 $links) }}
+
+					{{ if $rest }}
+						och <a href="{{ .URL }}">{{len $rest}} sidor till</a>
+					{{end}}
+					</p>
+				{{else}}
+					<p>{{.Param "description" }}</p>
+				{{end}}
+
+
+
+
+
+
 				<p class="leading-tight text-lg text-grey-darkest">
 
-					{{if .Pages }}
-						{{ range first 3 .Pages }}
-						<a href="{{ .URL }}" class="text-blue-dark hover:bg-yellow-light focus:bg-yellow-light inline-block">{{ .Title }}</a>,
-						{{end}}
 
-						{{ $rest := .Pages | symdiff (first 3 .Pages) }}
-
-						{{ if $rest }}
-						och <a href="{{ .URL }}">{{len $rest}} sidor till</a>
-						{{end}}
-
-					{{else}}
-						{{.Param "description" }}
-					{{end}}
 				</p>
 			</div>
 		</li>

@@ -1,14 +1,15 @@
 {{ define "main" }}
 
 <div class="bg-blue-dark mb-16">
-	<div class="w-full max-w-2xl mx-auto px-4 pt-16 pb-12">
+	<div class="w-full max-w-2xl mx-auto px-4 py-12">
 		{{ partial "menu/back.html" .}}
 		<h1 class="text-3xl md:text-4xl text-white mb-4">  {{ .Title }}</h1>
 		<p class="text-blue-light leading-loose text-xl">
 			{{ .Param "description" }}
 		</p>
-		{{ $list := .Sections }}
-		{{ partial "menu.html" (dict "menu" . "list" $list "type" "section") }}
+
+
+		{{ partial "menu/menu.html" . }}
 
 	</div>
 </div>

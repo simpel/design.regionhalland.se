@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Välkommen on Design Guidelines</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Välkommen on Design Guidelines</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-se</language>
+    <lastBuildDate>Tue, 17 Oct 2017 15:26:15 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installation</title>
+      <link>http://localhost:1313/getting-started/installation/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>http://localhost:1313/getting-started/installation/</guid>
+      <description>Download Hugo theme If you have git installed, you can do the following at the command-line-interface within the Hugo directory:
+cd themes git clone https://github.com/thingsym/hugo-theme-techdoc.git  For more information read the Hugo documentation.
+Configure You may specify options in config.toml (or config.yaml/config.json) of your site to make use of this theme&amp;rsquo;s features.
+For an example of config.toml, see config.toml in exampleSite.
+See the Configuration documentation.
+Preview site To preview your site, run Hugo&amp;rsquo;s built-in local server.</description>
+    </item>
+    
+    <item>
+      <title>_Checklista</title>
+      <link>http://localhost:1313/sakerhet/checklista/</link>
+      <pubDate>Thu, 17 Jan 2019 22:52:58 +0100</pubDate>
+      
+      <guid>http://localhost:1313/sakerhet/checklista/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>_Gdpr</title>
+      <link>http://localhost:1313/sakerhet/gdpr/</link>
+      <pubDate>Thu, 17 Jan 2019 22:52:52 +0100</pubDate>
+      
+      <guid>http://localhost:1313/sakerhet/gdpr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aliasadresser (kortadresser)</title>
+      <link>http://localhost:1313/teknik/alias/</link>
+      <pubDate>Thu, 17 Jan 2019 22:47:33 +0100</pubDate>
+      
+      <guid>http://localhost:1313/teknik/alias/</guid>
+      <description>Aliasadresser kan vara mycket användbara och göra specifika sidor på webbplatsen mer lättåtkomliga.
+ Ett alias ska vara en permanent länk så långt det bara går. Se webbriktlinje nr 56.
+ Om ett alias ändå ska avslutas måste det pekas om till närmsta relevanta eller liknande sida. Att peka om till startsidan är aldrig ett alternativ.
+ Ett alias ska inte bestå utav å, ä eller ö eller specialtecken.</description>
+    </item>
+    
+    <item>
+      <title>Riktlinjer</title>
+      <link>http://localhost:1313/design/anvandbarhet/riktlinjer/</link>
+      <pubDate>Thu, 17 Jan 2019 22:13:20 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/anvandbarhet/riktlinjer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ta_fram_ratt_tjanst</title>
+      <link>http://localhost:1313/design/anvandbarhet/ta_fram_ratt_tjanst/</link>
+      <pubDate>Thu, 17 Jan 2019 22:12:50 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/anvandbarhet/ta_fram_ratt_tjanst/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Word</title>
+      <link>http://localhost:1313/design/resurser/grafisk_profil/mallar/word/</link>
+      <pubDate>Thu, 17 Jan 2019 22:10:26 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/resurser/grafisk_profil/mallar/word/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Powerpoint</title>
+      <link>http://localhost:1313/design/resurser/grafisk_profil/mallar/powerpoint/</link>
+      <pubDate>Thu, 17 Jan 2019 22:10:15 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/resurser/grafisk_profil/mallar/powerpoint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Logotyp</title>
+      <link>http://localhost:1313/design/resurser/grafisk_profil/logotyp/</link>
+      <pubDate>Thu, 17 Jan 2019 22:09:49 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/resurser/grafisk_profil/logotyp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video</title>
+      <link>http://localhost:1313/design/tonalitet/bild_och_video/video/</link>
+      <pubDate>Thu, 17 Jan 2019 22:09:10 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/tonalitet/bild_och_video/video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bild</title>
+      <link>http://localhost:1313/design/tonalitet/bild_och_video/bild/</link>
+      <pubDate>Thu, 17 Jan 2019 22:09:05 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/tonalitet/bild_och_video/bild/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Figma</title>
+      <link>http://localhost:1313/arbetssatt/verktyg/figma/</link>
+      <pubDate>Thu, 17 Jan 2019 22:07:33 +0100</pubDate>
+      
+      <guid>http://localhost:1313/arbetssatt/verktyg/figma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workshops</title>
+      <link>http://localhost:1313/arbetssatt/metoder/workshops/</link>
+      <pubDate>Thu, 17 Jan 2019 22:06:52 +0100</pubDate>
+      
+      <guid>http://localhost:1313/arbetssatt/metoder/workshops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prototyper</title>
+      <link>http://localhost:1313/arbetssatt/metoder/prototyper/</link>
+      <pubDate>Thu, 17 Jan 2019 22:06:43 +0100</pubDate>
+      
+      <guid>http://localhost:1313/arbetssatt/metoder/prototyper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effektkarta</title>
+      <link>http://localhost:1313/arbetssatt/metoder/effektkarta/</link>
+      <pubDate>Thu, 17 Jan 2019 22:06:33 +0100</pubDate>
+      
+      <guid>http://localhost:1313/arbetssatt/metoder/effektkarta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kundresa</title>
+      <link>http://localhost:1313/arbetssatt/metoder/kundresa/</link>
+      <pubDate>Thu, 17 Jan 2019 22:06:23 +0100</pubDate>
+      
+      <guid>http://localhost:1313/arbetssatt/metoder/kundresa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tjanstekarta</title>
+      <link>http://localhost:1313/arbetssatt/metoder/tjanstekarta/</link>
+      <pubDate>Thu, 17 Jan 2019 22:06:11 +0100</pubDate>
+      
+      <guid>http://localhost:1313/arbetssatt/metoder/tjanstekarta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brödtexter</title>
+      <link>http://localhost:1313/design/tonalitet/text/brodtext/</link>
+      <pubDate>Thu, 17 Jan 2019 22:01:22 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/tonalitet/text/brodtext/</guid>
+      <description>Riktlinjer för brödtext på webbplatsens sidor och artiklar.
+Brödtext på vanliga sidor och artiklar  Den viktigaste informationen ska placeras högst upp på sidan.
+ Sidan ska inte vara för lång men ibland kan det krävas mycket text för att beskriva något. Då är det särskilt viktigt att strukturera texten med mellanrubriker, punktlistor och så vidare för att underlätta läsningen.
+ Om texten handlar om flera olika saker ska du överväga att dela upp innehållet på flera sidor.</description>
+    </item>
+    
+    <item>
+      <title>Dokument och bifogade filer</title>
+      <link>http://localhost:1313/design/tonalitet/text/dokument/</link>
+      <pubDate>Thu, 17 Jan 2019 22:01:22 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/tonalitet/text/dokument/</guid>
+      <description>Publicera dokument, som rapporter och utredningar, i webbplatsens standardformat (html). Andra format gör det svårare att komma åt informationen, eftersom de ofta kräver extra programvara. Om du ändå behöver lägga ut en pdf, se då till att göra den tillgänglig.
+Rekomendationer om dokumentformat  Publicera i första hand dokument i standardformatet html. Då kan användarna komma åt er information utan att använda en viss datorplattform, eller ett program som kostar pengar, till exempel Word.</description>
+    </item>
+    
+    <item>
+      <title>Ingresser</title>
+      <link>http://localhost:1313/design/tonalitet/text/ingresser/</link>
+      <pubDate>Thu, 17 Jan 2019 22:01:22 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/tonalitet/text/ingresser/</guid>
+      <description>En bra ingress fungerar som en inledande sammanfattning på vad din text handlar om. Men vad ska du tänka på när du skriver ingresser?
+Om rubriken är din första chans att intressera läsaren kan man säga att ingressen är din bästa chans. I textens första stycke har du jämfört med rubriken många ord på dig att säga det du vill. De flesta texter bör ha en inledande sammanfattning. Detta är extra viktigt när man skriver för webb.</description>
+    </item>
+    
+    <item>
+      <title>Kontaktuppgifter</title>
+      <link>http://localhost:1313/design/tonalitet/text/kontaktuppgifter/</link>
+      <pubDate>Thu, 17 Jan 2019 22:01:22 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/tonalitet/text/kontaktuppgifter/</guid>
+      <description> Innehåll tas fram efter djupare diskussion inom webbredaktionen.
+ </description>
+    </item>
+    
+    <item>
+      <title>Länkar och länktexter</title>
+      <link>http://localhost:1313/design/tonalitet/text/lankar/</link>
+      <pubDate>Thu, 17 Jan 2019 22:01:22 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/tonalitet/text/lankar/</guid>
+      <description>Skriv länkarna så att användarna förstår vart länken leder även när den är lyft ur sitt sammanhang. På webben skummar vi ofta igenom information och blicken fastnar på avvikelser såsom rubriker, markerade ord och länkar. Tydliga och informativa länkar gör att besökarna snabbare hittar den information de söker.
+Rekommendationer för länktexter Tydliga länkar är särskilt viktigt för personer som använder någon form av hjälpmedel för att surfa på webben, till exempel skärmläsare, eftersom de kan välja att navigera genom att enbart läsa upp länkarna på en sida.</description>
+    </item>
+    
+    <item>
+      <title>Rubriker</title>
+      <link>http://localhost:1313/design/tonalitet/text/rubriker/</link>
+      <pubDate>Thu, 17 Jan 2019 22:01:22 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/tonalitet/text/rubriker/</guid>
+      <description>Riktlinjer för att skriva korrekta sidrubriker, underrubriker, mindre rubriker samt rubriker i menyerna.
+Allmänt om rubriker  Rubriker ska alltid ha det viktigaste ordet först. Rubriker ska sammanfatta det som är viktigast på sidan. Du får inte använda fet eller kursiv stil i rubriker.  Sidrubrik  Bör vara mellan cirka xx tecken (helst) och cirka xx tecken (max), inklusive blanksteg. Sidrubriken behöver inte vara identisk med sidans namn, men de ska vara så lika som möjligt.</description>
+    </item>
+    
+    <item>
+      <title>Tabeller</title>
+      <link>http://localhost:1313/design/tonalitet/text/tabeller/</link>
+      <pubDate>Thu, 17 Jan 2019 22:01:22 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/tonalitet/text/tabeller/</guid>
+      <description>Riktlinjer för tabeller på Region Hallands webbplatser.
+ Tabeller får inte användas för design.
+ Tabeller får bara innehålla textdata, inte bilder och andra mediafiler.
+ Tabeller ska alltid ha en tabellbeskrivning (caption) som förklarar vad tabellen visar.
+ Använd i första hand de förinställda tabelltyperna på webbplatsen. (Vilket bör finnas)
+ Sammanfatta gärna tabellen i löpande text direkt efter tabellen.
+ Tabeller med många kolumner bör delas upp i flera tabeller.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/design/tonalitet/text/driftstorningar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/design/tonalitet/text/driftstorningar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/design/tonalitet/text/nyhetsartiklar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/design/tonalitet/text/nyhetsartiklar/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

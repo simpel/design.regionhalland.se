@@ -1,4 +1,0 @@
-{{ $list := .Sections }}
-{{ $list = $list | append .Pages }}
-
-{{ partial "menu.html" (dict "menu" . "list" $list "type" "list" "p" .Parent) }}.
