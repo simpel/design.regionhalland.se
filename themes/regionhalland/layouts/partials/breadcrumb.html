@@ -2,7 +2,7 @@
 
 
 
-<div class="bg-green-light border-b-4 border-green-light">
+<div class="bg-white border-t border-grey-lighter">
     <div class="max-w-2xl w-full mx-auto">
         <nav class="px-4">
             <ol class="breadcrumbs list-reset" aria-label="Länkstig" itemscope="" itemtype="http://schema.org/BreadcrumbList">
@@ -23,15 +23,15 @@
 
 	{{ if eq .p1 .p2 }}
 
-		<li class="breadcrumbs__item inline-block py-2 sm:py-2 relative" aria-current="page" itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
-			<div class="absolute pin-b w-full -mb-1 h-1 bg-green rounded-t"></div>
+		<li class="breadcrumbs__item inline-block py-4 sm:py-4 relative" aria-current="page" itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
+			<div class="absolute pin-b w-full -m-px bg-blue-dark z-100" style="height: 1px;"></div>
 			<span class="breadcrumbs__span text-black" itemprop="name">{{ .p1.Title }}</span>
 			<meta itemprop="position" content="2">
 		</li>
 
 	{{ else }}
 
-		<li class="breadcrumbs__item inline-block py-2 sm:py-2 relative" itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
+		<li class="breadcrumbs__item inline-block py-4 sm:py-4 relative" itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
 			<a class="breadcrumbs__link text-black" href="{{ .p1.Permalink }}">{{ .p1.Title }}</a>
 
 			<span class="inline-block text-black opacity-25">
