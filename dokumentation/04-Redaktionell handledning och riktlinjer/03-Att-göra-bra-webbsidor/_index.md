@@ -1,14 +1,10 @@
 ---
-title: 'Sidor, artiklar och dokument'
+title: 'Att göra bra webbsidor'
 status: wip
 ---
-Här har vi samlat riktlinjer för webbplatsens olika typer av sidor samt delar av sidor.
+Checklista för att skapa effektiva texter, ordlista och regler för uppföljning och gallring.
 
-Riktlinjerna täcker de flesta och mest använda delarna men inte allt. Tycker du att något saknas? Välkommen att höra av dig med dina förslag på förbättringar och tillägg.
-
->Formulär eller liknande för feedback
-
-## Övergripande tips för att skapa bra webbsidor
+## Tips för att skapa bra webbsidor
 
 De flesta besöker webbplatsen för att de måste, inte för att de vill. Här är tre tips för att göra webbesöket så smärtfritt som möjligt:
 
