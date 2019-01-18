@@ -3,13 +3,228 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://localhost:1313/design/anvandbarhet/riktlinjer/</loc>
+    <lastmod>2019-01-17T22:13:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/tonalitet/</loc>
+    <lastmod>2019-01-17T22:01:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/anvandbarhet/ta_fram_ratt_tjanst/</loc>
+    <lastmod>2019-01-17T22:12:50+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/arbetssatt/</loc>
+    <lastmod>2019-01-17T22:00:34+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/</loc>
+    <lastmod>2019-01-17T22:00:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/teknik/</loc>
+    <lastmod>2019-01-17T22:00:16+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/sakerhet/</loc>
+    <lastmod>2019-01-17T22:52:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/community/</loc>
+    <lastmod>2019-01-17T22:03:39+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/content/text/</loc>
+    <lastmod>2019-01-18T13:38:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/content/</loc>
+    <lastmod>2019-01-18T13:38:16+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/content/text/seo/</loc>
+    <lastmod>2019-01-18T13:38:08+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/arbetssatt/spelboken/</loc>
+    <lastmod>2019-01-18T13:34:46+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/skrivregler/</loc>
     <lastmod>2019-01-18T07:35:42+00:00</lastmod>
   </url>
   
   <url>
+    <loc>http://localhost:1313/sakerhet/checklista/</loc>
+    <lastmod>2019-01-17T22:52:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/sakerhet/gdpr/</loc>
+    <lastmod>2019-01-17T22:52:52+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/teknik/alias/</loc>
     <lastmod>2019-01-17T22:47:33+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/anvandbarhet/</loc>
+    <lastmod>2019-01-17T22:12:26+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/resurser/grafisk_profil/mallar/word/</loc>
+    <lastmod>2019-01-17T22:10:26+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/resurser/grafisk_profil/mallar/powerpoint/</loc>
+    <lastmod>2019-01-17T22:10:15+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/resurser/grafisk_profil/mallar/</loc>
+    <lastmod>2019-01-17T22:10:07+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/resurser/grafisk_profil/logotyp/</loc>
+    <lastmod>2019-01-17T22:09:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/resurser/grafisk_profil/</loc>
+    <lastmod>2019-01-17T22:09:39+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/content/video/</loc>
+    <lastmod>2019-01-17T22:09:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/content/bilder/</loc>
+    <lastmod>2019-01-17T22:09:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/arbetssatt/verktyg/figma/</loc>
+    <lastmod>2019-01-17T22:07:33+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/arbetssatt/metoder/workshops/</loc>
+    <lastmod>2019-01-17T22:06:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/arbetssatt/metoder/prototyper/</loc>
+    <lastmod>2019-01-17T22:06:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/arbetssatt/metoder/effektkarta/</loc>
+    <lastmod>2019-01-17T22:06:33+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/arbetssatt/metoder/kundresa/</loc>
+    <lastmod>2019-01-17T22:06:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/arbetssatt/metoder/tjanstekarta/</loc>
+    <lastmod>2019-01-17T22:06:11+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/anvandbarhet/tillganglighet/</loc>
+    <lastmod>2019-01-17T22:02:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/varumarke/</loc>
+    <lastmod>2019-01-17T22:01:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/content/text/brodtext/</loc>
+    <lastmod>2019-01-17T22:01:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/content/text/dokument/</loc>
+    <lastmod>2019-01-17T22:01:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/content/text/driftstorningar/</loc>
+    <lastmod>2019-01-17T22:01:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/content/text/ingresser/</loc>
+    <lastmod>2019-01-17T22:01:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/content/text/kontaktuppgifter/</loc>
+    <lastmod>2019-01-17T22:01:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/content/text/lankar/</loc>
+    <lastmod>2019-01-17T22:01:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/content/text/nyhetsartiklar/</loc>
+    <lastmod>2019-01-17T22:01:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/resurser/</loc>
+    <lastmod>2019-01-17T22:01:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/content/text/rubriker/</loc>
+    <lastmod>2019-01-17T22:01:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/content/text/tabeller/</loc>
+    <lastmod>2019-01-17T22:01:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/tonalitet/text/</loc>
+    <lastmod>2019-01-17T22:01:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/arbetssatt/verktyg/</loc>
+    <lastmod>2019-01-17T22:01:06+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/arbetssatt/metoder/</loc>
+    <lastmod>2019-01-17T22:00:58+01:00</lastmod>
   </url>
   
   <url>
@@ -24,12 +239,6 @@
   
   <url>
     <loc>http://localhost:1313/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/teknik/</loc>
-    <lastmod>2019-01-17T22:47:33+01:00</lastmod>
     <priority>0</priority>
   </url>
   

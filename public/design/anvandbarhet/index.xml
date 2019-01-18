@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Användbarhet on Design Guidelines</title>
+    <link>http://localhost:1313/design/anvandbarhet/</link>
+    <description>Recent content in Användbarhet on Design Guidelines</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-se</language>
+    <lastBuildDate>Thu, 17 Jan 2019 22:12:26 +0100</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/design/anvandbarhet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Riktlinjer</title>
+      <link>http://localhost:1313/design/anvandbarhet/riktlinjer/</link>
+      <pubDate>Thu, 17 Jan 2019 22:13:20 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/anvandbarhet/riktlinjer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ta fram rätt tjänst</title>
+      <link>http://localhost:1313/design/anvandbarhet/ta_fram_ratt_tjanst/</link>
+      <pubDate>Thu, 17 Jan 2019 22:12:50 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/anvandbarhet/ta_fram_ratt_tjanst/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

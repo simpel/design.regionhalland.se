@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Innehållsproduktion on Design Guidelines</title>
+    <link>http://localhost:1313/design/content/</link>
+    <description>Recent content in Innehållsproduktion on Design Guidelines</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-se</language>
+    <lastBuildDate>Fri, 18 Jan 2019 13:38:16 +0100</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/design/content/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Video</title>
+      <link>http://localhost:1313/design/content/video/</link>
+      <pubDate>Thu, 17 Jan 2019 22:09:10 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/content/video/</guid>
+      <description>Riktlinjer för att publicera video på regionhalland.se.
+Begreppet video omfattar i det här sammanhanget all rörlig media som presenteras på en webbsida, det vill säga: filmer, TV-produktioner, direktsändningar, webbseminarier, innehåll i utbildningar, animeringar och så vidare.
+ Video presenteras i första hand infogat direkt på sidan.
+ Video som integreras direkt på sidan måste vara publicerad via någon av regionens officiella konton på Youtube eller en Facebooksida i Region Hallands regi.</description>
+    </item>
+    
+    <item>
+      <title>Bild</title>
+      <link>http://localhost:1313/design/content/bilder/</link>
+      <pubDate>Thu, 17 Jan 2019 22:09:05 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/content/bilder/</guid>
+      <description>Bilder ska bara användas om de är betydelsebärande, det vill säga tillför information som inte finns i texten, kompletterar textens innehåll, eller förtydligar sammanhanget som texten förekommer i.
+ Detta gäller vanliga sidor och artiklar. Huvudsidor och ämnessidor kan däremot ha bilder som är enbart dekorativa.
+ Du ska inte använda bilder enbart för att &amp;ldquo;lätta upp&amp;rdquo; en sida.
+ I vissa fall kan bilder användas för att göra en sida lättare att läsa, till exempel för att fästa blicken vid långa uppräkningar.</description>
+    </item>
+    
+  </channel>
+</rss>

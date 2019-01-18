@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Text on Design Guidelines</title>
+    <link>http://localhost:1313/design/tonalitet/text/</link>
+    <description>Recent content in Text on Design Guidelines</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-se</language>
+    <lastBuildDate>Thu, 17 Jan 2019 22:01:22 +0100</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/design/tonalitet/text/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
