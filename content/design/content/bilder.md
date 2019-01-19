@@ -1,7 +1,7 @@
 ---
 title: "Bild"
 date: 2019-01-17T22:09:05+01:00
-draft: true
+draft: false
 description: "some desc"
 ---
 - Bilder ska bara användas om de är betydelsebärande, det vill säga tillför information som inte finns i texten, kompletterar textens innehåll, eller förtydligar sammanhanget som texten förekommer i.

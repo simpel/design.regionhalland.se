@@ -2,7 +2,7 @@
 title: 'Länkar och länktexter'
 status: wip
 date: 2019-01-17T22:01:22+01:00
-draft: true
+draft: false
 ---
 Skriv länkarna så att användarna förstår vart länken leder även när den är lyft ur sitt sammanhang. På webben skummar vi ofta igenom information och blicken fastnar på avvikelser såsom rubriker, markerade ord och länkar. Tydliga och informativa länkar gör att besökarna snabbare hittar den information de söker.
 

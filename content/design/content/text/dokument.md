@@ -2,7 +2,7 @@
 title: 'Dokument och bifogade filer'
 status: wip
 date: 2019-01-17T22:01:22+01:00
-draft: true
+draft: false
 ---
 Publicera dokument, som rapporter och utredningar, i webbplatsens standardformat (html). Andra format gör det svårare att komma åt informationen, eftersom de ofta kräver extra programvara. Om du ändå behöver lägga ut en pdf, se då till att göra den tillgänglig.
 

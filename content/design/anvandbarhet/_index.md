@@ -1,7 +1,7 @@
 ---
 title: "Användbarhet"
 date: 2019-01-17T22:12:26+01:00
-draft: true
+draft: false
 ---
 Här har vi samlat riktlinjer för webbplatsens olika typer av sidor samt delar av sidor.
 

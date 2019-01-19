@@ -1,7 +1,7 @@
 ---
 title: "Video"
 date: 2019-01-17T22:09:10+01:00
-draft: true
+draft: false
 ---
 
 Riktlinjer för att publicera video på regionhalland.se.

@@ -1,7 +1,7 @@
 ---
 title: "Spelboken"
 date: 2019-01-18T13:34:46+01:00
-draft: true
+draft: false
 description: "Beskrivning av sidan"
 ---
 

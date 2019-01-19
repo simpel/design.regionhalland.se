@@ -2,7 +2,7 @@
 title: 'Rubriker'
 status: wip
 date: 2019-01-17T22:01:22+01:00
-draft: true
+draft: false
 ---
 Riktlinjer för att skriva korrekta sidrubriker, underrubriker, mindre rubriker samt rubriker i menyerna.
 
