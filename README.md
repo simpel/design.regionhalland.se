@@ -7,44 +7,29 @@ Vill du bidra till att bygga upp den här sajten? Hurra för det! Följ installa
 
 ## Installation
 
-### Innan du börjar...
+1. Sajten använder sig av [Hugo](https://gohugo.io/) så [följ deras instruktioner](https://gohugo.io/getting-started/installing/) för hur du installerar Hugo. Enklast är att installera Hugo via Homebrew.
+2. Testa att hugo är installerat genom att i terminalen skriva `Hugo version`. Printar terminalen ut något liknande så ser allt bra ut:
+`Hugo Static Site Generator v0.53/extended darwin/amd64 BuildDate: unknown`
 
-- Se till att `NPM/Node.js` är [installerat](https://www.npmjs.com/get-npm) på din dator
-- Se till att `Git` är [installerat](https://desktop.github.com/) på din dator
-- Installera Gulp genom att skriva följande två kommandon i din terminal:
-   - `sudo npm install gulp-cli -g`
-   - `sudo npm install gulp -D`
+### Utveckla lokalt
 
-### Kör lokalt
-
-2. Ta först [hem reposet lokalt](https://desktop.github.com/), gör sedan följande i din terminal (i reposets folder):
-1. `npm install`
-2. `gulp`
-3. Besök den URL som terminalen ger dig, troligtvis http://localhost:3000
+1. Ladda hem [GitHubs desktop app](https://desktop.github.com/) för att hantera GIT.
+2. [Ta hem vårt repos!](x-github-client://openRepo/https://github.com/RegionHalland/design.regionhalland.se)
+3. Installera på valfri plats på din dator.
+4. Ställ dig i din valda mapp i Terminalen och skriv: ´hugo server -w´
+3. Besök den URL som terminalen ger dig, troligtvis [http://localhost:1313](http://localhost:1313)
 4. Tuta och 🏎!
 
 ## Hur kan jag redigera innehåll på sajten?
-Fractal applicerar [GitHub flavoured markdown](https://guides.github.com/features/mastering-markdown/) för allt innehåll.
-
-### Redigera dokumentation m.m.
-Allt innehåll, förutom komponenter, finns i `/docs/*` och mer detaljerad info om hur man redigerar dokument finns på [Fractals hemsida](https://fractal.build/guide/documentation/#a-simple-page)
-
-### Redigera komponenter m.m.
-[Redigering av komponenter](https://fractal.build/guide/components/) särskiljer sig något från övrig dokumentation så läs mer på Fractals egna sajt.
+1. Bli vän med Hugos [dokumentation](https://gohugo.io/documentation/)
+2. Redigera existerande sidor genom att skriva i `/content` mappen.
+3. Skapa nya sidor genom att i terminalen skriva `hugo new path/till/dinfil/namn.md`
+    1. Sajten applicerar [GitHub flavoured markdown](https://guides.github.com/features/mastering-markdown/) för allt innehåll.
+    2. Ta gärna en titt på [Hugos Shortcodes](https://gohugo.io/content-management/shortcodes/) för att lägga till t.ex. video, tweets m.m. på en sida
 
 ### Hantering av bilder m.m.
-Om du vill använda bilder m.m. i din dokumentation så lägg alla assets i `/public/*` och hänvisa sedan till dem i din dokumentation t.ex. så här: `{{path '/public/exempelfil.zip'}}`.
+Om du vill använda bilder m.m. i din dokumentation så lägg alla assets i `/static/*` och hänvisa sedan till dem i din dokumentation t.ex. så här: `{{< figure src="/mapp/fil.jpg" title="Dieter Rams" alt="text" >}}`.
 
-## Utveckling
-I princip följer vi den dokumentation som Fractal ger oss via sin webbplats. Ett undantag har dock gjort i det att vi kompilerar vår egen CSS. Detta görs via Gulp och filen `/theme/scss/skin.scss`. Här tar vi in all SCSS från Mandelbrot, Fractals tema, men applicerar våra egna variabler då vi t.ex. vill nyttja vårt typsnitt. Utöver detta skriver vi över en del av Fractals template filer i `/theme/views` och applicerar en stor mängd inställningar av Fractal i `/gulpfile.js`.
+### Publicera till produktion
 
-### Bygg en build
-
-För att exportera ut Fractal till statiska filer som vi kan köra upp på http://design.regionhalland.se så behöver vi bygga en build. Detta göra du genom att skriva `gulp build` när du står i `/`. Det i sin tur kommer att generera statiska HTML filer till `/build` som vi sedan kan lägga på vår server.
-
-#### Publicera på github pages
-Kör `git subtree push --prefix build origin gh-pages` om du vill publicera din build på https://regionhalland.github.io/design.regionhalland.se/
-
-#### TEST-STAGE INTERNT URL -
-- http://demo.regionhalland.se/rh-cdn/design.regionhalland.se/build
-- Pull repo via url: http://demo.regionhalland.se/rh-cdn/gitpull/design/?token=FRÅGA JOHN
+Detta är skrämmande enkelt. Bumpa bara upp versionnumret i config.toml, commita och byt seda till ´production´ branschen och merga. När du commitar till ´production´ så byggs en ny version på [Netlify](https://regionhalland-design.netlify.com/)

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arbetssätt on Design Guidelines</title>
+    <link>http://localhost:1313/arbetssatt/</link>
+    <description>Recent content in Arbetssätt on Design Guidelines</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-se</language>
+    <lastBuildDate>Thu, 17 Jan 2019 22:00:34 +0100</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/arbetssatt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spelboken</title>
+      <link>http://localhost:1313/arbetssatt/spelboken/</link>
+      <pubDate>Fri, 18 Jan 2019 13:34:46 +0100</pubDate>
+      
+      <guid>http://localhost:1313/arbetssatt/spelboken/</guid>
+      <description>Dessa designprinciper har sitt urprung från gov.uk - översatta till svenska av Användningsforum (2012-2015) på uppdrag av Regeringen. Förslag: Region Halland anammar detta och låter det vara ryggraden i våra &amp;ldquo;spelregler&amp;rdquo;
+ 1. Utgå från behoven användarnas behov – inte myndighetens
+Designprocessen måste börja med att vi hittar och förstår användarnas behov. Tjänsterna måste bygga på deras behov – inte på hur våra interna processer ser ut. För att förstå behoven på djupet måste vi utgå från fakta, inte från lösa antaganden.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mallar on Design Guidelines</title>
+    <link>http://localhost:1313/design/resurser/grafisk_profil/mallar/</link>
+    <description>Recent content in Mallar on Design Guidelines</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-se</language>
+    <lastBuildDate>Thu, 17 Jan 2019 22:10:07 +0100</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/design/resurser/grafisk_profil/mallar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Word</title>
+      <link>http://localhost:1313/design/resurser/grafisk_profil/mallar/word/</link>
+      <pubDate>Thu, 17 Jan 2019 22:10:26 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/resurser/grafisk_profil/mallar/word/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Powerpoint</title>
+      <link>http://localhost:1313/design/resurser/grafisk_profil/mallar/powerpoint/</link>
+      <pubDate>Thu, 17 Jan 2019 22:10:15 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/resurser/grafisk_profil/mallar/powerpoint/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

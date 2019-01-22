@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Metoder on Design Guidelines</title>
+    <link>http://localhost:1313/arbetssatt/metoder/</link>
+    <description>Recent content in Metoder on Design Guidelines</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-se</language>
+    <lastBuildDate>Thu, 17 Jan 2019 22:00:58 +0100</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/arbetssatt/metoder/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Workshops</title>
+      <link>http://localhost:1313/arbetssatt/metoder/workshops/</link>
+      <pubDate>Thu, 17 Jan 2019 22:06:52 +0100</pubDate>
+      
+      <guid>http://localhost:1313/arbetssatt/metoder/workshops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prototyper</title>
+      <link>http://localhost:1313/arbetssatt/metoder/prototyper/</link>
+      <pubDate>Thu, 17 Jan 2019 22:06:43 +0100</pubDate>
+      
+      <guid>http://localhost:1313/arbetssatt/metoder/prototyper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effektkarta</title>
+      <link>http://localhost:1313/arbetssatt/metoder/effektkarta/</link>
+      <pubDate>Thu, 17 Jan 2019 22:06:33 +0100</pubDate>
+      
+      <guid>http://localhost:1313/arbetssatt/metoder/effektkarta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kundresa</title>
+      <link>http://localhost:1313/arbetssatt/metoder/kundresa/</link>
+      <pubDate>Thu, 17 Jan 2019 22:06:23 +0100</pubDate>
+      
+      <guid>http://localhost:1313/arbetssatt/metoder/kundresa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tjanstekarta</title>
+      <link>http://localhost:1313/arbetssatt/metoder/tjanstekarta/</link>
+      <pubDate>Thu, 17 Jan 2019 22:06:11 +0100</pubDate>
+      
+      <guid>http://localhost:1313/arbetssatt/metoder/tjanstekarta/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

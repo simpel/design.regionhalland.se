@@ -1,7 +1,0 @@
-<div class="flex flex-wrap items-center justify-between mb-2">
-    <h1 class="items-center flex flex-wrap">
-		{{ entity.title }}
-		
-	</h1>
-    {{ status.tag(entity.status) }}
-</div>

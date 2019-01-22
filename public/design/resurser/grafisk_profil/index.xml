@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grafisk profil on Design Guidelines</title>
+    <link>http://localhost:1313/design/resurser/grafisk_profil/</link>
+    <description>Recent content in Grafisk profil on Design Guidelines</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-se</language>
+    <lastBuildDate>Thu, 17 Jan 2019 22:09:39 +0100</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/design/resurser/grafisk_profil/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Logotyp</title>
+      <link>http://localhost:1313/design/resurser/grafisk_profil/logotyp/</link>
+      <pubDate>Thu, 17 Jan 2019 22:09:49 +0100</pubDate>
+      
+      <guid>http://localhost:1313/design/resurser/grafisk_profil/logotyp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
