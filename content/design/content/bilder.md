@@ -1,9 +1,11 @@
 ---
-title: "Bild"
+title: "Bilder på våra webbplatser"
 date: 2019-01-17T22:09:05+01:00
 draft: false
-description: "some desc"
+description: "Riktlinjer för att publicera bilder på Region Hallands webbplatser"
 ---
+Riktlinjer för bildhantering på Region Hallands webbplatser.
+
 - Bilder ska bara användas om de är betydelsebärande, det vill säga tillför information som inte finns i texten, kompletterar textens innehåll, eller förtydligar sammanhanget som texten förekommer i.
   - Detta gäller vanliga sidor och artiklar. Huvudsidor och ämnessidor kan däremot ha bilder som är enbart dekorativa.
 

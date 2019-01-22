@@ -1,8 +1,8 @@
 ---
 title: "Att göra sidor som syns bra i sökmotorer"
-date: 2019-01-18T13:38:08+01:00
+date: 2019-01-22T11:38:08+01:00
 draft: false
-description: "Beskrivning av sidan"
+description: "Generella tips för att skapa sökbara sidor"
 ---
 Det finns egentligen inga hemliga knep för att dina sidor ska hamna högt i sökträfflistorna. Nyckeln till att göra sökbara sidor är att använda ett så naturligt och effektivt språk som möjligt. Sökmotorer läser text på ungefär samma sätt som vi människor, därför är tipsen lika mycket allmänna skrivråd som stöd för att göra dina sidor attraktiva för sökmotorer.
 Att sidorna är sökbara är viktigt. Mellan 70-75% (kolla aktuell statistik) av trafiken till regionhalland.se kommer från Google direkt in till en undersida, och därmed är det väldigt viktigt ur ett direkt användarperspektiv, hur den sökmotorn tolkar innehållet på våra webbsidor.
