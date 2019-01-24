@@ -54,7 +54,7 @@ Ofta går det att skapa högre tillgänglighet i din film redan när du planerar
 Använder du manus i produktionen kan det också med fördel användas som underlag för filmens undertexter. På det sättet är mycket av textningsjobbet redan gjort när du gör slutredigeringen av filmen.
 
 ### Automatisk översättning på svenska
-Tjänsten textamig.se kan vara till hjälp med att få en första transkribering. Den måste dock korrekturläsas och justeras före publicering då den görs helt maskinellt och automatiskt. För bästa resultat bör du se till att ljudkvalitén är hög samt att personerna som medverkar i videon talar tydligt och utan utpräglad dialekt.
+Tjänsten textamig.se (under utveckling) kan vara till hjälp med att få en första transkribering. Den måste dock korrekturläsas och justeras före publicering då den görs helt maskinellt och automatiskt. För bästa resultat bör du se till att ljudkvalitén är hög samt att personerna som medverkar i videon talar tydligt och utan utpräglad dialekt.
 
-Här är en instruktionsvideo för textamig.se:
+Här är en instruktionsvideo för verktyget textamig.se:
 {{< youtube RAsVWC5jilE >}}

@@ -1,10 +1,10 @@
 ---
 date: 2017-10-17T15:26:15Z
 lastmod: 2018-12-05T15:26:15Z
-title: Välkommen
-description: På denna webbplats kan du ta del av metoder, verktyg och guidelines för att skapa kundresor som ger de effekter vi vill uppnå.
+title: Guide för Digitalisering i Region Halland
+description: På denna webbplats finner du våra metoder, verktyg och guider för att skapa kundresor som ger de effekter vi vill uppnå.
 ---
-**Detta är ett mycket grovt och ofärdigt utkast, i ett tidigt skede, till en samlad gemensam katalog med handledning, riktlinjer och beskrivningar av hur Region Halland arbetar och kan arbeta med digitalisering. Arbetsnamnet är Spelregler för digitalisering i Region Halland.**
+**Detta är ett mycket grovt och ofärdigt utkast, i ett tidigt skede, till en samlad gemensam katalog med handledning, riktlinjer och beskrivningar av hur Region Halland arbetar och kan arbeta med digitalisering. Arbetsnamnet är "Guide för digitalisering i Region Halland".**
 
 Nuvarande version syftar till att påvisa andemeningen inom organisationen och påbörja insamling och diskussion kring dess innehåll. Vissa saker saknas i dagsläget helt, andra bör kanske tas bort, döpas om eller flyttas.
 
