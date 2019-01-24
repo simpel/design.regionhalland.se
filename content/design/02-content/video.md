@@ -1,10 +1,10 @@
 ---
-title: "Video"
+title: "Video på våra webbplatser"
 date: 2019-01-17T22:09:10+01:00
 draft: false
+description: "Riktlinjer för att publicera video på Region Hallands webbplatser"
 ---
-
-Riktlinjer för att publicera video på regionhalland.se.
+Riktlinjer för att publicera video på Region Hallands webbplatser.
 
 Begreppet video omfattar i det här sammanhanget all rörlig media som presenteras på en webbsida, det vill säga: filmer, TV-produktioner, direktsändningar, webbseminarier, innehåll i utbildningar, animeringar och så vidare.
 
@@ -31,8 +31,6 @@ Begreppet video omfattar i det här sammanhanget all rörlig media som presenter
 
 {{< youtube CSpT8UdDrH8 >}}
 
-Videoklippet ovan är inbäddat genom att klistra in url:en https://www.youtube.com/watch?v=TBL1AFq9i8Q på sidan. (ersätt med nytt exempel samt bädda in videon på sidan)
-
 ## Riktlinjer för tillgänglig video
 
   - Video som publicerats efter den 23/8 2018 ska vara tillgänglighetsanpassad senast den 23/9 2019.
@@ -55,6 +53,8 @@ Ofta går det att skapa högre tillgänglighet i din film redan när du planerar
 
 Använder du manus i produktionen kan det också med fördel användas som underlag för filmens undertexter. På det sättet är mycket av textningsjobbet redan gjort när du gör slutredigeringen av filmen.
 
-Tjänsten textamig.se kan vara till hjälp med att få en första transkribering. Den måste dock korrekturläsas och justeras före publicering då den görs helt maskinellt och automatiskt. För bästa resultat bör du se till att ljudkvalitén är hög samt att personerna som medverkar i videon talar tydligt och utan utpräglad dialekt.
+### Automatisk översättning på svenska
+Tjänsten textamig.se (under utveckling) kan vara till hjälp med att få en första transkribering. Den måste dock korrekturläsas och justeras före publicering då den görs helt maskinellt och automatiskt. För bästa resultat bör du se till att ljudkvalitén är hög samt att personerna som medverkar i videon talar tydligt och utan utpräglad dialekt.
 
-> Eventuellt kan vi väva in en instruktionsfilm som denna eller annan för att ytterligare vägleda
+Här är en instruktionsvideo för verktyget textamig.se:
+{{< youtube RAsVWC5jilE >}}

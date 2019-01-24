@@ -5,7 +5,7 @@ title: Enkla, tydliga och snabba kundmöten
 linktitle: Start
 description: På denna webbplats kan du ta del av metoder, verktyg och guidelines för att skapa kundresor som är enkla för halläningen och som ger de effekter vi vill uppnå.
 ---
-**Detta är ett mycket grovt och ofärdigt utkast, i ett tidigt skede, till en samlad gemensam katalog med handledning, riktlinjer och beskrivningar av hur Region Halland arbetar och kan arbeta med digitalisering. Arbetsnamnet är Spelregler för digitalisering i Region Halland.**
+**Detta är ett mycket grovt och ofärdigt utkast, i ett tidigt skede, till en samlad gemensam katalog med handledning, riktlinjer och beskrivningar av hur Region Halland arbetar och kan arbeta med digitalisering. Arbetsnamnet är "Guide för digitalisering i Region Halland".**
 
 Nuvarande version syftar till att påvisa andemeningen inom organisationen och påbörja insamling och diskussion kring dess innehåll. Vissa saker saknas i dagsläget helt, andra bör kanske tas bort, döpas om eller flyttas.
 
