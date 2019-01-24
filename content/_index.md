@@ -1,8 +1,9 @@
 ---
 date: 2017-10-17T15:26:15Z
 lastmod: 2018-12-05T15:26:15Z
-title: Välkommen
-description: På denna webbplats kan du ta del av metoder, verktyg och guidelines för att skapa kundresor som ger de effekter vi vill uppnå.
+title: Enkla, tydliga och snabba kundmöten
+linktitle: Start
+description: På denna webbplats kan du ta del av metoder, verktyg och guidelines för att skapa kundresor som är enkla för halläningen och som ger de effekter vi vill uppnå.
 ---
 **Detta är ett mycket grovt och ofärdigt utkast, i ett tidigt skede, till en samlad gemensam katalog med handledning, riktlinjer och beskrivningar av hur Region Halland arbetar och kan arbeta med digitalisering. Arbetsnamnet är Spelregler för digitalisering i Region Halland.**
 
