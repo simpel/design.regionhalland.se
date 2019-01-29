@@ -5,7 +5,13 @@
 
 	<div class="w-full max-w-2xl mx-auto px-4 py-12">
 		{{ partial "menu/back.html" .}}
-		<h1 class="text-3xl md:text-4xl my-4">  {{ .Title }}</h1>
+
+
+		<div class="flex justify-between items-baseline">
+		<h1 class="text-3xl md:text-4xl my-4">{{ .Title }}</h1>
+		<a href="{{ .Param "content_path" }}/{{ .File.Path }}" class="text-grey-darkest"><i data-feather='edit' class='w-4 h-4 ml-2'></i> Redigera denna sidan</a>
+		</div>
+		
 		<p class="text-grey-darkest leading-loose text-xl">
 			{{ .Param "description" }}
 		</p>

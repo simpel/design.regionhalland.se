@@ -7,13 +7,17 @@
             {{ partial "sidebar.html" .}}
 			</aside>
 
-	        <main class="w-full px-4 md:w-9/12 lg:w-6/12">
+	        <main class="w-full px-4 md:w-9/12 lg:w-9/12">
 	            <article class="article">
 
-	                <header>
-	                    <h1> {{ .Title }}</h1>
-	                </header>
-	                {{ .Content }}
+                        <header class="flex justify-between items-baseline">
+        				<h1 class="text-3xl md:text-4xl mb-4">{{ .Title }}</h1>
+        				<a href="{{ .Param "content_path" }}/{{ .File.Path }}" class="text-grey-darkest"><i data-feather='edit' class='w-4 h-4 ml-2'></i> Redigera denna sidan</a>
+        				</header>
+
+                        <div class=" lg:w-6/12">
+                        {{ .Content }}
+                        </div>
 	            </article>
 	        </main>
 

@@ -11,7 +11,7 @@ DefaultContentLanguage = "sv"
   email = "joel.sanden@regionhalland.se"
   github_repository = "https://github.com/RegionHalland/design.regionhalland.se"
   version = "0.0.2"
-
+  content_path = "https://github.com/RegionHalland/design.regionhalland.se/tree/production/content"
 
 [privacy]
     [privacy.disqus]

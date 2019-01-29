@@ -4,9 +4,14 @@
 <div class="px-4 pt-8 md:pt-16 pb-12 w-full max-w-2xl mx-auto">
 	<div class="flex flex-wrap items-stretch -mx-4 justify-start">
 		<main class="w-full px-4">
+
 			<article class="article">
+				<div class="flex justify-between items-baseline">
 				<h1 class="text-3xl md:text-4xl mb-4">{{ .Title }}</h1>
+				<a href="{{ .Param "content_path" }}/{{ .File.Path }}" class="text-grey-darkest"><i data-feather='edit' class='w-4 h-4 ml-2'></i> Redigera denna sidan</a>
+				</div>
 				<p class=" leading-loose text-xl">
+
 					{{ .Param "description" }}
 				</p>
 			</article>
