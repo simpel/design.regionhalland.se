@@ -1,11 +1,13 @@
-<div class="shadow p-4 mb-8 max-w-md border border-grey-lightest">
-    <article class="article">
-        <h2 style="margin-top: 0;">
-        {{ .Get "title" }}
-        </h2>
-        {{ .Inner }}
-    </article>
-<p>
-    <a href="{{.Get "link" }}" class="inline-flex no-underline text-white bg-blue-dark hover:underline px-6 items-center justify-between py-4 text-lg rounded">Läs mer om "{{.Get "title" }}" <i data-feather='chevron-right' class='w-4 h-4 ml-2'></i></a>
-</p>
+<div class="w-100 sm:w-6/12 lg:w-4/12 mb-4 flex items-stretch">
+    <div class="shadow border border-grey-lightest m-4 p-4 flex flex-col align-between">
+        <article class="article flex-1">
+            <h2 style="margin-top: 0;">
+            {{ .Get "title" }}
+            </h2>
+            {{ .Inner }}
+        </article>
+
+        <a href="{{.Get "link" }}" class="inline-flex no-underline text-white bg-blue-dark hover:underline px-6 items-center justify-between py-4 text-lg rounded">Läs mer om "{{.Get "title" }}" <i data-feather='chevron-right' class='w-4 h-4 ml-2'></i></a>
+
+    </div>
 </div>

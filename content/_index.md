@@ -4,10 +4,13 @@ date: 2019-01-24T11:17:38+01:00
 draft: false
 weight: 0
 ---
+
+
+{{< grid >}}
+
 {{% card link="/principer/digitalt forst" title="Tänk digitalt först" %}}
 Lorem ipsum dolor sit amet
 {{% /card %}}
-
 
 {{% card link="/principer/lar-kanna-anvandaren" title="Lär känna användaren" %}}
 Varje projekt måste baseras på behov och insikter från riktiga användare. Vilket problem vill användaren få löst och hur ska vår lösning passa in i hennes vardag? Oavsett målgrupp för projektet så måste riktiga användare vara med från starten.
@@ -28,3 +31,5 @@ Ett av våra större problem idag är att vi har för många verktyg. Våra pati
 {{% card link="/principer/komplexenklt" title="Gör det enkelt"%}}
 Ingen vill spendera tid på din lösning, vi har alla annat att göra så se därför till att vara enkelt.
 {{% /card %}}
+
+{{< /grid >}}
