@@ -1,0 +1,11 @@
+<div class="shadow p-4 mb-8 max-w-md border border-grey-lightest">
+    <article class="article">
+        <h2 style="margin-top: 0;">
+        {{ .Get "title" }}
+        </h2>
+        {{ .Inner }}
+    </article>
+<p>
+    <a href="{{.Get "link" }}" class="inline-flex no-underline text-white bg-blue-dark hover:underline px-6 items-center justify-between py-4 text-lg rounded">Läs mer om "{{.Get "title" }}" <i data-feather='chevron-right' class='w-4 h-4 ml-2'></i></a>
+</p>
+</div>

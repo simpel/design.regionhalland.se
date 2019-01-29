@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kvalitet och uppföljning on Design Guidelines</title>
+    <link>http://localhost:1313/kvalitet-och-uppfoljning/</link>
+    <description>Recent content in Kvalitet och uppföljning on Design Guidelines</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-se</language>
+    <lastBuildDate>Thu, 24 Jan 2019 11:17:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/kvalitet-och-uppfoljning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dataskydd (GDPR)</title>
+      <link>http://localhost:1313/kvalitet-och-uppfoljning/dataskydd-gdpr/</link>
+      <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
+      
+      <guid>http://localhost:1313/kvalitet-och-uppfoljning/dataskydd-gdpr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Informationssäkerhet</title>
+      <link>http://localhost:1313/kvalitet-och-uppfoljning/informationssakerhet/</link>
+      <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
+      
+      <guid>http://localhost:1313/kvalitet-och-uppfoljning/informationssakerhet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mätbarhet och feedback</title>
+      <link>http://localhost:1313/kvalitet-och-uppfoljning/matbarhet-och-feedback/</link>
+      <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
+      
+      <guid>http://localhost:1313/kvalitet-och-uppfoljning/matbarhet-och-feedback/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pågående projekt och initiativ</title>
+      <link>http://localhost:1313/kvalitet-och-uppfoljning/pagaende-projekt-och-initiativ/</link>
+      <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
+      
+      <guid>http://localhost:1313/kvalitet-och-uppfoljning/pagaende-projekt-och-initiativ/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Roller i vår digitala organisation</title>
+      <link>http://localhost:1313/kvalitet-och-uppfoljning/roller-i-var-digitala-organisation/</link>
+      <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
+      
+      <guid>http://localhost:1313/kvalitet-och-uppfoljning/roller-i-var-digitala-organisation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tillgänglighet</title>
+      <link>http://localhost:1313/kvalitet-och-uppfoljning/tillganglighet/</link>
+      <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
+      
+      <guid>http://localhost:1313/kvalitet-och-uppfoljning/tillganglighet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Våra officiell digitala kanaler</title>
+      <link>http://localhost:1313/kvalitet-och-uppfoljning/vara-digitala-kanaler/</link>
+      <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
+      
+      <guid>http://localhost:1313/kvalitet-och-uppfoljning/vara-digitala-kanaler/</guid>
+      <description>Lista samtliga webbplatser, appar osv. med tillhörande; - syfte - mål - kontaktuppgifter - ev. lista ansvariga - ev. länkar till forum, teams, devops osv. - ev. länkar till tillgänglighetsredogörelser - ev. länkar till prestandatester - ev. länkar till rapporter</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,13 +5,14 @@
 	<div class="flex flex-wrap items-stretch -mx-4 justify-start">
 		<main class="w-full px-4">
 			<article class="article">
-				(index template)
 				<h1 class="text-3xl md:text-4xl mb-4">{{ .Title }}</h1>
 				<p class=" leading-loose text-xl">
 					{{ .Param "description" }}
 				</p>
-				{{ .Content }}
 			</article>
+
+			{{ .Content }}
+
 		</main>
 	</div>
 </div>
