@@ -5,16 +5,16 @@
 	<div class="flex flex-wrap items-stretch -mx-4 justify-start">
 		<main class="w-full px-4">
 
-			<article class="article">
-				<div class="flex justify-between items-baseline">
-				<h1 class="text-3xl md:text-4xl mb-4">{{ .Title }}</h1>
-				<a href="{{ .Param "content_path" }}/{{ .File.Path }}" class="text-grey-darkest"><i data-feather='edit' class='w-4 h-4 ml-2'></i> Redigera denna sidan</a>
+
+				<div class="md:flex md:flex-row-reverse justify-between items-baseline">
+					<a href="{{ .Param "content_path" }}/{{ .File.Path }}" class="text-grey-darkest text-right mb-4 md:mb-0"><i data-feather='edit' class='w-4 h-4 mr-2'></i> Redigera denna sidan</a>
+					<h1 class="text-3xl md:text-4xl my-4">{{ .Title }}</h1>
 				</div>
 				<p class=" leading-loose text-xl">
 
 					{{ .Param "description" }}
 				</p>
-			</article>
+
 
 			{{ .Content }}
 
