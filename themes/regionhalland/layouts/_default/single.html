@@ -9,25 +9,32 @@
 
 	        <main class="w-full px-4 md:w-9/12 lg:w-9/12">
 
-                <div class="md:flex md:flex-row-reverse justify-between items-baseline">
-					<a href="{{ .Param "content_path" }}/{{ .File.Path }}" class="text-grey-darkest text-right mb-4 md:mb-0"><i data-feather='edit' class='w-4 h-4 mr-2'></i> Redigera denna sidan</a>
 					<h1 class="text-3xl md:text-4xl my-4">{{ .Title }}</h1>
-				</div>
 
-	            <article class="article lg:w-10/12">
-
-                    {{ if (gt .WordCount 50 )  }}
-                    <header>
-                    <h2>På sidan</h2>
-                    </header>
-                    {{.TableOfContents}}
-                    {{ end }}
-                    <hr>
-                        {{ .Content }}
-
+                <div class="flex -mx-4">
+	            <article class="article lg:w-9/12  px-4">
+                    {{ .Content }}
 	            </article>
 
-    			
+
+                    <aside class="lg:w-3/12  px-4">
+
+
+                        {{ if (gt .WordCount 50 )  }}
+                            <div class="mb-8">
+                                <header>
+                                <h2>På sidan</h2>
+                                </header>
+                                {{.TableOfContents}}
+                            </div>
+                        {{ end }}
+                        <a href="{{ .Param "content_path" }}/{{ .File.Path }}" class="text-grey-darkest text-right mb-4 md:mb-0"><i data-feather='edit' class='w-4 h-4 mr-2'></i> Redigera denna sidan</a>
+
+                    </aside>
+
+                </div>
+
+
 
 	        </main>
 
