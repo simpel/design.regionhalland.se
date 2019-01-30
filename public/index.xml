@@ -12,6 +12,105 @@
     
     
     <item>
+      <title>Använd moderna tekniklösningar</title>
+      <link>http://localhost:1313/anvand-moderna-tekniklosningar/</link>
+      <pubDate>Wed, 30 Jan 2019 14:26:10 +0100</pubDate>
+      
+      <guid>http://localhost:1313/anvand-moderna-tekniklosningar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leverera ofta</title>
+      <link>http://localhost:1313/skapa-en-organisation-fokuserad-pa-leverans/</link>
+      <pubDate>Wed, 30 Jan 2019 14:25:57 +0100</pubDate>
+      
+      <guid>http://localhost:1313/skapa-en-organisation-fokuserad-pa-leverans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tillsätt en produktägare</title>
+      <link>http://localhost:1313/tillsatt-en-produktagare-och-gor-den-ansvarig/</link>
+      <pubDate>Wed, 30 Jan 2019 14:25:43 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tillsatt-en-produktagare-och-gor-den-ansvarig/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arbeta med ständiga förbättringar</title>
+      <link>http://localhost:1313/arbeta-med-standiga-forbattringar/</link>
+      <pubDate>Wed, 30 Jan 2019 14:25:29 +0100</pubDate>
+      
+      <guid>http://localhost:1313/arbeta-med-standiga-forbattringar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Var öppen</title>
+      <link>http://localhost:1313/var-oppen/</link>
+      <pubDate>Wed, 30 Jan 2019 14:24:59 +0100</pubDate>
+      
+      <guid>http://localhost:1313/var-oppen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Var tillgänglig</title>
+      <link>http://localhost:1313/var-tillganglig/</link>
+      <pubDate>Wed, 30 Jan 2019 14:24:36 +0100</pubDate>
+      
+      <guid>http://localhost:1313/var-tillganglig/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ha en tjänstedriven approach</title>
+      <link>http://localhost:1313/ha-en-tjanstedriven-approach/</link>
+      <pubDate>Wed, 30 Jan 2019 14:24:21 +0100</pubDate>
+      
+      <guid>http://localhost:1313/ha-en-tjanstedriven-approach/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gör det enkelt och intuitivt</title>
+      <link>http://localhost:1313/gor-det-enkelt-och-intuitivt/</link>
+      <pubDate>Wed, 30 Jan 2019 14:23:55 +0100</pubDate>
+      
+      <guid>http://localhost:1313/gor-det-enkelt-och-intuitivt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lös hela kundresan</title>
+      <link>http://localhost:1313/los-hela-kundresan/</link>
+      <pubDate>Wed, 30 Jan 2019 14:23:37 +0100</pubDate>
+      
+      <guid>http://localhost:1313/los-hela-kundresan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arbeta datadrivet</title>
+      <link>http://localhost:1313/basera-beslut-pa-data/</link>
+      <pubDate>Wed, 30 Jan 2019 14:22:47 +0100</pubDate>
+      
+      <guid>http://localhost:1313/basera-beslut-pa-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lär känna användaren</title>
+      <link>http://localhost:1313/lar-kanna-anvandaren/</link>
+      <pubDate>Wed, 30 Jan 2019 14:22:30 +0100</pubDate>
+      
+      <guid>http://localhost:1313/lar-kanna-anvandaren/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>E-tjänsteplattformen</title>
       <link>http://localhost:1313/verktyg/e-tjansteplattform/</link>
       <pubDate>Thu, 24 Jan 2019 11:20:04 +0100</pubDate>
@@ -111,11 +210,29 @@
     </item>
     
     <item>
+      <title>Typsnitt</title>
+      <link>http://localhost:1313/verktyg/grafisk-profil/typsnitt/</link>
+      <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
+      
+      <guid>http://localhost:1313/verktyg/grafisk-profil/typsnitt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Verktyg för Devops</title>
       <link>http://localhost:1313/verktyg/verktyg-for-devops/</link>
       <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
       
       <guid>http://localhost:1313/verktyg/verktyg-for-devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vår Logotyp</title>
+      <link>http://localhost:1313/verktyg/grafisk-profil/logotyp/</link>
+      <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
+      
+      <guid>http://localhost:1313/verktyg/grafisk-profil/logotyp/</guid>
       <description></description>
     </item>
     

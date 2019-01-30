@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spelbok för utvecklingsprojekt i Region Halland on Design Guidelines</title>
+    <link>http://localhost:1313/principer/</link>
+    <description>Recent content in Spelbok för utvecklingsprojekt i Region Halland on Design Guidelines</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-se</language>
+    <lastBuildDate>Thu, 24 Jan 2019 11:17:38 +0100</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/principer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Använd moderna tekniklösningar</title>
+      <link>http://localhost:1313/principer/anvand-moderna-tekniklosningar/</link>
+      <pubDate>Wed, 30 Jan 2019 14:26:10 +0100</pubDate>
+      
+      <guid>http://localhost:1313/principer/anvand-moderna-tekniklosningar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leverera ofta</title>
+      <link>http://localhost:1313/principer/skapa-en-organisation-fokuserad-pa-leverans/</link>
+      <pubDate>Wed, 30 Jan 2019 14:25:57 +0100</pubDate>
+      
+      <guid>http://localhost:1313/principer/skapa-en-organisation-fokuserad-pa-leverans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tillsätt en produktägare</title>
+      <link>http://localhost:1313/principer/tillsatt-en-produktagare-och-gor-den-ansvarig/</link>
+      <pubDate>Wed, 30 Jan 2019 14:25:43 +0100</pubDate>
+      
+      <guid>http://localhost:1313/principer/tillsatt-en-produktagare-och-gor-den-ansvarig/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arbeta med ständiga förbättringar</title>
+      <link>http://localhost:1313/principer/arbeta-med-standiga-forbattringar/</link>
+      <pubDate>Wed, 30 Jan 2019 14:25:29 +0100</pubDate>
+      
+      <guid>http://localhost:1313/principer/arbeta-med-standiga-forbattringar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Var öppen</title>
+      <link>http://localhost:1313/principer/var-oppen/</link>
+      <pubDate>Wed, 30 Jan 2019 14:24:59 +0100</pubDate>
+      
+      <guid>http://localhost:1313/principer/var-oppen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Var tillgänglig</title>
+      <link>http://localhost:1313/principer/var-tillganglig/</link>
+      <pubDate>Wed, 30 Jan 2019 14:24:36 +0100</pubDate>
+      
+      <guid>http://localhost:1313/principer/var-tillganglig/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ha en tjänstedriven approach</title>
+      <link>http://localhost:1313/principer/ha-en-tjanstedriven-approach/</link>
+      <pubDate>Wed, 30 Jan 2019 14:24:21 +0100</pubDate>
+      
+      <guid>http://localhost:1313/principer/ha-en-tjanstedriven-approach/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gör det enkelt och intuitivt</title>
+      <link>http://localhost:1313/principer/gor-det-enkelt-och-intuitivt/</link>
+      <pubDate>Wed, 30 Jan 2019 14:23:55 +0100</pubDate>
+      
+      <guid>http://localhost:1313/principer/gor-det-enkelt-och-intuitivt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lös hela kundresan</title>
+      <link>http://localhost:1313/principer/los-hela-kundresan/</link>
+      <pubDate>Wed, 30 Jan 2019 14:23:37 +0100</pubDate>
+      
+      <guid>http://localhost:1313/principer/los-hela-kundresan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arbeta datadrivet</title>
+      <link>http://localhost:1313/principer/basera-beslut-pa-data/</link>
+      <pubDate>Wed, 30 Jan 2019 14:22:47 +0100</pubDate>
+      
+      <guid>http://localhost:1313/principer/basera-beslut-pa-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lär känna användaren</title>
+      <link>http://localhost:1313/principer/lar-kanna-anvandaren/</link>
+      <pubDate>Wed, 30 Jan 2019 14:22:30 +0100</pubDate>
+      
+      <guid>http://localhost:1313/principer/lar-kanna-anvandaren/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
