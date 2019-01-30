@@ -14,26 +14,26 @@
 					<h1 class="text-3xl md:text-4xl my-4">{{ .Title }}</h1>
 				</div>
 
-	            <article class="article">
+	            <article class="article lg:w-10/12">
 
-
-
-                        <div class=" lg:w-10/12">
+                    {{ if (gt .WordCount 50 )  }}
+                    <header>
+                    <h2>På sidan</h2>
+                    </header>
+                    {{.TableOfContents}}
+                    {{ end }}
+                    <hr>
                         {{ .Content }}
-                        </div>
+
 	            </article>
+
+    			
+
 	        </main>
 
 
 
-			{{ if (gt .WordCount 50 )  }}
-			<aside class="w-full md:w-3/12 px-4">
-			    <header>
-			    <h2>På sidan</h2>
-			    </header>
-			    {{.TableOfContents}}
-			</aside>
-			{{ end }}
+
 
 
         </div>
