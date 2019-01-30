@@ -1,12 +1,17 @@
 {{ define "main" }}
 
 
-<div class="bg-blue-dark mb-16">
+<div class="mb-16">
 
 	<div class="w-full max-w-2xl mx-auto px-4 py-12">
 		{{ partial "menu/back.html" .}}
-		<h1 class="text-3xl md:text-4xl text-white my-4">  {{ .Title }}</h1>
-		<p class="text-blue-light leading-loose text-xl">
+
+		<div class="md:flex md:flex-row-reverse justify-between items-baseline">
+			<a href="{{ .Param "content_path" }}/{{ .File.Path }}" class="text-grey-darkest text-right mb-4 md:mb-0"><i data-feather='edit' class='w-4 h-4 mr-2'></i> Redigera denna sidan</a>
+			<h1 class="text-3xl md:text-4xl my-4">{{ .Title }}</h1>
+		</div>
+
+		<p class="text-grey-darkest leading-loose text-xl">
 			{{ .Param "description" }}
 		</p>
 

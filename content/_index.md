@@ -1,29 +1,61 @@
 ---
-date: 2017-10-17T15:26:15Z
-lastmod: 2018-12-05T15:26:15Z
-title: Enkla, tydliga och snabba kundmöten
-linktitle: Start
-description: På denna webbplats kan du ta del av metoder, verktyg och guidelines för att skapa kundresor som är enkla för halläningen och som ger de effekter vi vill uppnå.
+title: "Spelbok för utvecklingsprojekt i Region Halland"
+linktitle: "Start"
+date: 2019-01-24T11:17:38+01:00
+draft: false
+weight: 0
+menu:
+    nav:
+        weight: -1000
 ---
-**Detta är ett mycket grovt och ofärdigt utkast, i ett tidigt skede, till en samlad gemensam katalog med handledning, riktlinjer och beskrivningar av hur Region Halland arbetar och kan arbeta med digitalisering. Arbetsnamnet är "Guide för digitalisering i Region Halland".**
 
-Nuvarande version syftar till att påvisa andemeningen inom organisationen och påbörja insamling och diskussion kring dess innehåll. Vissa saker saknas i dagsläget helt, andra bör kanske tas bort, döpas om eller flyttas.
 
-Alltihop är som sagt var under uppbyggnad och kan på sina ställen vara mer eller mindre genomtänkt. När vi så småningom når en version för påseende, reflektion och mer strukturerat arbete - kommer det också att meddelas här och i andra kanaler.
+{{< grid >}}
 
-## Kontakt
-Har du frågor och synpunkter är du välkommen att kontakta [Mattias Skoog](mailto:mattiasskoog@regionhalland.se) på kommunikationsavdelningen eller [Joel Sandén](mailto:joel.sanden@regionhalland.se) på Region Hallands digitala lab.
+{{% card link="/lar-kanna-anvandaren" title="Lär känna användaren" %}}
+Varje satsning vi gör måste baseras på insikter och behov från riktiga användare. Dessa behov behöver sedan matchas med de effekter verksamheten vill uppnå för att tillsammans skapa värde.
+{{% /card %}}
 
-## Tänkbara huvudområden för denna sajt
+{{% card link="/basera-beslut-pa-data" title="Basera beslut på data" %}}
+Vi skall vara duktiga på att mäta hur väl våra tjänster fungerar för invånarna. Genom att redan från starten i ett projekt identifiera relevanta mätpunkter så kan vi samla in statistik som leder till välgrundade beslut.
+{{% /card %}}
 
-> Efter inledning med övergripande och vägledande principer, syfte och mål:
+{{% card link="/los-hela-kundresan" title="Se användarens hela resa" %}}
+Användarens problem är löst först när den önskade effekten är uppnådd. Det betyder allt som oftast att användaren rör sig över flera system, kanaler och kundmöten. Alla dessa måste vara i synk.
+{{% /card %}}
 
-### Arbetssätt och ansvar
+{{% card link="/gor-det-enkelt-och-intuitivt" title="Gör det enkelt & intuitivt" %}}
+Att använda våra tjänster skall vara enkelt, intuitivt och gärna roligt. Användarna skall, utan hjälp, klara av att lösa sitt problem första gången de använder tjänsten.
+{{% /card %}}
 
-### Designprinciper digitala tjänster
+{{% card link="/ha-en-tjanstedriven-approach" title="Ha en tjänstedriven approach" %}}
+Vi utgår från en tjänstedriven approach som fokuserar på tjänster som det primära för att skapa värden för våra användare. Vår tjänstedrivna approach kombinerar ett kundorienterat perspektiv (outside-in) med våra interna strukturer (inside-out) i vår approach.
+{{% /card %}}
 
-### Arkitektur, drift och informationssäkerhet
+{{% card link="/var-tillganglig" title="Var tillgänglig" %}}
+Det ska alltid gå att använda våra tjänster. Det är därför viktigt att alltid se till att design och kod är tillgänglighetsanpassad.
+{{% /card %}}
 
-### Redaktionell handledning
+{{% card link="/var-oppen" title="Var öppen" %}}
+Genom att samarbeta öppet och publicera våra data offentligt gör vi det lätt att göra rätt. Ju fler parters om kan konsumera den data vi genererar dessto bättre för oss och våra kunder.
+{{% /card %}}
 
-### Stilguide
+
+{{% card link="/arbeta-med-standiga-forbattringar" title="Arbeta med ständiga förbättringar" %}}
+Genom att förbättra din tjänst i små steg så minierar du risk. Metoder som Lean, Scrum och KanBan säkerställer att du ofta kan få feedback från dina kunder och känna dig trygg i att ditt arbete resulterar i en positiv effekt.
+{{% /card %}}
+
+{{% card link="/tillsatt-en-produktagare-och-gor-den-ansvarig" title="Tillsätt en produktägare och gör den ansvarig" %}}
+Varje tjänst vi producerar skall ha en tydlig ägare. Produktägaren är den självklara kontakten för alla stakeholders och leder utvecklingsteamen i deras arbete.
+{{% /card %}}
+
+{{% card link="/skapa-en-organisation-fokuserad-pa-leverans" title="Skapa en organisation fokuserad på leverans" %}}
+Vilken kompetens behövs för att leverera på de mättal som tjänsten har? Kan ditt team ta sig an ett problem från ax till limpa? Har ni mandat att förändra i kundresan?
+{{% /card %}}
+
+{{% card link="/anvand-moderna-tekniklosningar" title="Använd moderna tekniklösningar" %}}
+De val vi gör gällande teknik måste i första hand främja våra utvecklingsteam så att de kan arbeta effektivt och så snabbt som möjligt leverera bästa tänkbara lösning för våra användare.
+{{% /card %}}
+
+
+{{< /grid >}}

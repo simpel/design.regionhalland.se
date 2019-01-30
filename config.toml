@@ -10,8 +10,8 @@ DefaultContentLanguage = "sv"
   author = "Region Halland" # add your company name
   email = "joel.sanden@regionhalland.se"
   github_repository = "https://github.com/RegionHalland/design.regionhalland.se"
-  version = "2.0.2"
-
+  version = "0.0.3"
+  content_path = "https://github.com/RegionHalland/design.regionhalland.se/tree/production/content"
 
 [privacy]
     [privacy.disqus]

@@ -15,29 +15,30 @@
 
 
 		<li class="w-full flex sm:w-6/12 lg:w-4/12">
-			<div class="bg-white flex-1 rounded border-l-4 border-blue mx-2 mb-4 p-4">
+			<div class="flex-1 mb-8 mr-4">
 
-				<a href="{{ .URL }}" class="text-blue-dark hover:bg-yellow-light focus:bg-yellow-light inline-block">
+				<a href="{{ .URL }}" class="text-blue-dark hover:bg-yellow-light focus:bg-yellow-light inline-block underline">
 					<h2 class="mb-2 text-xl md:text-2xl">{{ .Title }}</h2>
 				</a>
 
-				<p>
+				<p class="leading-tight text-lg text-grey-darkest">
 				{{if not .IsPage }}
 
 					{{ $links := .Sections }}
-					{{ $links = $links | append .Pages }}
+					{{ $links := $links | append .Pages }}
+					{{ $trio := first 3 $links.ByWeight }}
+					{{ $trio_length := (len $trio) }}
 
+					{{ range $index, $element := $trio}}
 
-					{{ range first 3 $links.ByWeight}}
-						<a href="{{ .URL }}" class="text-blue-dark hover:bg-yellow-light focus:bg-yellow-light inline-block">{{ .Title }}</a>,
+						<a href="{{ .URL }}" class="text-blue-dark hover:bg-yellow-light focus:bg-yellow-light inline-block">{{ .Title }}</a>{{ if ne (add $index 1) $trio_length }}, {{end}}
+
 					{{end}}
 
 					{{ $rest := $links | symdiff (first 3 $links) }}
 
 					{{ if $rest }}
 						och <a href="{{ .URL }}">{{len $rest}} sidor till</a>
-					{{ else }}
-						{{.Param "description" }}
 					{{ end }}
 
 				{{else}}
