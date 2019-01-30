@@ -1,5 +1,5 @@
 {{ $list := .CurrentSection.Pages }}
-
+{{ $parent := .Parent }}
 
 <nav>
 
@@ -9,17 +9,14 @@
 
 	<ul class="list-reset border border-grey-lightest rounded-b overflow-hidden">
 	    {{ $curPage := .UniqueID }}
-
-
-
-
-
         {{ range $list.ByWeight }}
+			{{if eq .CurrentSection $parent}}
         	<li class="border-t border-grey-lightest">
 				<a href="{{ .Permalink }}" class="block py-4 px-3 {{ if eq $curPage .UniqueID }} active font-bold {{ end }}">
 					<span class="inline-block text-black text-base no-underline hover:underline focus:underline">{{ .Title }}</span>
 				</a>
 			</li>
+			{{ end }}
         {{ end }}
 
 	</ul>
