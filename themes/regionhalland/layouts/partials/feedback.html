@@ -1,0 +1,17 @@
+<div class="p-4 my-8 w-full max-w-2xl mx-auto bg-grey-lightest rounded">
+
+<form name="contact" netlify class="article">
+    <input type="hidden" name="page" value="{{ .Page.Permalink }}">
+  <p>
+    <label for="improvements">Hej! Hur tycker du att vi kan göra innehållet på den här sidan bättre?</label>
+  </p>
+  <p>
+      <textarea name="improvements" rows="8" cols="80" class="w-full border shadow rounded p-2" placeholder="Jag tycker att ni borde..."></textarea>
+  </p>
+
+  <p>
+    <button type="submit" class="no-underline text-white bg-blue-dark hover:underline px-6 py-4 text-lg rounded">Skicka in ditt förslag</button>
+  </p>
+</form>
+
+</div>
