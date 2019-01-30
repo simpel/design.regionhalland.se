@@ -29,7 +29,7 @@ Att använda våra tjänster skall vara enkelt, intuitivt och gärna roligt. Anv
 {{% /card %}}
 
 {{% card link="/principer/var-tillganglig" title="Var tillgänglig" %}}
-Det ska alltid gå att använda våra tjänster.
+Det ska alltid gå att använda våra tjänster. Det är därför viktigt att alltid se till att design och kod är tillgänglighetsanpassad.
 {{% /card %}}
 
 {{% card link="/principer/var-oppen" title="Var öppen" %}}
