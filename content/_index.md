@@ -20,7 +20,7 @@ Varje satsning vi gör måste baseras på insikter och behov från riktiga anvä
 Vi skall vara duktiga på att mäta hur väl våra tjänster fungerar för invånarna. Genom att redan från starten i ett projekt identifiera relevanta mätpunkter så kan vi samla in statistik som leder till välgrundade beslut.
 {{% /card %}}
 
-{{% card link="/principer/los-hela-kundresan" title="Lös hela kundresan" %}}
+{{% card link="/principer/los-hela-kundresan" title="Se användarens hela resa" %}}
 Användarens problem är löst först när den önskade effekten är uppnådd. Det betyder allt som oftast att användaren rör sig över flera system, kanaler och kundmöten. Alla dessa måste vara i synk.
 {{% /card %}}
 
