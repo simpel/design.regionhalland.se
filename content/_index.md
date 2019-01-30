@@ -28,6 +28,10 @@ Användarens problem är löst först när den önskade effekten är uppnådd. D
 Att använda våra tjänster skall vara enkelt, intuitivt och gärna roligt. Användarna skall, utan hjälp, klara av att lösa sitt problem första gången de använder tjänsten.
 {{% /card %}}
 
+{{% card link="/principer/tjanstedriven-approach" title="Tjänstedriven Approach" %}}
+Vi utgår från en tjänstedriven approach som fokuserar på tjänster som det primära för att skapa värden för våra användare. Vår tjänstedrivna approach kombinerar ett kundorienterat perspektiv (outside-in) med våra interna strukturer (inside-out) i vår approach.
+{{% /card %}}
+
 {{% card link="/principer/var-tillganglig" title="Var tillgänglig" %}}
 Det ska alltid gå att använda våra tjänster. Det är därför viktigt att alltid se till att design och kod är tillgänglighetsanpassad.
 {{% /card %}}
