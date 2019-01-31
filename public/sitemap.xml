@@ -78,7 +78,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/verktyg/e-tjansteplattform/</loc>
+    <loc>http://localhost:1313/verktyg/tjanster/e-tjansteplattform/</loc>
     <lastmod>2019-01-24T11:20:04+01:00</lastmod>
   </url>
   
@@ -93,27 +93,22 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/verktyg/designramverket-figma/</loc>
-    <lastmod>2019-01-24T11:17:48+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://localhost:1313/community/forum-for-strategisk-utveckling/</loc>
     <lastmod>2019-01-24T11:17:48+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/verktyg/grafisk-profil/</loc>
+    <loc>http://localhost:1313/verktyg/handbocker/grafisk-profil/</loc>
     <lastmod>2019-01-24T11:17:48+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/verktyg/handbok-sociala-medier/</loc>
+    <loc>http://localhost:1313/verktyg/handbocker/socialmediehandbok/</loc>
     <lastmod>2019-01-24T11:17:48+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/verktyg/handbocker-for-utveckling/</loc>
+    <loc>http://localhost:1313/verktyg/handbocker/utvecklingshandbocker/</loc>
     <lastmod>2019-01-24T11:17:48+01:00</lastmod>
   </url>
   
@@ -153,12 +148,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/verktyg/stilguide/</loc>
-    <lastmod>2019-01-24T11:17:48+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/verktyg/sa-validerar-vi-en-ide/</loc>
+    <loc>http://localhost:1313/metoder/sa-validerar-vi-en-ide/</loc>
     <lastmod>2019-01-24T11:17:48+01:00</lastmod>
   </url>
   
@@ -168,17 +158,12 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/verktyg/grafisk-profil/typsnitt/</loc>
+    <loc>http://localhost:1313/verktyg/handbocker/grafisk-profil/typsnitt/</loc>
     <lastmod>2019-01-24T11:17:48+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/verktyg/verktyg-for-devops/</loc>
-    <lastmod>2019-01-24T11:17:48+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/verktyg/grafisk-profil/logotyp/</loc>
+    <loc>http://localhost:1313/verktyg/handbocker/grafisk-profil/logotyp/</loc>
     <lastmod>2019-01-24T11:17:48+01:00</lastmod>
   </url>
   
@@ -188,17 +173,12 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/verktyg/vara-tjanstelager/</loc>
+    <loc>http://localhost:1313/verktyg/tjanster/vara-tjanstelager/</loc>
     <lastmod>2019-01-24T11:17:48+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/verktyg/vara-tjanster/</loc>
-    <lastmod>2019-01-24T11:17:48+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/verktyg/webbhandbok/</loc>
+    <loc>http://localhost:1313/verktyg/handbocker/webbhandbok/</loc>
     <lastmod>2019-01-24T11:17:48+01:00</lastmod>
   </url>
   
@@ -208,67 +188,67 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/verktyg/webbhandbok/seo/</loc>
+    <loc>http://localhost:1313/verktyg/handbocker/webbhandbok/seo/</loc>
     <lastmod>2019-01-22T11:38:08+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/verktyg/webbhandbok/alias/</loc>
+    <loc>http://localhost:1313/verktyg/handbocker/webbhandbok/alias/</loc>
     <lastmod>2019-01-17T22:47:33+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/verktyg/webbhandbok/video/</loc>
+    <loc>http://localhost:1313/verktyg/handbocker/webbhandbok/video/</loc>
     <lastmod>2019-01-17T22:09:10+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/verktyg/webbhandbok/bilder/</loc>
+    <loc>http://localhost:1313/verktyg/handbocker/webbhandbok/bilder/</loc>
     <lastmod>2019-01-17T22:09:05+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/verktyg/webbhandbok/brodtext/</loc>
+    <loc>http://localhost:1313/verktyg/handbocker/webbhandbok/brodtext/</loc>
     <lastmod>2019-01-17T22:01:22+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/verktyg/webbhandbok/dokument/</loc>
+    <loc>http://localhost:1313/verktyg/handbocker/webbhandbok/dokument/</loc>
     <lastmod>2019-01-17T22:01:22+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/verktyg/webbhandbok/driftstorningar/</loc>
+    <loc>http://localhost:1313/verktyg/handbocker/webbhandbok/driftstorningar/</loc>
     <lastmod>2019-01-17T22:01:22+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/verktyg/webbhandbok/ingresser/</loc>
+    <loc>http://localhost:1313/verktyg/handbocker/webbhandbok/ingresser/</loc>
     <lastmod>2019-01-17T22:01:22+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/verktyg/webbhandbok/kontaktuppgifter/</loc>
+    <loc>http://localhost:1313/verktyg/handbocker/webbhandbok/kontaktuppgifter/</loc>
     <lastmod>2019-01-17T22:01:22+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/verktyg/webbhandbok/lankar/</loc>
+    <loc>http://localhost:1313/verktyg/handbocker/webbhandbok/lankar/</loc>
     <lastmod>2019-01-17T22:01:22+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/verktyg/webbhandbok/nyhetsartiklar/</loc>
+    <loc>http://localhost:1313/verktyg/handbocker/webbhandbok/nyhetsartiklar/</loc>
     <lastmod>2019-01-17T22:01:22+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/verktyg/webbhandbok/rubriker/</loc>
+    <loc>http://localhost:1313/verktyg/handbocker/webbhandbok/rubriker/</loc>
     <lastmod>2019-01-17T22:01:22+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/verktyg/webbhandbok/tabeller/</loc>
+    <loc>http://localhost:1313/verktyg/handbocker/webbhandbok/tabeller/</loc>
     <lastmod>2019-01-17T22:01:22+01:00</lastmod>
   </url>
   
@@ -278,7 +258,12 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/verktyg/webbhandbok/eplikt/</loc>
+    <loc>http://localhost:1313/verktyg/handbocker/webbhandbok/eplikt/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/verktyg/handbocker/</loc>
+    <priority>0</priority>
   </url>
   
   <url>

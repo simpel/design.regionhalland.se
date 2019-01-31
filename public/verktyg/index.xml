@@ -13,65 +13,20 @@
     
     <item>
       <title>E-tjänsteplattformen</title>
-      <link>http://localhost:1313/verktyg/e-tjansteplattform/</link>
+      <link>http://localhost:1313/verktyg/tjanster/e-tjansteplattform/</link>
       <pubDate>Thu, 24 Jan 2019 11:20:04 +0100</pubDate>
       
-      <guid>http://localhost:1313/verktyg/e-tjansteplattform/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Designramverket Figma</title>
-      <link>http://localhost:1313/verktyg/designramverket-figma/</link>
-      <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
-      
-      <guid>http://localhost:1313/verktyg/designramverket-figma/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Stilguide</title>
-      <link>http://localhost:1313/verktyg/stilguide/</link>
-      <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
-      
-      <guid>http://localhost:1313/verktyg/stilguide/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Så validerar vi en idé</title>
-      <link>http://localhost:1313/verktyg/sa-validerar-vi-en-ide/</link>
-      <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
-      
-      <guid>http://localhost:1313/verktyg/sa-validerar-vi-en-ide/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Verktyg för Devops</title>
-      <link>http://localhost:1313/verktyg/verktyg-for-devops/</link>
-      <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
-      
-      <guid>http://localhost:1313/verktyg/verktyg-for-devops/</guid>
+      <guid>http://localhost:1313/verktyg/tjanster/e-tjansteplattform/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Våra tjänstelager</title>
-      <link>http://localhost:1313/verktyg/vara-tjanstelager/</link>
+      <link>http://localhost:1313/verktyg/tjanster/vara-tjanstelager/</link>
       <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
       
-      <guid>http://localhost:1313/verktyg/vara-tjanstelager/</guid>
+      <guid>http://localhost:1313/verktyg/tjanster/vara-tjanstelager/</guid>
       <description>Hur förhåller sig detta till rubriken Våra tjänster?</description>
-    </item>
-    
-    <item>
-      <title>Våra tjänster</title>
-      <link>http://localhost:1313/verktyg/vara-tjanster/</link>
-      <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
-      
-      <guid>http://localhost:1313/verktyg/vara-tjanster/</guid>
-      <description></description>
     </item>
     
   </channel>
