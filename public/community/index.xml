@@ -11,5 +11,14 @@
 	<atom:link href="http://localhost:1313/community/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Redigera innehåll</title>
+      <link>http://localhost:1313/community/redigering/</link>
+      <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
+      
+      <guid>http://localhost:1313/community/redigering/</guid>
+      <description> Redigera innehåll på design.regionhalland.se </description>
+    </item>
+    
   </channel>
 </rss>

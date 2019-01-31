@@ -40,7 +40,7 @@
   		                </li>
 
 		                <li class="mr-1">
-		                    <a class="inline-block rounded-t py-2 px-4 text-blue-darker font-semibold" href="https://regionhalland-styleguide.netlify.com/index.html">
+		                    <a class="inline-block rounded-t py-2 px-4 text-blue-darker font-semibold" href="https://stilguide.regionhalland.se">
 								Stilguide
 							</a>
 	                	</li>
@@ -147,6 +147,14 @@
         
 			
         	<li class="border-t border-grey-lightest">
+				<a href="http://localhost:1313/lar-kanna-anvandaren/" class="block py-4 px-3 ">
+					<span class="inline-block text-black text-base no-underline hover:underline focus:underline">Lär känna användaren</span>
+				</a>
+			</li>
+			
+        
+			
+        	<li class="border-t border-grey-lightest">
 				<a href="http://localhost:1313/anvand-moderna-tekniklosningar/" class="block py-4 px-3 ">
 					<span class="inline-block text-black text-base no-underline hover:underline focus:underline">Använd moderna tekniklösningar</span>
 				</a>
@@ -226,12 +234,6 @@
 			
         
 			
-        	<li class="border-t border-grey-lightest">
-				<a href="http://localhost:1313/lar-kanna-anvandaren/" class="block py-4 px-3 ">
-					<span class="inline-block text-black text-base no-underline hover:underline focus:underline">Lär känna användaren</span>
-				</a>
-			</li>
-			
         
 			
         
@@ -275,24 +277,51 @@
 
 	        <main class="w-full px-4 md:w-9/12 lg:w-9/12">
 
-                <div class="md:flex md:flex-row-reverse justify-between items-baseline">
-					<a href="https://github.com/RegionHalland/design.regionhalland.se/tree/production/content/los-hela-kundresan.md" class="text-grey-darkest text-right mb-4 md:mb-0"><i data-feather='edit' class='w-4 h-4 mr-2'></i> Redigera denna sidan</a>
 					<h1 class="text-3xl md:text-4xl my-4">Lös hela kundresan</h1>
-				</div>
 
-	            <article class="article">
-
-                        
-
-                        <div class=" lg:w-6/12">
-                        
-                        </div>
+                <div class="flex -mx-4">
+	            <article class="article lg:w-9/12  px-4">
+                    
 	            </article>
+
+
+                    <aside class="lg:w-3/12  px-4">
+
+
+                        
+                        <a href="https://github.com/RegionHalland/design.regionhalland.se/tree/production/content/los-hela-kundresan.md" class="text-grey-darkest text-right mb-4 md:mb-0"><i data-feather='edit' class='w-4 h-4 mr-2'></i> Redigera denna sidan</a>
+
+                    </aside>
+
+                </div>
+
+
+                    <div class="p-4 my-8 w-full max-w-2xl mx-auto bg-grey-lightest rounded">
+
+<form name="feedback" netlify class="article">
+    <input type="hidden" name="page" value="http://localhost:1313/los-hela-kundresan/">
+  <p>
+    <label for="improvements"><strong>Hej!</strong> Hur tycker du att vi kan göra innehållet på den här sidan bättre?</label>
+  </p>
+  <p>
+      <textarea name="improvements" rows="8" cols="80" class="w-full border shadow rounded p-2" placeholder="Jag tycker att ni borde..."></textarea>
+  </p>
+
+  <p>
+    <button type="submit" class="no-underline text-white bg-blue-dark hover:underline px-6 py-4 text-lg rounded">Skicka in ditt förslag</button>
+  </p>
+</form>
+
+</div>
+
+
+
+
 	        </main>
 
 
 
-			
+
 
 
         </div>
@@ -350,7 +379,8 @@
 
 
 
-	<footer class="bg-grey-lightest pt-16 border-t border-grey-lighter pb-8">
+	
+<footer class="bg-grey-lightest pt-16 border-t border-grey-lighter pb-8">
     <div class="px-4 w-full max-w-2xl mx-auto">
 
             <div class="w-full flex flex-wrap items-stretch -mx-4">
@@ -412,10 +442,10 @@
 					<ul class="list-reset">
 							<li class="mb-2 text-lg">Version: <a href="https://github.com/RegionHalland/design.regionhalland.se/releases">0.0.3</a></li>
 							<li class="mb-2">
-								<a href="http://www.regionhalland.se/om-region-halland/organisation/dataskydd/" class="text-black text-lg hover:bg-yellow-light focus:bg-yellow-light">Behandling av personuppgifter</a>
+								<a href="http://www.regionhalland.se/om-region-halland/organisation/dataskydd/">Behandling av personuppgifter</a>
 							</li>
 						        <li class="mb-2">
-								<a href="https://www.youtube.com/watch?v=3FQ2DBcmlX4" class="text-black text-lg hover:bg-yellow-light focus:bg-yellow-light">Så här redigerar du innehållet på design.regionhalland.se</a>
+								<a href="https://www.youtube.com/watch?v=3FQ2DBcmlX4">Så här redigerar du innehållet på design.regionhalland.se</a>
 							</li>
 
 					</ul>
@@ -429,16 +459,6 @@
 <script src="http://localhost:1313/js/main.min.a75eacdb9dceba36e10d9b662f8bc6dc7c863f2b66ffad494b2f75af5def0a70.js"></script>
 
 
-	<script>
-	  if (window.netlifyIdentity) {
-	    window.netlifyIdentity.on("init", user => {
-	      if (!user) {
-	        window.netlifyIdentity.on("login", () => {
-	          document.location.href = "/admin/";
-	        });
-	      }
-	    });
-	  }
-	</script>
+
   </body>
 </html>

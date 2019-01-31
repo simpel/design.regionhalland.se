@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://localhost:1313/lar-kanna-anvandaren/</loc>
+    <lastmod>2019-01-30T14:22:30+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/metoder/</loc>
     <lastmod>2019-01-24T11:17:48+01:00</lastmod>
   </url>
@@ -73,11 +78,6 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/lar-kanna-anvandaren/</loc>
-    <lastmod>2019-01-30T14:22:30+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://localhost:1313/verktyg/e-tjansteplattform/</loc>
     <lastmod>2019-01-24T11:20:04+01:00</lastmod>
   </url>
@@ -129,6 +129,11 @@
   
   <url>
     <loc>http://localhost:1313/kvalitet-och-uppfoljning/analys-och-uppfoljning/rapporter/</loc>
+    <lastmod>2019-01-24T11:17:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/community/redigering/</loc>
     <lastmod>2019-01-24T11:17:48+01:00</lastmod>
   </url>
   

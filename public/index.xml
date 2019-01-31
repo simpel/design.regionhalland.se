@@ -7,261 +7,271 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-se</language>
     <lastBuildDate>Thu, 24 Jan 2019 11:17:38 +0100</lastBuildDate>
-
+    
 	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-
-
-    <item>
-      <title>Använd moderna tekniklösningar</title>
-      <link>http://localhost:1313/anvand-moderna-tekniklosningar/</link>
-      <pubDate>Wed, 30 Jan 2019 14:26:10 +0100</pubDate>
-
-      <guid>http://localhost:1313/anvand-moderna-tekniklosningar/</guid>
-      <description></description>
-    </item>
-
-    <item>
-      <title>Leverera ofta</title>
-      <link>http://localhost:1313/skapa-en-organisation-fokuserad-pa-leverans/</link>
-      <pubDate>Wed, 30 Jan 2019 14:25:57 +0100</pubDate>
-
-      <guid>http://localhost:1313/skapa-en-organisation-fokuserad-pa-leverans/</guid>
-      <description></description>
-    </item>
-
-    <item>
-      <title>Tillsätt en produktägare</title>
-      <link>http://localhost:1313/tillsatt-en-produktagare-och-gor-den-ansvarig/</link>
-      <pubDate>Wed, 30 Jan 2019 14:25:43 +0100</pubDate>
-
-      <guid>http://localhost:1313/tillsatt-en-produktagare-och-gor-den-ansvarig/</guid>
-      <description></description>
-    </item>
-
-    <item>
-      <title>Arbeta med ständiga förbättringar</title>
-      <link>http://localhost:1313/arbeta-med-standiga-forbattringar/</link>
-      <pubDate>Wed, 30 Jan 2019 14:25:29 +0100</pubDate>
-
-      <guid>http://localhost:1313/arbeta-med-standiga-forbattringar/</guid>
-      <description></description>
-    </item>
-
-    <item>
-      <title>Var öppen</title>
-      <link>http://localhost:1313/var-oppen/</link>
-      <pubDate>Wed, 30 Jan 2019 14:24:59 +0100</pubDate>
-
-      <guid>http://localhost:1313/var-oppen/</guid>
-      <description></description>
-    </item>
-
-    <item>
-      <title>Var tillgänglig</title>
-      <link>http://localhost:1313/var-tillganglig/</link>
-      <pubDate>Wed, 30 Jan 2019 14:24:36 +0100</pubDate>
-
-      <guid>http://localhost:1313/var-tillganglig/</guid>
-      <description></description>
-    </item>
-
-    <item>
-      <title>Ha en tjänstedriven approach</title>
-      <link>http://localhost:1313/ha-en-tjanstedriven-approach/</link>
-      <pubDate>Wed, 30 Jan 2019 14:24:21 +0100</pubDate>
-
-      <guid>http://localhost:1313/ha-en-tjanstedriven-approach/</guid>
-      <description></description>
-    </item>
-
-    <item>
-      <title>Gör det enkelt och intuitivt</title>
-      <link>http://localhost:1313/gor-det-enkelt-och-intuitivt/</link>
-      <pubDate>Wed, 30 Jan 2019 14:23:55 +0100</pubDate>
-
-      <guid>http://localhost:1313/gor-det-enkelt-och-intuitivt/</guid>
-      <description></description>
-    </item>
-
-    <item>
-      <title>Lös hela kundresan</title>
-      <link>http://localhost:1313/los-hela-kundresan/</link>
-      <pubDate>Wed, 30 Jan 2019 14:23:37 +0100</pubDate>
-
-      <guid>http://localhost:1313/los-hela-kundresan/</guid>
-      <description></description>
-    </item>
-
-    <item>
-      <title>Arbeta datadrivet</title>
-      <link>http://localhost:1313/basera-beslut-pa-data/</link>
-      <pubDate>Wed, 30 Jan 2019 14:22:47 +0100</pubDate>
-
-      <guid>http://localhost:1313/basera-beslut-pa-data/</guid>
-      <description></description>
-    </item>
-
+    
+    
     <item>
       <title>Lär känna användaren</title>
       <link>http://localhost:1313/lar-kanna-anvandaren/</link>
       <pubDate>Wed, 30 Jan 2019 14:22:30 +0100</pubDate>
-
+      
       <guid>http://localhost:1313/lar-kanna-anvandaren/</guid>
+      <description>Varje projekt måste baseras på behov och insikter från riktiga användare. Vilket problem vill användaren få löst och hur ska vår tjänst passa in i hennes vardag? Oavsett målgrupp så måste riktiga användare vara med från starten. Varje val som görs bör baseras på hennes behov. Alltefter projektet fortlider så bör insikter från användarna samlas in kontinuerligt.
+Nyckelfrågor  Vem är den primära användaren av tjänsten? Varför vill användaren använda tjänsten?</description>
+    </item>
+    
+    <item>
+      <title>Använd moderna tekniklösningar</title>
+      <link>http://localhost:1313/anvand-moderna-tekniklosningar/</link>
+      <pubDate>Wed, 30 Jan 2019 14:26:10 +0100</pubDate>
+      
+      <guid>http://localhost:1313/anvand-moderna-tekniklosningar/</guid>
       <description></description>
     </item>
-
+    
+    <item>
+      <title>Leverera ofta</title>
+      <link>http://localhost:1313/skapa-en-organisation-fokuserad-pa-leverans/</link>
+      <pubDate>Wed, 30 Jan 2019 14:25:57 +0100</pubDate>
+      
+      <guid>http://localhost:1313/skapa-en-organisation-fokuserad-pa-leverans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tillsätt en produktägare</title>
+      <link>http://localhost:1313/tillsatt-en-produktagare-och-gor-den-ansvarig/</link>
+      <pubDate>Wed, 30 Jan 2019 14:25:43 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tillsatt-en-produktagare-och-gor-den-ansvarig/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arbeta med ständiga förbättringar</title>
+      <link>http://localhost:1313/arbeta-med-standiga-forbattringar/</link>
+      <pubDate>Wed, 30 Jan 2019 14:25:29 +0100</pubDate>
+      
+      <guid>http://localhost:1313/arbeta-med-standiga-forbattringar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Var öppen</title>
+      <link>http://localhost:1313/var-oppen/</link>
+      <pubDate>Wed, 30 Jan 2019 14:24:59 +0100</pubDate>
+      
+      <guid>http://localhost:1313/var-oppen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Var tillgänglig</title>
+      <link>http://localhost:1313/var-tillganglig/</link>
+      <pubDate>Wed, 30 Jan 2019 14:24:36 +0100</pubDate>
+      
+      <guid>http://localhost:1313/var-tillganglig/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ha en tjänstedriven approach</title>
+      <link>http://localhost:1313/ha-en-tjanstedriven-approach/</link>
+      <pubDate>Wed, 30 Jan 2019 14:24:21 +0100</pubDate>
+      
+      <guid>http://localhost:1313/ha-en-tjanstedriven-approach/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gör det enkelt och intuitivt</title>
+      <link>http://localhost:1313/gor-det-enkelt-och-intuitivt/</link>
+      <pubDate>Wed, 30 Jan 2019 14:23:55 +0100</pubDate>
+      
+      <guid>http://localhost:1313/gor-det-enkelt-och-intuitivt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lös hela kundresan</title>
+      <link>http://localhost:1313/los-hela-kundresan/</link>
+      <pubDate>Wed, 30 Jan 2019 14:23:37 +0100</pubDate>
+      
+      <guid>http://localhost:1313/los-hela-kundresan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arbeta datadrivet</title>
+      <link>http://localhost:1313/basera-beslut-pa-data/</link>
+      <pubDate>Wed, 30 Jan 2019 14:22:47 +0100</pubDate>
+      
+      <guid>http://localhost:1313/basera-beslut-pa-data/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>E-tjänsteplattformen</title>
       <link>http://localhost:1313/verktyg/e-tjansteplattform/</link>
       <pubDate>Thu, 24 Jan 2019 11:20:04 +0100</pubDate>
-
+      
       <guid>http://localhost:1313/verktyg/e-tjansteplattform/</guid>
       <description></description>
     </item>
-
+    
     <item>
       <title>Dataskydd (GDPR)</title>
       <link>http://localhost:1313/kvalitet-och-uppfoljning/dataskydd-gdpr/</link>
       <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
-
+      
       <guid>http://localhost:1313/kvalitet-och-uppfoljning/dataskydd-gdpr/</guid>
       <description></description>
     </item>
-
+    
     <item>
       <title>Designramverket Figma</title>
       <link>http://localhost:1313/verktyg/designramverket-figma/</link>
       <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
-
+      
       <guid>http://localhost:1313/verktyg/designramverket-figma/</guid>
       <description></description>
     </item>
-
+    
     <item>
       <title>Informationssäkerhet</title>
       <link>http://localhost:1313/kvalitet-och-uppfoljning/informationssakerhet/</link>
       <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
-
+      
       <guid>http://localhost:1313/kvalitet-och-uppfoljning/informationssakerhet/</guid>
       <description></description>
     </item>
-
+    
     <item>
       <title>Mätbarhet och feedback</title>
       <link>http://localhost:1313/kvalitet-och-uppfoljning/matbarhet-och-feedback/</link>
       <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
-
+      
       <guid>http://localhost:1313/kvalitet-och-uppfoljning/matbarhet-och-feedback/</guid>
       <description></description>
     </item>
-
+    
     <item>
       <title>Pågående projekt och initiativ</title>
       <link>http://localhost:1313/kvalitet-och-uppfoljning/pagaende-projekt-och-initiativ/</link>
       <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
-
+      
       <guid>http://localhost:1313/kvalitet-och-uppfoljning/pagaende-projekt-och-initiativ/</guid>
       <description></description>
     </item>
-
+    
     <item>
       <title>Rapporter</title>
       <link>http://localhost:1313/kvalitet-och-uppfoljning/analys-och-uppfoljning/rapporter/</link>
       <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
-
+      
       <guid>http://localhost:1313/kvalitet-och-uppfoljning/analys-och-uppfoljning/rapporter/</guid>
       <description></description>
     </item>
-
+    
+    <item>
+      <title>Redigera innehåll</title>
+      <link>http://localhost:1313/community/redigering/</link>
+      <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
+      
+      <guid>http://localhost:1313/community/redigering/</guid>
+      <description> Redigera innehåll på design.regionhalland.se </description>
+    </item>
+    
     <item>
       <title>Roller i vår digitala organisation</title>
       <link>http://localhost:1313/kvalitet-och-uppfoljning/roller-i-var-digitala-organisation/</link>
       <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
-
+      
       <guid>http://localhost:1313/kvalitet-och-uppfoljning/roller-i-var-digitala-organisation/</guid>
       <description></description>
     </item>
-
+    
     <item>
       <title>Stilguide</title>
       <link>http://localhost:1313/verktyg/stilguide/</link>
       <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
-
+      
       <guid>http://localhost:1313/verktyg/stilguide/</guid>
       <description></description>
     </item>
-
+    
     <item>
       <title>Så validerar vi en idé</title>
       <link>http://localhost:1313/verktyg/sa-validerar-vi-en-ide/</link>
       <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
-
+      
       <guid>http://localhost:1313/verktyg/sa-validerar-vi-en-ide/</guid>
       <description></description>
     </item>
-
+    
     <item>
       <title>Tillgänglighet</title>
       <link>http://localhost:1313/kvalitet-och-uppfoljning/tillganglighet/</link>
       <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
-
+      
       <guid>http://localhost:1313/kvalitet-och-uppfoljning/tillganglighet/</guid>
       <description></description>
     </item>
-
+    
     <item>
       <title>Typsnitt</title>
       <link>http://localhost:1313/verktyg/grafisk-profil/typsnitt/</link>
       <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
-
+      
       <guid>http://localhost:1313/verktyg/grafisk-profil/typsnitt/</guid>
       <description></description>
     </item>
-
+    
     <item>
       <title>Verktyg för Devops</title>
       <link>http://localhost:1313/verktyg/verktyg-for-devops/</link>
       <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
-
+      
       <guid>http://localhost:1313/verktyg/verktyg-for-devops/</guid>
       <description></description>
     </item>
-
+    
     <item>
       <title>Vår Logotyp</title>
       <link>http://localhost:1313/verktyg/grafisk-profil/logotyp/</link>
       <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
-
+      
       <guid>http://localhost:1313/verktyg/grafisk-profil/logotyp/</guid>
       <description></description>
     </item>
-
+    
     <item>
       <title>Våra officiell digitala kanaler</title>
       <link>http://localhost:1313/kvalitet-och-uppfoljning/vara-digitala-kanaler/</link>
       <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
-
+      
       <guid>http://localhost:1313/kvalitet-och-uppfoljning/vara-digitala-kanaler/</guid>
       <description>Lista samtliga webbplatser, appar osv. med tillhörande; - syfte - mål - kontaktuppgifter - ev. lista ansvariga - ev. länkar till forum, teams, devops osv. - ev. länkar till tillgänglighetsredogörelser - ev. länkar till prestandatester - ev. länkar till rapporter</description>
     </item>
-
+    
     <item>
       <title>Våra tjänstelager</title>
       <link>http://localhost:1313/verktyg/vara-tjanstelager/</link>
       <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
-
+      
       <guid>http://localhost:1313/verktyg/vara-tjanstelager/</guid>
       <description>Hur förhåller sig detta till rubriken Våra tjänster?</description>
     </item>
-
+    
     <item>
       <title>Våra tjänster</title>
       <link>http://localhost:1313/verktyg/vara-tjanster/</link>
       <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
-
+      
       <guid>http://localhost:1313/verktyg/vara-tjanster/</guid>
       <description></description>
     </item>
-
+    
   </channel>
 </rss>
