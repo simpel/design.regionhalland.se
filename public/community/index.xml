@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Community on Design Guidelines</title>
+    <title>Vi bygger tillsammans on Design Guidelines</title>
     <link>http://localhost:1313/community/</link>
-    <description>Recent content in Community on Design Guidelines</description>
+    <description>Recent content in Vi bygger tillsammans on Design Guidelines</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-se</language>
     <lastBuildDate>Thu, 24 Jan 2019 11:17:48 +0100</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/community/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Forum för strategisk utveckling</title>
+      <link>http://localhost:1313/community/forum-for-strategisk-utveckling/</link>
+      <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
+      
+      <guid>http://localhost:1313/community/forum-for-strategisk-utveckling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hitta rätt team</title>
+      <link>http://localhost:1313/community/hitta-ratt-team/</link>
+      <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
+      
+      <guid>http://localhost:1313/community/hitta-ratt-team/</guid>
+      <description>Tanken med denna sida är att guida användaren till &amp;ldquo;rätt&amp;rdquo; team och digitala kanal för att kunna bidra och diskutera digitaliseringsarbetet.</description>
+    </item>
     
   </channel>
 </rss>

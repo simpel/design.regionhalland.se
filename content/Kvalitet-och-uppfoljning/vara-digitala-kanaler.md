@@ -1,5 +1,5 @@
 ---
-title: "Våra officiell digitala kanaler"
+title: "Våra officiella digitala kanaler"
 date: 2019-01-24T11:17:48+01:00
 draft: false
 description: "Beskrivning av sidan"
