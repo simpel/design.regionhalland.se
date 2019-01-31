@@ -7,12 +7,9 @@ draft: false
 
 Alla kan bidra med innehåll till denna webbplats genom att skicka in så kallade pull requests på GitHub. Även om det låter tekniskt så är processen enkel och säker.
 
-
-## Så här gör du
+## Steg för steg
 
 {{< youtube 3FQ2DBcmlX4 >}}
-
-## Steg för steg
 
 1. **Leta upp den sida du vill redigera** <br> ...och klicka på "Redigera denna sidan"
 
