@@ -1,10 +1,9 @@
 ---
-title: "Redigera innehåll"
+title: "Redigera webbplatsens innehåll"
+linktitle: "Redigera innehåll"
 date: 2019-01-24T11:17:48+01:00
 draft: false
 ---
-# Redigera innehåll på design.regionhalland.se
-
 Alla kan bidra med innehåll till denna webbplats genom att skicka in så kallade pull requests på GitHub. Även om det låter tekniskt så är processen enkel och säker.
 
 ## Steg för steg
