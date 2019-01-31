@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/172c7c5c-51d4-4224-8f8c-42bcdddf352b/deploy-status)](https://app.netlify.com/sites/regionhalland-design/deploys)
 
 # Om Region Hallands design guidelines
 Detta repository innehåller koden för Region Hallands Design guildelines.
