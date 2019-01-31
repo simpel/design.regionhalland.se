@@ -29,5 +29,17 @@
       <description>Tanken med denna sida är att guida användaren till &amp;ldquo;rätt&amp;rdquo; team och digitala kanal för att kunna bidra och diskutera digitaliseringsarbetet.</description>
     </item>
     
+    <item>
+      <title>Redigera innehåll</title>
+      <link>http://localhost:1313/community/redigering/</link>
+      <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
+      
+      <guid>http://localhost:1313/community/redigering/</guid>
+      <description>Redigera innehåll på design.regionhalland.se Alla kan bidra med innehåll till denna webbplats genom att skicka in så kallade pull requests på GitHub. Även om det låter tekniskt så är processen enkel och säker.
+Steg för steg    Leta upp den sida du vill redigera &amp;hellip;och klicka på &amp;ldquo;Redigera denna sidan&amp;rdquo;
+ Logga in Skapa konto och logga in på GitHub.
+ Redigera sidan När du är inloggad kan du redigera sidan genom att klicka på redigera ikonen:    Genomför dina ändringar Ett tips här är att läsa på lite om Hugos s.</description>
+    </item>
+    
   </channel>
 </rss>

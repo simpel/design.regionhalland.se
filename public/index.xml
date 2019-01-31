@@ -193,6 +193,18 @@ Nyckelfrågor  Vem är den primära användaren av tjänsten? Varför vill anvä
     </item>
     
     <item>
+      <title>Redigera innehåll</title>
+      <link>http://localhost:1313/community/redigering/</link>
+      <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
+      
+      <guid>http://localhost:1313/community/redigering/</guid>
+      <description>Redigera innehåll på design.regionhalland.se Alla kan bidra med innehåll till denna webbplats genom att skicka in så kallade pull requests på GitHub. Även om det låter tekniskt så är processen enkel och säker.
+Steg för steg    Leta upp den sida du vill redigera &amp;hellip;och klicka på &amp;ldquo;Redigera denna sidan&amp;rdquo;
+ Logga in Skapa konto och logga in på GitHub.
+ Redigera sidan När du är inloggad kan du redigera sidan genom att klicka på redigera ikonen:    Genomför dina ändringar Ett tips här är att läsa på lite om Hugos s.</description>
+    </item>
+    
+    <item>
       <title>Roller i vår digitala organisation</title>
       <link>http://localhost:1313/kvalitet-och-uppfoljning/roller-i-var-digitala-organisation/</link>
       <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
@@ -280,6 +292,159 @@ Nyckelfrågor  Vem är den primära användaren av tjänsten? Varför vill anvä
       
       <guid>http://localhost:1313/verktyg/vara-tjanster/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Att göra sidor som syns bra i sökmotorer</title>
+      <link>http://localhost:1313/verktyg/webbhandbok/seo/</link>
+      <pubDate>Tue, 22 Jan 2019 11:38:08 +0100</pubDate>
+      
+      <guid>http://localhost:1313/verktyg/webbhandbok/seo/</guid>
+      <description>Det finns egentligen inga hemliga knep för att dina sidor ska hamna högt i sökträfflistorna. Nyckeln till att göra sökbara sidor är att använda ett så naturligt och effektivt språk som möjligt. Sökmotorer läser text på ungefär samma sätt som vi människor, därför är tipsen lika mycket allmänna skrivråd som stöd för att göra dina sidor attraktiva för sökmotorer. Att sidorna är sökbara är viktigt. Mellan 70-75% (kolla aktuell statistik) av trafiken till regionhalland.</description>
+    </item>
+    
+    <item>
+      <title>Aliasadresser (kortadresser)</title>
+      <link>http://localhost:1313/verktyg/webbhandbok/alias/</link>
+      <pubDate>Thu, 17 Jan 2019 22:47:33 +0100</pubDate>
+      
+      <guid>http://localhost:1313/verktyg/webbhandbok/alias/</guid>
+      <description>Aliasadresser kan vara mycket användbara och göra specifika sidor på webbplatsen mer lättåtkomliga.
+ Ett alias ska vara en permanent länk så långt det bara går. Se webbriktlinje nr 56.
+ Om ett alias ändå ska avslutas måste det pekas om till närmsta relevanta eller liknande sida. Att peka om till startsidan är aldrig ett alternativ.
+ Ett alias ska inte bestå utav å, ä eller ö eller specialtecken.</description>
+    </item>
+    
+    <item>
+      <title>Video på våra webbplatser</title>
+      <link>http://localhost:1313/verktyg/webbhandbok/video/</link>
+      <pubDate>Thu, 17 Jan 2019 22:09:10 +0100</pubDate>
+      
+      <guid>http://localhost:1313/verktyg/webbhandbok/video/</guid>
+      <description>Riktlinjer för att publicera video på Region Hallands webbplatser.
+Begreppet video omfattar i det här sammanhanget all rörlig media som presenteras på en webbsida, det vill säga: filmer, TV-produktioner, direktsändningar, webbseminarier, innehåll i utbildningar, animeringar och så vidare.
+ Video presenteras i första hand infogat direkt på sidan.
+ Video som integreras direkt på sidan måste vara publicerad via någon av regionens officiella konton på Youtube eller en Facebooksida i Region Hallands regi.</description>
+    </item>
+    
+    <item>
+      <title>Bilder på våra webbplatser</title>
+      <link>http://localhost:1313/verktyg/webbhandbok/bilder/</link>
+      <pubDate>Thu, 17 Jan 2019 22:09:05 +0100</pubDate>
+      
+      <guid>http://localhost:1313/verktyg/webbhandbok/bilder/</guid>
+      <description>Riktlinjer för bildhantering på Region Hallands webbplatser.
+ Bilder ska bara användas om de är betydelsebärande, det vill säga tillför information som inte finns i texten, kompletterar textens innehåll, eller förtydligar sammanhanget som texten förekommer i.
+ Detta gäller vanliga sidor och artiklar. Huvudsidor och ämnessidor kan däremot ha bilder som är enbart dekorativa.
+ Du ska inte använda bilder enbart för att &amp;ldquo;lätta upp&amp;rdquo; en sida.
+ I vissa fall kan bilder användas för att göra en sida lättare att läsa, till exempel för att fästa blicken vid långa uppräkningar.</description>
+    </item>
+    
+    <item>
+      <title>Brödtexter</title>
+      <link>http://localhost:1313/verktyg/webbhandbok/brodtext/</link>
+      <pubDate>Thu, 17 Jan 2019 22:01:22 +0100</pubDate>
+      
+      <guid>http://localhost:1313/verktyg/webbhandbok/brodtext/</guid>
+      <description>Riktlinjer för brödtext på webbplatsens sidor och artiklar.
+Brödtext på vanliga sidor och artiklar  Den viktigaste informationen ska placeras högst upp på sidan.
+ Sidan ska inte vara för lång men ibland kan det krävas mycket text för att beskriva något. Då är det särskilt viktigt att strukturera texten med mellanrubriker, punktlistor och så vidare för att underlätta läsningen.
+ Om texten handlar om flera olika saker ska du överväga att dela upp innehållet på flera sidor.</description>
+    </item>
+    
+    <item>
+      <title>Dokument och bifogade filer</title>
+      <link>http://localhost:1313/verktyg/webbhandbok/dokument/</link>
+      <pubDate>Thu, 17 Jan 2019 22:01:22 +0100</pubDate>
+      
+      <guid>http://localhost:1313/verktyg/webbhandbok/dokument/</guid>
+      <description>Publicera dokument, som rapporter och utredningar, i webbplatsens standardformat (html). Andra format gör det svårare att komma åt informationen, eftersom de ofta kräver extra programvara. Om du ändå behöver lägga ut en pdf, se då till att göra den tillgänglig.
+Rekomendationer om dokumentformat  Publicera i första hand dokument i standardformatet html. Då kan användarna komma åt er information utan att använda en viss datorplattform, eller ett program som kostar pengar, till exempel Word.</description>
+    </item>
+    
+    <item>
+      <title>Driftstörning</title>
+      <link>http://localhost:1313/verktyg/webbhandbok/driftstorningar/</link>
+      <pubDate>Thu, 17 Jan 2019 22:01:22 +0100</pubDate>
+      
+      <guid>http://localhost:1313/verktyg/webbhandbok/driftstorningar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ingresser</title>
+      <link>http://localhost:1313/verktyg/webbhandbok/ingresser/</link>
+      <pubDate>Thu, 17 Jan 2019 22:01:22 +0100</pubDate>
+      
+      <guid>http://localhost:1313/verktyg/webbhandbok/ingresser/</guid>
+      <description>En bra ingress fungerar som en inledande sammanfattning på vad din text handlar om. Men vad ska du tänka på när du skriver ingresser?
+Om rubriken är din första chans att intressera läsaren kan man säga att ingressen är din bästa chans. I textens första stycke har du jämfört med rubriken många ord på dig att säga det du vill. De flesta texter bör ha en inledande sammanfattning. Detta är extra viktigt när man skriver för webb.</description>
+    </item>
+    
+    <item>
+      <title>Kontaktuppgifter</title>
+      <link>http://localhost:1313/verktyg/webbhandbok/kontaktuppgifter/</link>
+      <pubDate>Thu, 17 Jan 2019 22:01:22 +0100</pubDate>
+      
+      <guid>http://localhost:1313/verktyg/webbhandbok/kontaktuppgifter/</guid>
+      <description> Innehåll tas fram efter djupare diskussion inom webbredaktionen.
+ </description>
+    </item>
+    
+    <item>
+      <title>Länkar och länktexter</title>
+      <link>http://localhost:1313/verktyg/webbhandbok/lankar/</link>
+      <pubDate>Thu, 17 Jan 2019 22:01:22 +0100</pubDate>
+      
+      <guid>http://localhost:1313/verktyg/webbhandbok/lankar/</guid>
+      <description>Skriv länkarna så att användarna förstår vart länken leder även när den är lyft ur sitt sammanhang. På webben skummar vi ofta igenom information och blicken fastnar på avvikelser såsom rubriker, markerade ord och länkar. Tydliga och informativa länkar gör att besökarna snabbare hittar den information de söker.
+Rekommendationer för länktexter Tydliga länkar är särskilt viktigt för personer som använder någon form av hjälpmedel för att surfa på webben, till exempel skärmläsare, eftersom de kan välja att navigera genom att enbart läsa upp länkarna på en sida.</description>
+    </item>
+    
+    <item>
+      <title>Nyhetsartiklar</title>
+      <link>http://localhost:1313/verktyg/webbhandbok/nyhetsartiklar/</link>
+      <pubDate>Thu, 17 Jan 2019 22:01:22 +0100</pubDate>
+      
+      <guid>http://localhost:1313/verktyg/webbhandbok/nyhetsartiklar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rubriker</title>
+      <link>http://localhost:1313/verktyg/webbhandbok/rubriker/</link>
+      <pubDate>Thu, 17 Jan 2019 22:01:22 +0100</pubDate>
+      
+      <guid>http://localhost:1313/verktyg/webbhandbok/rubriker/</guid>
+      <description>Riktlinjer för att skriva korrekta sidrubriker, underrubriker, mindre rubriker samt rubriker i menyerna.
+Allmänt om rubriker  Rubriker ska alltid ha det viktigaste ordet först. Rubriker ska sammanfatta det som är viktigast på sidan. Du får inte använda fet eller kursiv stil i rubriker.  Sidrubrik  Bör vara mellan cirka xx tecken (helst) och cirka xx tecken (max), inklusive blanksteg. Sidrubriken behöver inte vara identisk med sidans namn, men de ska vara så lika som möjligt.</description>
+    </item>
+    
+    <item>
+      <title>Tabeller</title>
+      <link>http://localhost:1313/verktyg/webbhandbok/tabeller/</link>
+      <pubDate>Thu, 17 Jan 2019 22:01:22 +0100</pubDate>
+      
+      <guid>http://localhost:1313/verktyg/webbhandbok/tabeller/</guid>
+      <description>Riktlinjer för tabeller på Region Hallands webbplatser.
+ Tabeller får inte användas för design.
+ Tabeller får bara innehålla textdata, inte bilder och andra mediafiler.
+ Tabeller ska alltid ha en tabellbeskrivning (caption) som förklarar vad tabellen visar.
+ Använd i första hand de förinställda tabelltyperna på webbplatsen. (Vilket bör finnas)
+ Sammanfatta gärna tabellen i löpande text direkt efter tabellen.
+ Tabeller med många kolumner bör delas upp i flera tabeller.</description>
+    </item>
+    
+    <item>
+      <title>E-pliktleverans till Kungliga biblioteket</title>
+      <link>http://localhost:1313/verktyg/webbhandbok/eplikt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/verktyg/webbhandbok/eplikt/</guid>
+      <description>När en myndighet digitaliserar sina egna tryckta publikationer och publicerar dessa på webben omfattas de av e-plikt. Det gäller oavsett om publikationen är skyddad av upphovsrätt eller inte.
+Om det däremot är någon annan än myndigheten själv som har framställt den ursprungliga publikationen så omfattas inte den digitaliserade utgåvan av leveransplikt.
+ Författaren har i dagläget ingen kännedom om Region Hallands rutiner för e-plikt.
+ Mer om lagstiftningen Lagen om pliktexemplar av elektroniskt material på Riksdagens webbplats</description>
     </item>
     
   </channel>

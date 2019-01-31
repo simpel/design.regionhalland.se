@@ -18,6 +18,40 @@
 
 			{{ .Content }}
 
+			{{ $list := .CurrentSection.Pages }}
+			{{ $parent := .Page }}
+
+			{{ $curPage := .UniqueID }}
+
+			<div class="flex flex-wrap items-stretch -mx-4">
+
+			{{ range $index, $element := $list.ByWeight }}
+			   {{if eq .CurrentSection $parent}}
+
+
+			   <div class="w-full sm:w-6/12 lg:w-4/12 mb-4 flex items-stretch">
+				   <div class="shadow border border-grey-lightest m-4 p-4 flex flex-col align-between w-full">
+					   <article class="article flex-1">
+						   <h2 style="margin-top: 0;">
+						   {{ add $index 1 }}. {{ .Title }}
+						   </h2>
+						   <p>
+						   		{{ .Param "description" }}
+						   </p>
+					   </article>
+
+					   <a href="{{.Permalink }}" class="inline-flex no-underline text-white bg-blue-dark hover:underline px-6 items-center justify-between py-4 text-lg rounded">{{ .Title }} <i data-feather='chevron-right' class='flex-initial w-4 h-4 ml-2'></i></a>
+
+				   </div>
+			   </div>
+
+			   {{ end }}
+			{{ end }}
+
+			</div>
+
+
+
 		</main>
 	</div>
 </div>

@@ -143,6 +143,11 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/community/redigering/</loc>
+    <lastmod>2019-01-24T11:17:48+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/kvalitet-och-uppfoljning/roller-i-var-digitala-organisation/</loc>
     <lastmod>2019-01-24T11:17:48+01:00</lastmod>
   </url>
@@ -203,8 +208,77 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/verktyg/webbhandbok/seo/</loc>
+    <lastmod>2019-01-22T11:38:08+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/verktyg/webbhandbok/alias/</loc>
+    <lastmod>2019-01-17T22:47:33+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/verktyg/webbhandbok/video/</loc>
+    <lastmod>2019-01-17T22:09:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/verktyg/webbhandbok/bilder/</loc>
+    <lastmod>2019-01-17T22:09:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/verktyg/webbhandbok/brodtext/</loc>
+    <lastmod>2019-01-17T22:01:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/verktyg/webbhandbok/dokument/</loc>
+    <lastmod>2019-01-17T22:01:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/verktyg/webbhandbok/driftstorningar/</loc>
+    <lastmod>2019-01-17T22:01:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/verktyg/webbhandbok/ingresser/</loc>
+    <lastmod>2019-01-17T22:01:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/verktyg/webbhandbok/kontaktuppgifter/</loc>
+    <lastmod>2019-01-17T22:01:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/verktyg/webbhandbok/lankar/</loc>
+    <lastmod>2019-01-17T22:01:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/verktyg/webbhandbok/nyhetsartiklar/</loc>
+    <lastmod>2019-01-17T22:01:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/verktyg/webbhandbok/rubriker/</loc>
+    <lastmod>2019-01-17T22:01:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/verktyg/webbhandbok/tabeller/</loc>
+    <lastmod>2019-01-17T22:01:22+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/categories/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/verktyg/webbhandbok/eplikt/</loc>
   </url>
   
   <url>
