@@ -6,7 +6,7 @@ draft: false
 description: "Beskrivning av sidan"
 weight: 0
 ---
-# Inledning
+## Inledning
 Detta dokument är en bilaga till utvecklingshandboken och syftar till att beskriva hur vi utvecklar webbapplikationer och hur dessa samverkar med en tillhörande databas.
 ## Webbapplikationen
 Webbapplikationer I Region Halland utvecklas med tre olika ramverk, ASP.Net, Telerik  UI for ASP.Net AJAX och RHCommonComponents. Våra webbapplikationer har tidigare varit skiktade i tre nivåer, gränssnitt, affärslogik och databasåtkomst. Sedan 2016/2017 så har vi ändrat detta till två nivåer gränssnitt och databasåtkomst. Affärslogiken är i de allra flesta fall förflyttad till databasen. Även .Net version kommer under 2017 att succesivt bytas från 4.0 till 4.6.2. Aktuell .Net version framgår i baseline. Samtliga webbapplikationer utvecklas i ASP-Net Webforms.
