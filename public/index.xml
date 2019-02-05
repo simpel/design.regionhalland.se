@@ -22,6 +22,72 @@ Nyckelfrågor  Vem är den primära användaren av tjänsten? Varför vill anvä
     </item>
     
     <item>
+      <title>Handbok för utveckling av .NET webbapplikationer</title>
+      <link>http://localhost:1313/verktyg/handbocker/utvecklingshandbocker/webapplikation/</link>
+      <pubDate>Fri, 01 Feb 2019 09:07:05 +0100</pubDate>
+      
+      <guid>http://localhost:1313/verktyg/handbocker/utvecklingshandbocker/webapplikation/</guid>
+      <description>Inledning Detta dokument är en bilaga till utvecklingshandboken och syftar till att beskriva hur vi utvecklar webbapplikationer och hur dessa samverkar med en tillhörande databas.
+Webbapplikationen Webbapplikationer I Region Halland utvecklas med tre olika ramverk, ASP.Net, Telerik UI for ASP.Net AJAX och RHCommonComponents. Våra webbapplikationer har tidigare varit skiktade i tre nivåer, gränssnitt, affärslogik och databasåtkomst. Sedan 2016&amp;frasl;2017 så har vi ändrat detta till två nivåer gränssnitt och databasåtkomst. Affärslogiken är i de allra flesta fall förflyttad till databasen.</description>
+    </item>
+    
+    <item>
+      <title>Designsprint</title>
+      <link>http://localhost:1313/metoder/designsprint/</link>
+      <pubDate>Thu, 31 Jan 2019 21:12:27 +0100</pubDate>
+      
+      <guid>http://localhost:1313/metoder/designsprint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anvandartestning</title>
+      <link>http://localhost:1313/metoder/anvandartestning/</link>
+      <pubDate>Thu, 31 Jan 2019 21:12:07 +0100</pubDate>
+      
+      <guid>http://localhost:1313/metoder/anvandartestning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kundresor</title>
+      <link>http://localhost:1313/metoder/kundresor/</link>
+      <pubDate>Thu, 31 Jan 2019 21:10:16 +0100</pubDate>
+      
+      <guid>http://localhost:1313/metoder/kundresor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effektkartor</title>
+      <link>http://localhost:1313/metoder/effektkartor/</link>
+      <pubDate>Thu, 31 Jan 2019 21:10:07 +0100</pubDate>
+      
+      <guid>http://localhost:1313/metoder/effektkartor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Userstories</title>
+      <link>http://localhost:1313/metoder/userstories/</link>
+      <pubDate>Thu, 31 Jan 2019 21:09:57 +0100</pubDate>
+      
+      <guid>http://localhost:1313/metoder/userstories/</guid>
+      <description>En user story, eller användarhistoria, är en kort mening som konkret beskriver vad din användare vill uppnå. Tillsammans med acceptanskriterier beskriver den vad ni skall producera.
+Format En user story har en enkel men effektiv uppbyggnad och synliggör vem som vill göra vad och varför.
+Som användartyp vill jag mål/önskan/händelse så att syfte   Användartyp ‐ En användartyp är en av dina målgrupper eller personas. Dessa kan vara både externa och interna, se exemplen nedan.</description>
+    </item>
+    
+    <item>
+      <title>Tjänstekartor</title>
+      <link>http://localhost:1313/metoder/tjanstekartor/</link>
+      <pubDate>Thu, 31 Jan 2019 20:44:32 +0100</pubDate>
+      
+      <guid>http://localhost:1313/metoder/tjanstekartor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Använd moderna tekniklösningar</title>
       <link>http://localhost:1313/anvand-moderna-tekniklosningar/</link>
       <pubDate>Wed, 30 Jan 2019 14:26:10 +0100</pubDate>
@@ -122,6 +188,15 @@ Hur förbättras din tjänst? Att interagera med Region Halland innebär i princ
     </item>
     
     <item>
+      <title>Stakeholder mapping</title>
+      <link>http://localhost:1313/metoder/stakeholdermapping/</link>
+      <pubDate>Thu, 24 Jan 2019 11:19:47 +0100</pubDate>
+      
+      <guid>http://localhost:1313/metoder/stakeholdermapping/</guid>
+      <description>Kartläggning av intressenter - skulle det kunna vara ett bra alternativ till det engelska uttrycket Stakeholder mapping?</description>
+    </item>
+    
+    <item>
       <title>Dataskydd (GDPR)</title>
       <link>http://localhost:1313/kvalitet-och-uppfoljning/dataskydd-gdpr/</link>
       <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
@@ -146,6 +221,15 @@ Hur förbättras din tjänst? Att interagera med Region Halland innebär i princ
       
       <guid>http://localhost:1313/community/hitta-ratt-team/</guid>
       <description>Tanken med denna sida är att guida användaren till &amp;ldquo;rätt&amp;rdquo; team och digitala kanal för att kunna bidra och diskutera digitaliseringsarbetet.</description>
+    </item>
+    
+    <item>
+      <title>Idévalidering</title>
+      <link>http://localhost:1313/metoder/id%C3%A9validering/</link>
+      <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
+      
+      <guid>http://localhost:1313/metoder/id%C3%A9validering/</guid>
+      <description>#Idévalidering</description>
     </item>
     
     <item>
@@ -185,12 +269,12 @@ Hur förbättras din tjänst? Att interagera med Region Halland innebär i princ
     </item>
     
     <item>
-      <title>Redigera innehåll</title>
+      <title>Redigera webbplatsens innehåll</title>
       <link>http://localhost:1313/community/redigering/</link>
       <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
       
       <guid>http://localhost:1313/community/redigering/</guid>
-      <description>Redigera innehåll på design.regionhalland.se Alla kan bidra med innehåll till denna webbplats genom att skicka in så kallade pull requests på GitHub. Även om det låter tekniskt så är processen enkel och säker.
+      <description>Alla kan bidra med innehåll till denna webbplats genom att skicka in så kallade pull requests på GitHub. Även om det låter tekniskt så är processen enkel och säker.
 Steg för steg    Leta upp den sida du vill redigera &amp;hellip;och klicka på &amp;ldquo;Redigera denna sidan&amp;rdquo;
  Logga in Skapa konto och logga in på GitHub.
  Redigera sidan När du är inloggad kan du redigera sidan genom att klicka på redigera ikonen:    Genomför dina ändringar Ett tips här är att läsa på lite om Hugos s.</description>
@@ -202,15 +286,6 @@ Steg för steg    Leta upp den sida du vill redigera &amp;hellip;och klicka på 
       <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
       
       <guid>http://localhost:1313/kvalitet-och-uppfoljning/roller-i-var-digitala-organisation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Så validerar vi en idé</title>
-      <link>http://localhost:1313/metoder/sa-validerar-vi-en-ide/</link>
-      <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
-      
-      <guid>http://localhost:1313/metoder/sa-validerar-vi-en-ide/</guid>
       <description></description>
     </item>
     

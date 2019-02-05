@@ -12,12 +12,77 @@
     
     
     <item>
-      <title>Så validerar vi en idé</title>
-      <link>http://localhost:1313/metoder/sa-validerar-vi-en-ide/</link>
+      <title>Designsprint</title>
+      <link>http://localhost:1313/metoder/designsprint/</link>
+      <pubDate>Thu, 31 Jan 2019 21:12:27 +0100</pubDate>
+      
+      <guid>http://localhost:1313/metoder/designsprint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anvandartestning</title>
+      <link>http://localhost:1313/metoder/anvandartestning/</link>
+      <pubDate>Thu, 31 Jan 2019 21:12:07 +0100</pubDate>
+      
+      <guid>http://localhost:1313/metoder/anvandartestning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kundresor</title>
+      <link>http://localhost:1313/metoder/kundresor/</link>
+      <pubDate>Thu, 31 Jan 2019 21:10:16 +0100</pubDate>
+      
+      <guid>http://localhost:1313/metoder/kundresor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effektkartor</title>
+      <link>http://localhost:1313/metoder/effektkartor/</link>
+      <pubDate>Thu, 31 Jan 2019 21:10:07 +0100</pubDate>
+      
+      <guid>http://localhost:1313/metoder/effektkartor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Userstories</title>
+      <link>http://localhost:1313/metoder/userstories/</link>
+      <pubDate>Thu, 31 Jan 2019 21:09:57 +0100</pubDate>
+      
+      <guid>http://localhost:1313/metoder/userstories/</guid>
+      <description>En user story, eller användarhistoria, är en kort mening som konkret beskriver vad din användare vill uppnå. Tillsammans med acceptanskriterier beskriver den vad ni skall producera.
+Format En user story har en enkel men effektiv uppbyggnad och synliggör vem som vill göra vad och varför.
+Som användartyp vill jag mål/önskan/händelse så att syfte   Användartyp ‐ En användartyp är en av dina målgrupper eller personas. Dessa kan vara både externa och interna, se exemplen nedan.</description>
+    </item>
+    
+    <item>
+      <title>Tjänstekartor</title>
+      <link>http://localhost:1313/metoder/tjanstekartor/</link>
+      <pubDate>Thu, 31 Jan 2019 20:44:32 +0100</pubDate>
+      
+      <guid>http://localhost:1313/metoder/tjanstekartor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stakeholder mapping</title>
+      <link>http://localhost:1313/metoder/stakeholdermapping/</link>
+      <pubDate>Thu, 24 Jan 2019 11:19:47 +0100</pubDate>
+      
+      <guid>http://localhost:1313/metoder/stakeholdermapping/</guid>
+      <description>Kartläggning av intressenter - skulle det kunna vara ett bra alternativ till det engelska uttrycket Stakeholder mapping?</description>
+    </item>
+    
+    <item>
+      <title>Idévalidering</title>
+      <link>http://localhost:1313/metoder/id%C3%A9validering/</link>
       <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
       
-      <guid>http://localhost:1313/metoder/sa-validerar-vi-en-ide/</guid>
-      <description></description>
+      <guid>http://localhost:1313/metoder/id%C3%A9validering/</guid>
+      <description>#Idévalidering</description>
     </item>
     
   </channel>

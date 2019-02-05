@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vi bygger tillsammans on Design Guidelines</title>
+    <title>Community on Design Guidelines</title>
     <link>http://localhost:1313/community/</link>
-    <description>Recent content in Vi bygger tillsammans on Design Guidelines</description>
+    <description>Recent content in Community on Design Guidelines</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-se</language>
     <lastBuildDate>Thu, 24 Jan 2019 11:17:48 +0100</lastBuildDate>
@@ -30,12 +30,12 @@
     </item>
     
     <item>
-      <title>Redigera innehåll</title>
+      <title>Redigera webbplatsens innehåll</title>
       <link>http://localhost:1313/community/redigering/</link>
       <pubDate>Thu, 24 Jan 2019 11:17:48 +0100</pubDate>
       
       <guid>http://localhost:1313/community/redigering/</guid>
-      <description>Redigera innehåll på design.regionhalland.se Alla kan bidra med innehåll till denna webbplats genom att skicka in så kallade pull requests på GitHub. Även om det låter tekniskt så är processen enkel och säker.
+      <description>Alla kan bidra med innehåll till denna webbplats genom att skicka in så kallade pull requests på GitHub. Även om det låter tekniskt så är processen enkel och säker.
 Steg för steg    Leta upp den sida du vill redigera &amp;hellip;och klicka på &amp;ldquo;Redigera denna sidan&amp;rdquo;
  Logga in Skapa konto och logga in på GitHub.
  Redigera sidan När du är inloggad kan du redigera sidan genom att klicka på redigera ikonen:    Genomför dina ändringar Ett tips här är att läsa på lite om Hugos s.</description>

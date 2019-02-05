@@ -28,6 +28,56 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/verktyg/handbocker/utvecklingshandbocker/webapplikation/</loc>
+    <lastmod>2019-02-01T09:07:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/metoder/designsprint/</loc>
+    <lastmod>2019-01-31T21:12:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/metoder/anvandartestning/</loc>
+    <lastmod>2019-01-31T21:12:07+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/metoder/kundresor/</loc>
+    <lastmod>2019-01-31T21:10:16+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/metoder/effektkartor/</loc>
+    <lastmod>2019-01-31T21:10:07+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/metoder/userstories/</loc>
+    <lastmod>2019-01-31T21:09:57+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/verktyg/stilguiden/</loc>
+    <lastmod>2019-01-31T21:03:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/verktyg/tjanster/</loc>
+    <lastmod>2019-01-31T21:00:34+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/verktyg/handbocker/</loc>
+    <lastmod>2019-01-31T21:00:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/metoder/tjanstekartor/</loc>
+    <lastmod>2019-01-31T20:44:32+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/anvand-moderna-tekniklosningar/</loc>
     <lastmod>2019-01-30T14:26:10+01:00</lastmod>
   </url>
@@ -83,6 +133,11 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/metoder/stakeholdermapping/</loc>
+    <lastmod>2019-01-24T11:19:47+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/kvalitet-och-uppfoljning/analys-och-uppfoljning/</loc>
     <lastmod>2019-01-24T11:17:48+01:00</lastmod>
   </url>
@@ -118,6 +173,11 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/metoder/id%C3%A9validering/</loc>
+    <lastmod>2019-01-24T11:17:48+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/kvalitet-och-uppfoljning/informationssakerhet/</loc>
     <lastmod>2019-01-24T11:17:48+01:00</lastmod>
   </url>
@@ -144,11 +204,6 @@
   
   <url>
     <loc>http://localhost:1313/kvalitet-och-uppfoljning/roller-i-var-digitala-organisation/</loc>
-    <lastmod>2019-01-24T11:17:48+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/metoder/sa-validerar-vi-en-ide/</loc>
     <lastmod>2019-01-24T11:17:48+01:00</lastmod>
   </url>
   
@@ -259,11 +314,6 @@
   
   <url>
     <loc>http://localhost:1313/verktyg/handbocker/webbhandbok/eplikt/</loc>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/verktyg/handbocker/</loc>
-    <priority>0</priority>
   </url>
   
   <url>

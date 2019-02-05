@@ -16,7 +16,34 @@ a {
 }
 
 
+.highlight pre {
+	overflow:auto;
+	padding: 1rem 3rem 1rem 1rem;
+	position: relative;
+}
 
+.highlight pre:after {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 3rem;
+	background-image:linear-gradient(to right, rgba(39, 40, 34, 0) , rgba(39, 40, 34, 0.8) );
+	content: "";
+}
+
+code {
+	border-radius: 4px;
+	background: #f4f4f4;
+	padding: 2px;
+	font-size: 0.9rem;
+}
+
+.highlight code {
+	border-radius: 0;
+	background: none;
+	padding: 0;
+}
 
 #TableOfContents {
 
