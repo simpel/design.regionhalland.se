@@ -1,3 +1,11 @@
-<div class="shadow border border-grey-lightest m-4 p-4 flex flex-col align-between w-full">
+<div class="shadow border border-grey-lightest my-4 p-4 w-full">
+
+    {{if .Get "header" }}
+        <div class="bg-grey-lightest -mt-4 -ml-4 -mr-4 mb-4 p-4 text-lg">
+        {{ .Get "header" | markdownify }}
+        </div>
+
+    {{ end }}
+
     {{ .Inner }}
 </div>
