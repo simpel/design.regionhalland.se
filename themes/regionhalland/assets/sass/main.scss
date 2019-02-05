@@ -45,6 +45,59 @@ code {
 	padding: 0;
 }
 
+.numbered {
+	counter-reset: h2;
+
+
+
+	h2 {
+		counter-reset: h3;
+	}
+
+	h3 {
+		counter-reset: h4;
+	}
+
+	h4 {
+		counter-reset: h5;
+	}
+
+	h5 {
+		counter-reset: h6;
+	}
+
+
+
+	h2:before {
+		counter-increment : h2;
+		content : counter(h2,decimal) ". ";
+	}
+
+	h3:before {
+		counter-increment : h3;
+		content : counter(h2,decimal) "." counter(h3,decimal) ". ";
+
+	}
+
+	h4:before {
+		counter-increment : h4;
+		content : counter(h2,decimal) "." counter(h3,decimal) "." counter(h4,decimal) ". ";
+
+	}
+
+	h5:before {
+		counter-increment : h5;
+		content : counter(h2,decimal) "." counter(h3,decimal) "." counter(h4,decimal) "." counter(h5,decimal) ". ";
+
+	}
+
+	h6:before {
+		counter-increment : h6;
+		content : counter(h2,decimal) "." counter(h3,decimal) "." counter(h4,decimal) "." counter(h5,decimal) "." counter(h6,decimal) ". ";
+
+	}
+}
+
 #TableOfContents {
 
 	> ul > li > ul {

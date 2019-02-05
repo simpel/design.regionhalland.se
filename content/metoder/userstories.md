@@ -22,9 +22,7 @@ En user story har en enkel men effektiv uppbyggnad och synliggör vem som vill g
 
 {{% /box %}}
 
-
-
- ### Exempel
+### Exempel
 
 Som **patient** vill jag **kunna kontakta läkare via mobilen** så att **jag slipper åka till vårdcentralen**.
 
@@ -36,10 +34,10 @@ Som **användare** vill jag **kunna markera flera filer** så att **jag kan flyt
 Det är här acceptanskriterier(***AC***) kommer in i bilden. Det är en samling krav som beskriver för teamet när man uppfyllt målet med user storyn. AC:s är också till för att säkerställa kvalitén på produkten, t.ex. kan ett AC vara att den producerade koden skall ha kodgranskats av en kollega eller att det man producerat skall dokumenteras.
 
 {{% box header="**Exempel**" %}}
-#### User Story
+### User Story
 Som **användare** vill jag **kunna se alla vårdcentraler på en karta** så att **jag kan avgöra vilken som är närmast mig**.
 
-#### Acceptanskriterier
+### Acceptanskriterier
 - Kartan skall fungera både på mobil, surfplatta och datorskärm.
 - Kartan skall visa min nuvarande position.
 - Som användare skall jag kunna zooma och panorera kartan.
