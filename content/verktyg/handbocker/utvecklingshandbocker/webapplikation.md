@@ -8,20 +8,24 @@ weight: 0
 ---
 # Inledning
 Detta dokument är en bilaga till utvecklingshandboken och syftar till att beskriva hur vi utvecklar webbapplikationer och hur dessa samverkar med en tillhörande databas.
-### Webbapplikationen
-Webbapplikationer I Region Halland utvecklas med tre olika ramverk, ASP.Net, Telerik  UI for ASP.Net AJAX och  RHCommonComponents. Våra webbapplikationer har tidigare varit skiktade i tre nivåer, gränssnitt, affärslogik och databasåtkomst. Sedan 2016/2017 så har vi ändrat detta till två nivåer gränssnitt och databasåtkomst. Affärslogiken är i de allra flesta fall förflyttad till databasen. Även .Net version kommer under 2017 att succesivt bytas från 4.0 till 4.6.2. Aktuell .Net version framgår i baseline. Samtliga webbapplikationer utvecklas i ASP-Net Webforms.
-## Databasen
+## Webbapplikationen
+Webbapplikationer I Region Halland utvecklas med tre olika ramverk, ASP.Net, Telerik  UI for ASP.Net AJAX och RHCommonComponents. Våra webbapplikationer har tidigare varit skiktade i tre nivåer, gränssnitt, affärslogik och databasåtkomst. Sedan 2016/2017 så har vi ändrat detta till två nivåer gränssnitt och databasåtkomst. Affärslogiken är i de allra flesta fall förflyttad till databasen. Även .Net version kommer under 2017 att succesivt bytas från 4.0 till 4.6.2. Aktuell .Net version framgår i baseline. Samtliga webbapplikationer utvecklas i ASP-Net Webforms.
+### Databasen
 Databasen är alltid Microsoft SQL Server men dess version kan variera mellan olika applikationer. Oftast är det dock 2008 och 2012 som används. Programmering i T-SQL sker i mycket stor utsträckning där vi, förutom Stored Procedures, använder triggers och funktioner på databassidan. Applikationernas affärsregler återfinns oftast som T-SQL i databasen.
-# Webbapplikationen
+
+### Webbapplikationen
 Varje organisation sätter upp sina unika regler för hur systemutveckling ska gå till. För utveckling av webbapplikationer så är reglerna ganska omfattande. För att våra system ska överleva över lång tid och till en rimlig förvaltningskostnad så är dessa regler viktiga att följa.
+
 ## .Net
 Då detta dokument skrivs så är alla våra webbapplikationer utvecklade i .Net 4.0. Inom Region Halland så har vi en återhållsam strategi vad det gäller att rulla ut nya .Net versioner, både för klienter och servrar. Under 2017 så är planen att succesivt flytta över till version 4.6.2. Inga planer finns att gå över till .Net Core.
-### Resharper
+
+## Resharper
 Inom Region Halland använder vi Resharper, från företaget JetBrains, vilket är ett av våra viktigaste verktyg. Det hjälper oss att hålla en likvärdig och god kodningsstandard, det analyserar kodkvaliteten och det lär oss nya features i C#. Vad det gäller kodningsstandarden så använder vi funktionaliteten i nedanstående menyval:
 
 {{< figure src="/images/handbocker/utveckling/web/image001.png" >}}
 
 Med denna funktionalitet i Resharper så kontrolleras både C# koden och mark-up i aspx-filerna. Resharper kontrollerar koden med över 1700 ”regler”. I Region Halland så har vi valt att helt låta Resharper bestämma vår kodstandard vilket gör att vi använder verktyget med default-inställningar och tillämpar endast få undantag från regelverket. Hur vi implementerar våra undantag i Region Halland framgår i en bilaga. Ytterligare ett undantag finns dock och det handlar om sökvägar till resurser som inte är del av vår solution. I praktiken är det sökvägar till våra egenutvecklade User-Controls och undantaget implementeras så här:
+
 {{< highlight csharp >}}
 <%-- ReSharper disable Html.PathError --%>
 <%@ Register src="~/Public/UserControls/RHProgress2.ascx" tagname="RHProgress" tagprefix="ucRH" %>
@@ -30,6 +34,7 @@ Med denna funktionalitet i Resharper så kontrolleras både C# koden och mark-up
 <%@ Register src="~/Public/UserControls/RHDatePicker.ascx" tagname="RHDatePicker" tagprefix="ucRH" %>
 <%-- ReSharper restore Html.PathError --%>
 {{< /highlight >}}
+
 ## N-Tier
 Fram till årsskiftet 2016/2017 så byggde vi alla våra webbapplikationer i tre skikt, gränssnitt, affärsregler och databasaccess. Nya applikationer, byggda efter årsskiftet 2016/2017 bygger vi med endast två skikt, gränssnitt och databasaccess. Då vi inte jobbar med cachning så mycket så behövs inte affärsregellagret. Befintliga applikationer kan byggas om i samband med att större revisioner av dem sker. Orsaken till att vi går från tre till två skikt är att vi sällan placerar någon affärslogik i affärsskiktet och att vi har större praktisk nytta att ha affärsreglerna i databasen.
 En webbapplikation med två skikt kan se ut så här:
@@ -71,6 +76,7 @@ I Solution RHCommonComponents, under projektet RHÖvriga finns en fil, Bootstrap
 
 ## ASP.Net vs Telerik vs RHCommonComponents
 Då en applikation designas, ur vilket ramverk ska kontroller väljas? De egna kontrollerna i RHCommonComponents ska alltid väljas i första hand men om kontrollen saknas där så används kontroller från Telerik. Endast i undantagsfall så väljs kontroller från ASP.Net. Endast de kontroller som är specificerade i baseline får användas. Om behov uppstår av att använda kontroller som inte finns i baseline så tas först en diskussion i utvecklingsgruppen angående behovet och tjänsteansvarig för systemutveckling tar beslut. Kontroller som vid varje implementation kräver anpassning för att fungera väl bör byggas in som en egenutvecklad komponent och placeras i RHCommonComponents.
+
 ## Att använda kontroller från Telerik
 För att kunna använda kontroller från Telerik så behövs först och främst en installation av Telerik  UI for ASP.Net AJAX. Det är viktigt att alla utvecklare kör samma version av detta ramverket och att vi därmed uppgraderar samtidigt. Lika viktigt är att alla utvecklare installerar ramverket på default sökväg. Aktuell version framgår i baseline.
 I respektive projekt som utnyttjar Teleriks kontroller så behövs två referenser Telerik.Web.UI och Telerik.Web.UI.Skins. Det finns olika varianter av dessa klassbibliotek, en uppsättning för varje .Net version. Eftersom sökvägen till klassbiblioteken innehåller .Net versionen så varierar den. För .Net 4.0 så är sökvägen:
