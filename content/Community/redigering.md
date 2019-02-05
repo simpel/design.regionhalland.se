@@ -23,7 +23,7 @@ Alla kan bidra med innehåll till denna webbplats genom att skicka in så kallad
 5. **Föreslå din förändring** <br> När du är klar med dina ändringar så scrollar du längst ner, skriver en kommentar kring vad du ändrat och klickar sedan på "Propose file change"
 {{< figure src="/images/github/proposefilechange.png" alt="Skicka in förslag på förändring" >}}
 
-6. **Skapa din pull request** <br> När du har redigerat alla de sidor du vill och känner dig färdig så kan du sammanställa och skicka in din pull request genom att klicka på "Create pull request"
+6. **Skapa din pull request** <br> När du har redigerat alla de sidor du vill och känner dig färdig så kan du sammanställa och skicka in din pull request genom att klicka på "Create pull request". Läs mer här om vad en [Pull Request](https://help.github.com/articles/using-pull-requests) är för något
 {{< figure src="/images/github/createpullrequest.png" alt="Skapa pull request" >}}
 
 7. **Skicka in pull request** <br> Ta en minut och granska dina ändringar och klicka sedan på "Create pull request" en sista gång.
