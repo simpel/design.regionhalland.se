@@ -34,12 +34,15 @@ Alla kan bidra med innehåll till denna webbplats genom att skicka in så kallad
 
 ## Bildhantering
 Vill du använda dig av bilder på en sida så sker det i två steg, först behöver du ladda upp din bild, sen lägger du in den på din sida med hjälp av en shortcode.
-
-1. **Ladda upp din bild** på en lämplig plats i vår [`/static/images` mapp](https://github.com/RegionHalland/design.regionhalland.se/tree/production/static/images).
-   - Notera att det går även bra att skapa nya mappar i strukturen om du så vill. 
-   {{< figure src="/images/github/uploadfiles.png" alt="Ladda upp bild" >}}
    
-2. **Lägg till bilden på sidan** genom att använda dig av följande shortcode.
+### Lägg till en bild på sidan
+
+1. Alla bilder som ligger i [`/static/images`](https://github.com/RegionHalland/design.regionhalland.se/tree/production/static/images) går att nyttja på webbplatsen och läggs till på en sida med hjälp av följande shortcode:
+
 {{< highlight go >}}
 {{< figure src="/images/sokväg/till/dinfil.png" alt="Beskrivande text om bildens innehåll" title="Bildtexten till din fil" >}}
 {{< /highlight >}}
+
+
+### Lägga till bilder i GIT
+Än så länge är det lite krångligt att addera bilder till sajten. Tyvärr måste man kunna hantera git och ta hem reposet lokalt för att lägga sina bilder i den mapp som heter `/static/images` och merga in detta i ´production´ branchen. Detta är ju så klart på tok för nördigt men går alldeles utmärkt att göra för den vågade. Vill man inte detta så kan man istället be [Joel Sandén](mailto:joel.sanden@regionhalland.se) om hjälp med att ladda upp bilder.
