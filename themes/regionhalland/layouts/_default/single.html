@@ -1,36 +1,36 @@
 {{ define "main" }}
 
-    <div class="px-4 pt-8 md:pt-16 pb-12 w-full max-w-2xl mx-auto">
+    <div class="px-4 pt-8 md:pt-16 pb-12 w-full md:max-w-2xl mx-auto">
 
         <div class="flex flex-wrap items-stretch -mx-4 justify-start">
-			<aside class="w-full md:w-3/12 px-4 mb-8 hidden md:block">
+			<aside class="w-full md:w-3/12 px-4 mb-8">
             {{ partial "sidebar.html" .}}
 			</aside>
 
-	        <main class="w-full px-4 md:w-9/12 lg:w-9/12">
-                <div class="flex -mx-4">
-	            <article class="article lg:w-9/12 px-4 numbered">
-                    <h1>{{ .Title }}</h1>
-                    {{ .Content }}
-	            </article>
+	        <main class="w-full px-4 md:w-6/12">
+
+                        <h1>{{ .Title }}</h1>
+
+                        <div class="shadow border border-grey-lightest my-4 p-4 w-full md:hidden">
+
+                            {{ if (gt .WordCount 50 )  }}
+
+                                    <article class="article">
+                                        <header>
+                                        <h2>På sidan</h2>
+                                        </header>
+                                        {{.TableOfContents}}
+                                    </article>
+                            
+                            {{ end }}
 
 
-                    <aside class="lg:w-3/12  px-4">
+                        </div>
 
 
-                        {{ if (gt .WordCount 50 )  }}
-                            <div class="mb-8">
-                                <header>
-                                <h2>På sidan</h2>
-                                </header>
-                                {{.TableOfContents}}
-                            </div>
-                        {{ end }}
-                        <a href="{{ .Param "content_path" }}/{{ .File.Path }}" target="_blank" class="text-grey-darkest text-right mb-4 md:mb-0"><i data-feather='edit' class='w-4 h-4 mr-2'></i> Redigera denna sidan</a>
-
-                    </aside>
-
-                </div>
+                        <article class="article numbered">
+                            {{ .Content }}
+                        </article>
 
 
                     {{ partial "feedback.html" .}}
@@ -38,6 +38,23 @@
 
 
 	        </main>
+
+            <aside class="w-full hidden md:block lg:w-3/12 px-4">
+
+                {{ if (gt .WordCount 50 )  }}
+                    <div class="mb-8">
+                        <header>
+                        <h2>På sidan</h2>
+                        </header>
+                        {{.TableOfContents}}
+                    </div>
+                {{ end }}
+                <a href="{{ .Param "content_path" }}/{{ .File.Path }}" target="_blank" class="text-grey-darkest text-right mb-4 md:mb-0"><i data-feather='edit' class='w-4 h-4 mr-2'></i> Redigera denna sidan</a>
+                <small>
+                    <a href="/community/redigering">(Hur gör man?)</a>
+                </small>
+
+            </aside>
 
 
 
