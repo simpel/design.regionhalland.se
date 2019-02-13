@@ -29,12 +29,12 @@ I slutändan så är det bara människor som kan generera en effekt. Det kan var
 ### Vet du inte vilka stakeholders du har?
 Ett tips för att bättre förstå vilka som bidrar till din effekt är så klart att prata med de delar av din verksamhet som möter kunden, det kan vara t.ex. personalen i receptionen, era sjuksköterskor, kassörskor osv. Om ni inte har den typen av access kan det även vara nyttigt att sätta upp [Google Alerts](http://www.google.se/alerts) på relevanta nyckelord; vem online pratar t.ex. om produkten X, låt google meddela dig.
 
-### Nivå 3: Vad ska åtgärdas?
+## Nivå 3: Vad ska åtgärdas?
 
-#### Hur ser användarens problem ut?
+### Hur ser användarens problem ut?
 Vad har dina stakeholders för incitament för att använda din produkt eller tjänst? Vad har dom för användarmål? En bra grej på denna nivån av effektkartan är att skriva så kallade [user stories](/metoder/userstories/).
 
-### Nivå 4: Hur ska det åtgärdas?
+## Nivå 4: Hur ska det åtgärdas?
 Nu är vi på den sista nivån av effektkartan, det är här vi listar och prioriterar faktiska åtgärder kopplat till varje user story:
 
 - Ta fram sidmall X
