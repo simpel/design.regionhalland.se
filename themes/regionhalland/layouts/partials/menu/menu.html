@@ -19,7 +19,8 @@
 
 				<a href="{{ .URL }}" class="text-blue-dark hover:bg-yellow-light focus:bg-yellow-light inline-block underline">
 					<h2 class="mb-2 text-xl md:text-2xl">
-							{{ .Param "linktitle" }}
+
+							{{ .LinkTitle  }}
 					</h2>
 				</a>
 
@@ -35,7 +36,7 @@
 
 						<a href="{{ .URL }}" class="text-blue-dark hover:bg-yellow-light focus:bg-yellow-light inline-block">
 
-							{{ .Param "linktitle"  }}
+							{{ .LinkTitle  }}
 
 						</a>
 						{{ if ne (add $index 1) $trio_length }}, {{end}}
