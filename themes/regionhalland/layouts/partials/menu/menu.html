@@ -18,7 +18,10 @@
 			<div class="flex-1 mb-8 mr-4">
 
 				<a href="{{ .URL }}" class="text-blue-dark hover:bg-yellow-light focus:bg-yellow-light inline-block underline">
-					<h2 class="mb-2 text-xl md:text-2xl">{{ .Title }}</h2>
+					<h2 class="mb-2 text-xl md:text-2xl">
+
+							{{ .LinkTitle  }}
+					</h2>
 				</a>
 
 				<p class="leading-tight text-lg text-grey-darkest">
@@ -31,7 +34,12 @@
 
 					{{ range $index, $element := $trio}}
 
-						<a href="{{ .URL }}" class="text-blue-dark hover:bg-yellow-light focus:bg-yellow-light inline-block">{{ .Title }}</a>{{ if ne (add $index 1) $trio_length }}, {{end}}
+						<a href="{{ .URL }}" class="text-blue-dark hover:bg-yellow-light focus:bg-yellow-light inline-block">
+
+							{{ .LinkTitle  }}
+
+						</a>
+						{{ if ne (add $index 1) $trio_length }}, {{end}}
 
 					{{end}}
 

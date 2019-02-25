@@ -23,10 +23,26 @@ Alla kan bidra med innehåll till denna webbplats genom att skicka in så kallad
 5. **Föreslå din förändring** <br> När du är klar med dina ändringar så scrollar du längst ner, skriver en kommentar kring vad du ändrat och klickar sedan på "Propose file change"
 {{< figure src="/images/github/proposefilechange.png" alt="Skicka in förslag på förändring" >}}
 
-6. **Skapa din pull request** <br> När du har redigerat alla de sidor du vill och känner dig färdig så kan du sammanställa och skicka in din pull request genom att klicka på "Create pull request"
+6. **Skapa din pull request** <br> När du har redigerat alla de sidor du vill och känner dig färdig så kan du sammanställa och skicka in din pull request genom att klicka på "Create pull request". Läs mer här om vad en [Pull Request](https://help.github.com/articles/using-pull-requests) är för något
 {{< figure src="/images/github/createpullrequest.png" alt="Skapa pull request" >}}
 
 7. **Skicka in pull request** <br> Ta en minut och granska dina ändringar och klicka sedan på "Create pull request" en sista gång.
 {{< figure src="/images/github/sendpullrequest.png" alt="Skapa pull request" >}}
 
 8. **Klart!** <br> Du är nu färdig med dina ändringar. Bra jobbat! Nu kommer sidans administratörer att titta på din pull request och antingen godkänna eller avvisa den. Vid ett godkännande går dina ändringar ut live på sajten, vid ett avvisande kommer du få ett meddelande med en förklaring till varför.
+
+
+## Bildhantering
+Vill du använda dig av bilder på en sida så sker det i två steg, först behöver du ladda upp din bild, sen lägger du in den på din sida med hjälp av en shortcode.
+   
+### Lägg till en bild på sidan
+
+1. Alla bilder som ligger i [`/static/images`](https://github.com/RegionHalland/design.regionhalland.se/tree/production/static/images) går att nyttja på webbplatsen och läggs till på en sida med hjälp av följande shortcode:
+
+{{< highlight go >}}
+{{< figure src="/images/sokväg/till/dinfil.png" alt="Beskrivande text om bildens innehåll" title="Bildtexten till din fil" >}}
+{{< /highlight >}}
+
+
+### Lägga till bilder i GIT
+Än så länge är det lite krångligt att addera bilder till sajten. Tyvärr måste man kunna hantera git och ta hem reposet lokalt för att lägga sina bilder i den mapp som heter `/static/images` och merga in detta i ´production´ branchen. Detta är ju så klart på tok för nördigt men går alldeles utmärkt att göra för den vågade. Vill man inte detta så kan man istället be [Joel Sandén](mailto:joel.sanden@regionhalland.se) om hjälp med att ladda upp bilder.

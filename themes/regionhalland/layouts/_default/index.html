@@ -7,7 +7,7 @@
 
 
 				<div class="md:flex md:flex-row-reverse justify-between items-baseline">
-					<a href="{{ .Param "content_path" }}/{{ .File.Path }}" class="text-grey-darkest text-right mb-4 md:mb-0"><i data-feather='edit' class='w-4 h-4 mr-2'></i> Redigera denna sidan</a>
+	                {{ partial "editpage.html" .}}
 					<h1 class="text-3xl md:text-4xl my-4">{{ .Title }}</h1>
 				</div>
 				<p class=" leading-loose text-xl">
@@ -22,29 +22,30 @@
 			{{ $parent := .Page }}
 
 			{{ $curPage := .UniqueID }}
+			{{ $.Scratch.Set "counter" 0 }}
 
 			<div class="flex flex-wrap items-stretch -mx-4">
 
 			{{ range $index, $element := $list.ByWeight }}
 			   {{if eq .CurrentSection $parent}}
 
+					{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
 
-			   <div class="w-full sm:w-6/12 lg:w-4/12 mb-4 flex items-stretch">
-				   <div class="shadow border border-grey-lightest m-4 p-4 flex flex-col align-between w-full">
-					   <article class="article flex-1">
-						   <h2 style="margin-top: 0;">
-						   {{ add $index 1 }}. {{ .Title }}
-						   </h2>
-						   <p>
-						   		{{ .Param "description" }}
-						   </p>
-					   </article>
+				   <div class="w-full sm:w-6/12 lg:w-4/12 mb-4 flex items-stretch">
+					   <div class="shadow border border-grey-lightest m-4 p-4 flex flex-col align-between w-full">
+						   <article class="article flex-1">
+							   <h2 style="margin-top: 0;">
+							   {{$.Scratch.Get "counter"}}. {{ .Title }}
+							   </h2>
+							   <p>
+							   		{{ .Param "description" }}
+							   </p>
+						   </article>
 
-					   <a href="{{.Permalink }}" class="inline-flex no-underline text-white bg-blue-dark hover:underline px-6 items-center justify-between py-4 text-lg rounded">{{ .Title }} <i data-feather='chevron-right' class='flex-initial w-4 h-4 ml-2'></i></a>
+						   <a href="{{.Permalink }}" class="inline-flex no-underline text-white bg-blue-dark hover:underline px-6 items-center justify-between py-4 text-lg rounded">{{ .Title }} <i data-feather='chevron-right' class='flex-initial w-4 h-4 ml-2'></i></a>
 
+					   </div>
 				   </div>
-			   </div>
-
 			   {{ end }}
 			{{ end }}
 

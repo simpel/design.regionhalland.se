@@ -13,7 +13,13 @@
 			{{if eq .CurrentSection $parent}}
         	<li class="border-t border-grey-lightest">
 				<a href="{{ .Permalink }}" class="block py-4 px-3 {{ if eq $curPage .UniqueID }} active font-bold {{ end }}">
-					<span class="inline-block text-black text-base no-underline hover:underline focus:underline">{{ .Title }}</span>
+					<span class="inline-block text-black text-base no-underline hover:underline focus:underline">
+					{{if .Param "linktitle"}}
+						{{ .Param "linktitle" }}
+					{{ else }}
+						{{ .Title }}
+					{{ end }}
+					</span>
 				</a>
 			</li>
 			{{ end }}

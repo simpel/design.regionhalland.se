@@ -1,0 +1,34 @@
+
+    <figure class="shadow border border-grey-lightest my-4 w-full {{ with .Get "class" }}{{ . }}{{ end }}">
+
+        <img src="{{ .Get "src" }}"
+             {{- if or (.Get "alt") (.Get "caption") }}
+             alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
+             {{- end -}}
+             {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+             {{- with .Get "height" }} height="{{ . }}"{{ end -}}
+        /> <!-- Closing img tag -->
+        {{- if or (or (.Get "title") (.Get "caption") (.Get "magnify")) (.Get "attr") -}}
+            <figcaption class="bg-grey-lightest p-4 py-2 m-0 flex items-baseline justify-between">
+                {{ with (.Get "title") -}}
+                    <p>{{ . }}</p>
+                {{- end -}}
+                {{ with (.Get "link") -}}
+
+                        <a href="{{ . }}">
+                            <i data-feather='maximize-2' class='w-4 h-4 mr-2'></i>Visa stor bild
+                        </a>
+
+                {{- end -}}
+                {{- if or (.Get "caption") (.Get "attr") -}}<p>
+                    {{- .Get "caption" | markdownify -}}
+                    {{- with .Get "attrlink" }}
+                        <a href="{{ . }}">
+                    {{- end -}}
+                    {{- .Get "attr" | markdownify -}}
+                    {{- if .Get "attrlink" }}</a>{{ end }}</p>
+                {{- end }}
+            </figcaption>
+
+        {{- end }}
+    </figure>

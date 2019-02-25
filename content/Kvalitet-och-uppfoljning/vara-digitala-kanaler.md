@@ -10,7 +10,7 @@ Lista samtliga webbplatser, appar osv. med tillhörande;
    - mål
    - kontaktuppgifter
    - ev. lista ansvariga
-   - ev. länkar till forum, teams, devops osv.
+   - ev. länkar till forum, teams, DevOps osv.
    - ev. länkar till tillgänglighetsredogörelser
    - ev. länkar till prestandatester
    - ev. länkar till rapporter
