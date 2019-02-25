@@ -1,6 +1,12 @@
-**Idé till Produktion**
+---
+date: 2017-02-25T13:13:15Z
+title: "Från idé till produktion"
+description: Vårt utvecklingsflöde för digitala tjänster
+---
 
-Vårt utvecklingsflöde för digitala lösningar baseras på följande process flöde:
+# Idé till Produktion
+
+Vårt utvecklingsflöde för digitala tjänster baseras på följande process flöde:
 
 1. Vi samlar in behov som är baserade på a) kundbehov, b) strategiska mål, c) regler och lagstiftning, d) förändringar i affärsvillkor eller teknik
 2. Vi hanterar alla inkommande krav och skapar koncept utifrån behoven
