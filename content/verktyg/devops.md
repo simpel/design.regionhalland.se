@@ -17,7 +17,7 @@ För att kunna följa arbetet med våra olika utveklingsinitivativ, lagra källk
 I DevOps finns ett antal olika workitems, de vi primärt använder beskrivs nedan. Ett workitem är helt enkelt en beskrivning över vad som behöver göras.
 
 #### Epics
-En Epic är den största abstraktionen vi har av ett projekt eller satsning. Vi använder epics för att på helikopternivå kunna följa våra olika projekt och se att vår gemensamma portfölj ligger i synk. Vanligvis består ett projekt av endast en eller ett fåtal Epics. Vanligvis skrivs och hanteras Epics av Objektägaren tillsammans med Digitaliseringsenheten.
+En Epic är den största abstraktionen vi har av ett projekt eller satsning. Vi använder epics för att på helikopternivå kunna följa våra olika projekt och se att vår gemensamma portfölj ligger i synk. Vanligvis består ett projekt av endast en eller ett fåtal Epics. Vanligvis skrivs och hanteras Epics av Objektägaren tillsammans med Digitaliseringsenheten. Vi använder Epics enbart på portföljninvån och inte på team nivå.
 
 #### Features
 En Epic består av flera features. En feature är en övergripande förmåga som en tjänst ska leverera. Exempel på features kan vara "Inloggning", "Att kunna söka i styrda dokument" eller "Listning av klienter". En Feature består i sin tur av flera Stories. Vanligtvis skrivs både features och stories av Objektledaren.
@@ -30,3 +30,9 @@ Om en produktägare, eller objektledare, är den som skriver Features och Storie
 
 ### Pipelines
 En pipeline är den process man sätter upp i Azure DevOps för att lansera/bygga en tjänst. En typisk pipeline kan vara att man kompilerar all kod som driver tjänsten, kör ett antal tester för att kontrollera att allt fungerar och publicerar sedan tjänsten på en server så att användarna får en ny version.
+
+### Area Paths
+För att kunna skicka en workitem till ett team så anväder vi Area Paths. Vi har definerat en Area Path struktur som bygger på att ett team kan vara av någon av typerna App (ett produktteam), Org (ett organisationsteam, t.ex. ett Objekt) eller Projekt (ett projektteam). Under respektive kategori finns det sedan underkategorier. För att flytta en workitem från ett team till ett annat så byter man bara Area Path så dyker workitem upp i rätt teams backlog.
+
+### Iteration Paths
+Vi använder iteration paths för att definiera tidslängden på våra sprintar. VI har ett gemensamt iteration path bibliotek utifrån vilket varje team kan välja tidsrymden för sina sprintar. Vi försöker hålla oss till samma "tick" för alla team och för närvarande använder vi oss av månadssprintar. Dessa benämns "Sprint 2019.02", "Sprint 2019.03", osv.
