@@ -26,7 +26,7 @@ En Epic består av flera features. En feature är en övergripande förmåga som
 Stories i DevOps är kanske den viktigaste pusselbiten då det är här man konkretiserar vad som de facto ska produceras. Formatet bör vara att man skriver [user stories](/metoder/userstories/) med tydliga [acceptanskriterier](/metoder/userstories/#acceptanskriterier).
 
 #### Tasks
-Om en produktägare, eller objektledare, är den som skriver Features och Stories så bör arbetet med Tasks hanteras av det utförande teamet. Tasks är teamets chans att i varje sprint själva tydliggöra och fördela arbetet kring hur man uppfyller acceptanskriterierna på en viss Story.
+Om en produktägare, eller objektledare, är den som skriver Features och Stories så bör arbetet med Tasks hanteras av det utförande teamet. Tasks är teamets chans att i varje sprint själva tydliggöra och fördela arbetet kring hur man uppfyller acceptanskriterierna på en viss Story. Vi skriver alltid minst en Task per Story, detta ger oss också bl.a. möjligheten att följa upp tiden i burn-down charts då tiden läggs per Task. 
 
 ### Pipelines
 En pipeline är den process man sätter upp i Azure DevOps för att lansera/bygga en tjänst. En typisk pipeline kan vara att man kompilerar all kod som driver tjänsten, kör ett antal tester för att kontrollera att allt fungerar och publicerar sedan tjänsten på en server så att användarna får en ny version.
