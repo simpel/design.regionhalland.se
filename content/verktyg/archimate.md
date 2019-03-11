@@ -6,9 +6,6 @@ draft: false
 description: "Vi använder ArchiMate för att visualisera vår IT-arkitektur."
 weight: 1000
 ---
-
-# Archimate
-
 ## Varför Archimate?
 Vi använder Archimate som gemensamt notationsspråk. Att ha ett gemensamt notationsspråk ger oss följande fördelar:
 
