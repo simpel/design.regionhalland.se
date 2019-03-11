@@ -1,3 +1,12 @@
+---
+title: "ArchiMate"
+linktitle: "ArchiMate"
+date: 2019-02-11T09:17:43+01:00
+draft: false
+description: "Vi använder ArchiMate för att visualisera vår IT-arkitektur."
+weight: 1000
+---
+
 # Archimate
 
 ## Varför Archimate?
@@ -18,4 +27,3 @@ Vi använder Archimate som gemensamt notationsspråk. Att ha ett gemensamt notat
 - Möjliggör modellering hela vägen från en aktörs mål till hur det slår på infrastrukturen
 - Hjälper till att utveckla, analysera, utvärdera och kommunicera konsekvenser som förändringar leder till
 - Medvetet avskalat. Andra notationer som UML och BPMN kan användas för detaljering.
-
