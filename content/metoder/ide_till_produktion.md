@@ -26,56 +26,56 @@ Syftet med detta steg är att sätta idén i ett större sammanhang. Se bilden n
 
 I de olika stegen utför vi följande aktiviteter:
 
-- Identifiera Intressenter
-  - Vilka berörs, vem är slutkunden?
-  - Vilka kompetenser behövs för att lyckas?
-  - Vilka forums behövs förankring i?
-  - Vem äger frågan?
+## Identifiera Intressenter
+- Vilka berörs, vem är slutkunden?
+- Vilka kompetenser behövs för att lyckas?
+- Vilka forums behövs förankring i?
+- Vem äger frågan?
 
-- Identifiera Mål
-  - Varför skall vi genomföra detta?
-  - Vilka Mål kan vi koppla detta till?
+## Identifiera Mål
+- Varför skall vi genomföra detta?
+- Vilka Mål kan vi koppla detta till?
 
-- Identifiera Nytta
-  - Vad är förväntat omfång?
-  - Vilka är de förväntande effekterna?
+## Identifiera Nytta
+- Vad är förväntat omfång?
+- Vilka är de förväntande effekterna?
 
-- Identifiera Sammanhang
-  - Hur kopplas detta till Strategier & Verksamhetsplaner?
-  - Vad är gjort på området sedan tidigare?
-  - Finns det andra pågående närliggande initiativ?
+## Identifiera Sammanhang
+- Hur kopplas detta till Strategier & Verksamhetsplaner?
+- Vad är gjort på området sedan tidigare?
+- Finns det andra pågående närliggande initiativ?
 
-- Managering av Behov / Idéer
-  - Produktägararbete, bl.a.:
-    - Prioritera idébacklogg
-    - Se till att Epics är rätt definerade
+## Managering av Behov/Idéer
+- Produktägararbete, bl.a.:
+  - Prioritera idébacklogg
+  - Se till att Epics är rätt definerade
 
 # Konceptstadiet
 I konceptstadiet skapar vi en fördjupad förståelse för idén och dess effekter. Se bilden nedan för vad vi gör i detta steg.
 {{<figure src="/images/metoder/ide_till_produktion_koncept.png" link="/images/metoder/ide_till_produktion_koncept.png" title="Idé till Produktion - Konceptstadiet">}}
 
-- Val av Koncept
-	- Vilka metoder skall användas för konceptet?
-		- Kundresor?
-		- Prototyper?
-		- Andra metoder?
-	- Hur ska Konceptet presenteras?
-	- Vilka Forum ska Konceptet presenteras i?
+## Val av Koncept
+- Vilka metoder skall användas för konceptet?
+	- Kundresor?
+	- Prototyper?
+	- Andra metoder?
+- Hur ska Konceptet presenteras?
+- Vilka Forum ska Konceptet presenteras i?
 
-- Förtydliga Effekter
-	- Förtydliga förväntade Strategiska Effekter
-	- Förtydliga Nyttoeffekter
-	- Förtydliga Verksamhetspåverkan
-	- Kvantifiera kostnader för investeringar, utveckling & förvaltning
+## Förtydliga Effekter
+- Förtydliga förväntade Strategiska Effekter
+- Förtydliga Nyttoeffekter
+- Förtydliga Verksamhetspåverkan
+- Kvantifiera kostnader för investeringar, utveckling & förvaltning
 
-- Identifiera Nya & Förändrade Tjänster
-	- Identifiera hur Konceptet kommer att påverka Tjänsteutbudet
-	- Vilka Nya eller Förändrade Tjänster kommer att behöva utvecklas i nästkommande faser?
+## Identifiera Nya & Förändrade Tjänster
+- Identifiera hur Konceptet kommer att påverka Tjänsteutbudet
+- Vilka Nya eller Förändrade Tjänster kommer att behöva utvecklas i nästkommande faser?
 
-- Managering av Koncept
-	- Produktägararbete, bl.a.:
-		- Prioritera konceptbacklogg
-		- Se till att Epics & Features är rätt definerade
+## Managering av Koncept
+- Produktägararbete, bl.a.:
+	- Prioritera konceptbacklogg
+	- Se till att Epics & Features är rätt definerade
 
 # Utvecklingsstadiet
 TBD
