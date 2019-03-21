@@ -3,14 +3,14 @@ title: "Utvecklingsprint"
 linktitle: "Utvecklingsprint"
 date: 2019-03-20T08:10:27+01:00
 draft: false
-description: "Hur vi arbetar med utvecklingssprintar."
+description: "Hur vi arbetar med utvecklingssprintar"
 weight: 0
 ---
 ## Inför Sprintplanering
 
-Kravställarna äger backloggen och inför sprintplaneringen ser kravställarna till att prioritera sina User Stories och ser till att de högst prioriterade är tillräckligt detaljerade för att tidsuppskattas. Utvecklarna sätter då Story Points (ungefärligt antal timmar för att implementera storyn) på respektive User Story. Under detta arbete kan det vara lämpligt att även bryta ner varje story i Tasks.
+Kravställarna äger backloggen och inför sprintplaneringen ser kravställarna till att prioritera sina [User Stories](/metoder/userstories/) och ser till att de högst prioriterade är tillräckligt detaljerade för att tidsuppskattas. Utvecklarna sätter då Story Points (ungefärligt antal timmar för att implementera storyn) på respektive [User Story](/metoder/userstories/). Under detta arbete kan det vara lämpligt att även bryta ner varje story i [Tasks](/verktyg/devops/#tasks).
 
-Detta är något som sker fortlöpande hela tiden. Det gäller att hålla Backloggen levande och aktuell, det är kravställarens ansvar. Arbetet med Backloggen fortsätter alltså under hela sprinten parallellt.
+Detta är något som sker fortlöpande hela tiden. Det gäller att hålla [Backloggen](/verktyg/devops/#backlog) levande och aktuell, det är kravställarens ansvar. Arbetet med Backloggen fortsätter alltså under hela sprinten parallellt.
 
 ## Sprintplaneringen
 
